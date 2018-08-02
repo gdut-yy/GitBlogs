@@ -1,6 +1,6 @@
 # Effecitive Java ( Third Edition ) 
 
-![](EJ3.jpg)
+![](res/EJ3.jpg)
 
 ## CHAPTER 2 : Creating and Destroying Objects 创建和销毁对象
 

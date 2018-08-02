@@ -25,4 +25,33 @@
 
 —— 2018年7月26日
 
+## 书目图
+
+### 《Java 核心技术 卷I》（原书第十版）（Core Java Volume I——Fundamentals (10th Edition)）
+
+![](res/CJV-I.jpg)
+
+### 《Java 核心技术 卷II》（原书第十版）（Core Java Volume II——Advance Features (10th Edition)）
+
+![](res/CJV-II.jpg)
+
+### Effecitive Java (Third Edition)
+
+![](res/EJ3.jpg)
+
+### 《Java 编程思想（第4版）》（Thinking in Java (Fourth Edition)）
+
+![](res/TIJ.jpg)
+
+### 《大话设计模式》
+
+![](res/DAHUASHEJIMOSHI.jpg)
+
+### 《大话数据结构》
+![](res/DAHUASHUJUJIEGOU.jpg)
+
+### 《Java 并发编程实战》（Java Concurrency in Practice）
+![](res/JCP.jpg)
+### 《设计模式：可复用面向对象软件的基础》（GoF）
+![](res/GoF.jpg)
 
