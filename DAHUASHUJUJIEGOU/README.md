@@ -1,6 +1,6 @@
 # 《大话数据结构》
 
-![](res/DAHUASHUJUJIEGOU.jpg)
+![](DAHUASHUJUJIEGOU.jpg)
 
 ## 书评
 
