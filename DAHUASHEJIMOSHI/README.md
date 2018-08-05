@@ -1,6 +1,8 @@
 # 《大话设计模式》笔记（Java 版）
 
-![](res/DAHUASHEJIMOSHI.jpg)
+![](DAHUASHEJIMOSHI.jpg)
+
+## 书评
 
 书中代码是 C# 版本，虽然 C# 与 Java 相似，但毕竟是两门语言，此处试图使用 Java 实现。
 
