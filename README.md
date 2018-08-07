@@ -2,6 +2,8 @@
 
 ![](emoji.jpg)
 
+与其做着不可能实现的梦，不如趁早醒来做自己该做的事。  —— 王小波
+
 ## INDEX
 
 | 编号 | 书名| 进度 |
@@ -13,10 +15,10 @@
 | 5 | [《大话设计模式》](https://github.com/gdut-yy/GitReadingNotes/tree/master/DAHUASHEJIMOSHI) | 80% |
 | 6 | [《大话数据结构》](https://github.com/gdut-yy/GitReadingNotes/tree/master/DAHUASHUJUJIEGOU) | 70%  |
 | 7 | [《Java 并发编程实战》（*Java Concurrency in Practice*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/JCP) | 0%|
-| 8 | [《设计模式：可复用面向对象软件的基础》（*GoF*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/GoF)| 0 % |
+| 8 | [《设计模式：可复用面向对象软件的基础》（*GoF*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/GoF)| 0% |
 | 9 | [《算法导论（原书第3版）》（*Introduction to Algorithms(Third Edition)*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/ItoAlgorithms3)| 0% |
 | 10 | [《算法（第4版）》（*Algorithms(Fourth Edition)*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/Algorithms4)| 0% |
-| 11 | [《C程序设计语言（第2版·新版）》（*K&R(Second Edition)*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/K&R2)| 80% |
+| 11 | [《C 程序设计语言（第2版·新版）》（*K&R(Second Edition)*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/K&R2)| 80% |
 
 
 ## 后记
