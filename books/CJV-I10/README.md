@@ -1,6 +1,6 @@
 # 《Java 核心技术 卷I》（原书第十版）（*Core Java Volume I——Fundamentals (10th Edition)*）
 
-![](CJV-I.jpg)
+![](IMG_6197.jpg)
 
 ## 目录
 

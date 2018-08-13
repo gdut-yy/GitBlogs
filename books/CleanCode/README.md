@@ -1,9 +1,10 @@
 # 《代码整洁之道》（*Clean Code : A Handbook of Agile Software Craftsmanship*）
 
-![]()
+![](IMG_6232.jpg)
 
 ## 书评
 本书的中文版是 2010 的第 1 版。部分章节感觉意义不大，因为很多已经成为常识或者已经有“模板”。
+
 ## 目录
 
 ## 第 1 章 整洁代码

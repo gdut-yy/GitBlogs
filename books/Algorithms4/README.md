@@ -1,6 +1,6 @@
 # 《算法（第4版）》（*Algorithms(Fourth Edition)*）
 
-![](Algorithms.jpg)
+![](IMG_6207.jpg)
 
 ## 书评
 
