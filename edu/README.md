@@ -9,7 +9,7 @@
 
 ### 1 必修（专业相关）
 
-1. [《C程序设计（第四版）》 谭浩强 著](https://github.com/gdut-yy/GitReadingNotes/tree/master/edu/C-CHENGXUESHEJI)
+1. [《C程序设计（第四版）》 谭浩强 著](https://github.com/gdut-yy/GitReadingNotes/tree/master/edu/C-CHENGXUSHEJI)
 4. [《数据结构》（校内修订教材第二版）](https://github.com/gdut-yy/GitReadingNotes/tree/master/edu/SHUJUJIEGOU)
 5. [《算法设计与分析基础（第3版）》](https://github.com/gdut-yy/GitReadingNotes/tree/master/edu/SUANFASHEJIYUFENXIJICHU)
 6. [《计算机网络（第7版）》谢希仁 编著](https://github.com/gdut-yy/GitReadingNotes/tree/master/edu/JISUANJIWANGLUO)
