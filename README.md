@@ -45,7 +45,7 @@
 3. [《深入浅出 Node.js》 朴灵 著](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/Nodejs)
 4. [《CSS 权威指南（第4版）》（*CSS: The Definitive Guide, 4th Edition Visual Presentation for the Web*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/CSSTDG4)
 
-## 二、扩展
+## 二、链接
 
 - [校选教材](https://github.com/gdut-yy/GitReadingNotes/tree/master/edu)
 - [笔试面试](https://github.com/gdut-yy/GitReadingNotes/tree/master/offer)
