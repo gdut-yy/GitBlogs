@@ -1,0 +1,66 @@
+CREATE TABLE `student` (
+  `Sno` int(11) NOT NULL,
+  `Sname` varchar(45) NOT NULL,
+  `Ssex` varchar(45) DEFAULT NULL,
+  `Sage` int(11) DEFAULT NULL,
+  `Sdept` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`Sno`),
+  UNIQUE KEY `Stusname` (`Sname`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `course` (
+  `Cno` int(11) NOT NULL,
+  `Cname` varchar(45) NOT NULL,
+  `Cpno` int(11) DEFAULT NULL,
+  `Ccredit` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`Cno`),
+  KEY `Coucname` (`Cname`),
+  KEY `Cpno_idx` (`Cpno`),
+  CONSTRAINT `Cpno` FOREIGN KEY (`Cpno`) REFERENCES `course` (`Cno`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `sc` (
+  `Sno` int(11) NOT NULL,
+  `Cno` int(11) NOT NULL,
+  `Grade` int(11) DEFAULT NULL,
+  PRIMARY KEY (`Sno`,`Cno`),
+  KEY `SCcno_idx` (`Cno`),
+  CONSTRAINT `SCcno` FOREIGN KEY (`Cno`) REFERENCES `course` (`Cno`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `SCsno` FOREIGN KEY (`Sno`) REFERENCES `student` (`Sno`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+SELECT * 
+FROM ggg.student 
+WHERE Sname like '刘%' AND (Sname)<=3*3;
+
+SELECT * 
+FROM ggg.course
+where Cname like '%SQL\_%' escape '\\';
+
+
+
+SELECT * 
+FROM ggg.student 
+WHERE Sdept='IS'
+union 
+SELECT * 
+FROM ggg.student 
+WHERE Ssex='女';
+
+SELECT * 
+FROM ggg.student 
+WHERE Sdept='IS' OR Ssex='女';
+
+select *
+from ggg.student
+where sno in(
+	select distinct sno
+	from ggg.sc
+	where cno in (
+		select cno
+		from ggg.sc
+		where sno=(
+			SELECT sno
+			FROM ggg.student 
+			WHERE Sname='刘亦菲')));
+  
