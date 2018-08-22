@@ -9,18 +9,20 @@
 
 ## 一、方向
 
+带 ★ 乃是CS考研 408 科目，带 ☆ 是个人认为重要的科目。
+
 ### 1 必修（专业相关）
 
 1. [《C程序设计（第四版）》 谭浩强 著](https://github.com/gdut-yy/GitReadingNotes/tree/master/edu/C-CHENGXUSHEJI)
 2. [★《数据结构》（校内修订教材第二版）](https://github.com/gdut-yy/GitReadingNotes/tree/master/edu/SHUJUJIEGOU)
-3. [《算法设计与分析基础（第3版）》](https://github.com/gdut-yy/GitReadingNotes/tree/master/edu/SUANFASHEJIYUFENXIJICHU)
+3. [☆《算法设计与分析基础（第3版）》](https://github.com/gdut-yy/GitReadingNotes/tree/master/edu/SUANFASHEJIYUFENXIJICHU)
 4. [★《计算机网络（第7版）》 谢希仁 编著](https://github.com/gdut-yy/GitReadingNotes/tree/master/edu/JISUANJIWANGLUO)
 5. [★《计算机组成原理 （第3版）》 蒋本珊 编著](https://github.com/gdut-yy/GitReadingNotes/tree/master/edu/JISUANJIZUCHENGYUANLI)
-6. [《数据库系统概论（第5版）》 王珊 萨师煊 编著](https://github.com/gdut-yy/GitReadingNotes/tree/master/edu/SHUJUKUXITONGGAILUN)
+6. [☆《数据库系统概论（第5版）》 王珊 萨师煊 编著](https://github.com/gdut-yy/GitReadingNotes/tree/master/edu/SHUJUKUXITONGGAILUN)
 7. [《人工智能》马少平 朱小燕 编著](https://github.com/gdut-yy/GitReadingNotes/tree/master/edu/RENGONGZHINENG)
-8. [《软件工程导论（第6版）》 张海潘 牟永敏 编著](https://github.com/gdut-yy/GitReadingNotes/tree/master/edu/RUANJIANGONGCHENGDAOLUN)
+8. [☆《软件工程导论（第6版）》 张海潘 牟永敏 编著](https://github.com/gdut-yy/GitReadingNotes/tree/master/edu/RUANJIANGONGCHENGDAOLUN)
 9. [★《计算机操作系统（第4版）》 汤小丹 梁红兵 哲凤屏 汤子瀛 编著](https://github.com/gdut-yy/GitReadingNotes/tree/master/edu/JISUANJICAOZUOXITONG)
-10. [《编译原理（第3版）》 王生原 董渊 吕映芝 蒋维杜 编著](https://github.com/gdut-yy/GitReadingNotes/tree/master/edu/BIANYIYUANLI)
+10. [☆《编译原理（第3版）》 王生原 董渊 吕映芝 蒋维杜 编著](https://github.com/gdut-yy/GitReadingNotes/tree/master/edu/BIANYIYUANLI)
 
 ### 2 选修（n 选 m）
 
