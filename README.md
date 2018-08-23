@@ -37,14 +37,14 @@
 5. [《Java 并发编程实战》（*Java Concurrency in Practice*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/JCP)
 6. [《深入理解 Java 虚拟机（第2版）》 周志明 著](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/JVM)
 
-### 1.3 C/C++
+### 1.3 // C/C++
 1. [《C 程序设计语言（第2版·新版）》（*K&R(Second Edition)*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/K&R2)
 2. [《C++ Primer Plus（第6版）》](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/C++PP)
 3. [《C Primer Plus（第五版）》](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/CPP)
 4. [《C++ Primer（第5版）》](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/C++P)
 5. [《C++ 编程思想》（*Thinking in C++*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/TIC++)
 
-### 1.4 Linux
+### 1.4 // Linux
 1. [《鸟哥的Linux私房菜——基础学习篇（第三版）》 鸟哥 著](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/NIAOGE-I)
 2. [《鸟哥的Linux私房菜——服务器架设篇（第三版）》 鸟哥 著](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/NIAOGE-II)
 
