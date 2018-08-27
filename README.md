@@ -61,7 +61,7 @@
 ## 二、相关链接
 
 - [校选教材](https://github.com/gdut-yy/GitReadingNotes/tree/master/edu/README.md)
-- [笔试面试](https://github.com/gdut-yy/GitReadingNotes/tree/master/offer/README.md)
+- [漫漫 Offer 路 (๑و•̀Δ•́)و](https://github.com/gdut-yy/GitReadingNotes/tree/master/offer/README.md)
 
 ## 三、后记
 
