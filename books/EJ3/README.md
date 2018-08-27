@@ -46,9 +46,45 @@
 
 ### Item 8 : Avoid finalizers and cleaners
 
-### Item 9 : 
+### Item 9 : Prefer try-with-resources to try-finally
 
-## CHAPTER 3 : Methods Common to All Objects 
+## CHAPTER 3 : Methods Common to All Objects【对于所有对象都通用的方法】
+
+### Item 10 : Obey the general contract when overriding equals【重写 equals() 方法请遵守通用约定】
+
+### Item 11 : Always override hashCode when you override equals【重写 equals() 时重写 hashCode()】
+
+### Item 12 : Always override toString【总是重写 toString()】
+
+### Item 13 : Override clone judiciously【谨慎重写 clone()】
+
+### Item 14 : Consider implementing Comparable【考虑实现 Comparable 接口】
+
+
+## CHAPTER 4 : Classes and Interfaces【类 和 接口】
+
+
+### Item 15 : Minimize the accessibility of classes and members【使类和成员的可访问性最小化】
+
+### Item 16 : In public classes, use accessor methods, not public fields【在公有类中使用访问方法而非公有域】
+
+### Item 17 : Minimize mutability【使可变性最小化】
+
+### Item 18 : Favor composition over inheritance【复合优先于继承】
+
+### Item 19 : Design and document for inheritance or else prohibit it【要么为继承而设计，并提供文档，要么就禁止继承】
+
+### Item 20 : Prefer interfaces to abstract classes【接口优于抽象类】
+
+### Item 21 : Design interfaces for posterity【】
+
+### Item 22 : Use interfaces only to define types【接口只用于定于类型】
+
+### Item 23 : Prefer class hierarchies to tagged classes【类层次优于标签类】
+
+### Item 24 : Favor static member classes over nonstatic【优先考虑静态成员类】
+
+### Item 25 : Limit source files to a single top-level class【将源文件限制为一个顶级类】
 
 ## CHAPTER 5 : Generics【泛型】
 
@@ -172,7 +208,9 @@ Java 8 新特性
 
 ### Item 56 : Write doc comments for all exposed API elements【为所有导出的 API 元素写文档注释】
 
-## CHAPTER 9 : 
+## CHAPTER 9 : General Programming
+
+## CHAPTER 10 : Exceptions
 
 ## CHAPTER 11 : Concurrency 并发
 
@@ -219,6 +257,14 @@ volatile 关键字。虽然 volatile 修饰符不执行互斥访问，但它可�
 
 ## CHAPTER 12 : Serialization
 
-### Item 85 : 
+### Item 85 : Perfer alternatives to Java serialization
 
-### Item 86 : 
+### Item 86 : Implement Serializable with great caution
+
+### Item 87 : Consider using a custom serialized form
+
+### Item 88 : Write readObject methods defensively
+
+### Item 89 : For instance control, prefer enum types to readResolve
+
+### Item 90 : Consider serialization proxies instead of serialized instances

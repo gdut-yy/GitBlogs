@@ -58,9 +58,14 @@
 3. [《深入浅出 Node.js》 朴灵 著](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/Nodejs)
 4. [《CSS 权威指南（第4版）》（*CSS: The Definitive Guide, 4th Edition Visual Presentation for the Web*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/CSSTDG4)
 
+### 1.7 Offers
+
+1. [《剑指 Offer：名企面试官精讲典型编程题（第2版）》 何海涛 著](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/JIANZHIOffer/README.md)
+2. [《编程之美——微软技术面试心得》 《编程之美》小组 著](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/BIANCHENGZHIMEI)
+
 ## 二、相关链接
 
-- [校选教材](https://github.com/gdut-yy/GitReadingNotes/tree/master/edu/README.md)
+- [校选教材 (⊙_⊙?)](https://github.com/gdut-yy/GitReadingNotes/tree/master/edu/README.md)
 - [漫漫 Offer 路 (๑و•̀Δ•́)و](https://github.com/gdut-yy/GitReadingNotes/tree/master/offer/README.md)
 
 ## 三、后记
