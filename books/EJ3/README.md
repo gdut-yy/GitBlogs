@@ -208,9 +208,51 @@ Java 8 新特性
 
 ### Item 56 : Write doc comments for all exposed API elements【为所有导出的 API 元素写文档注释】
 
-## CHAPTER 9 : General Programming
+## CHAPTER 9 : General Programming【通用程序设计】
 
-## CHAPTER 10 : Exceptions
+### Item 57 : Minimize the scope of local variables【将局部变量的作用域最小化】
+
+### Item 58 : Prefer for-each loops to traditional for loops【for-each循环优先于传统for循环】
+
+### Item 59 : Know and use the libraries【了解和使用类库】
+
+### Item 60 : Avoid float and double if exact answers are required【如果需要精确的答案，避免使用float和double】
+
+### Item 61 : Prefer primitive types to boxed primitives【基本类型优先于装箱基本类型】
+
+### Item 62 : Avoid strings where other types are more appropriate【如果其他类型更适合，则尽量避免使用String】
+
+### Item 63 : Beware the performance of string concatenation【当心字符串连接的性能】
+
+### Item 64 : Refer to objects by their interfaces【通过接口引用对象】
+
+### Item 65 : Prefer interface to reflection【接口优先于反射机制】
+
+### Item 66 : Use native methods judiciously【谨慎地使用本地方法】
+
+### Item 67 : Optimize judiciously【谨慎地进行优化】
+
+### Item 68 : Adhere to generally accepted naming conventions【遵守普遍接受的命名惯例】
+
+## CHAPTER 10 : Exceptions【异常】
+
+### Item 69 : Use exceptions only for exceptional conditions
+
+### Item 70 : Use checked exceptions for recoverable conditions and runtime exceptions for programming errors
+
+### Item 71 : Avoid unnecessary use of checked exceptions
+
+### Item 72 : Favor the use of standard exceptions
+
+### Item 73 : Throw exceptions appropriate to the abstraction
+
+### Item 74 : Document all exceptions thrown by each method
+
+### Item 75 : Include failure-capture information in detail messages
+
+### Item 76 : Strive for failure atomicity
+
+### Item 77 : Don't ignore exceptions 
 
 ## CHAPTER 11 : Concurrency 并发
 
@@ -251,7 +293,6 @@ volatile 关键字。虽然 volatile 修饰符不执行互斥访问，但它可�
 - Thread-hostile 线程对立
 
 ### Item 83 : Use lazy initialization【慎用延迟初始化】
-
 
 ### Item 84 : Don't depend on the threadscheduler【不要依赖线程调度器】
 
