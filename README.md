@@ -28,7 +28,7 @@
 6. [《重构：改善既有代码的设计》（*Refactoring : Improving the Design of Existing Code*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/Refactoring)
 7. [《代码整洁之道》（*Clean Code : A Handbook of Agile Software Craftsmanship*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/CleanCode)
 
-### 1.2 Java
+### 1.2 Java （“四大名著”及其他）
 
 1. [《Java 核心技术 卷I》（原书第十版）（*Core Java Volume I——Fundamentals (10th Edition)*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/CJV-I10)
 2. [《Java 核心技术 卷II》（原书第十版）（*Core Java Volume II——Advance Features (10th Edition)*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/CJV-II10)
@@ -37,14 +37,14 @@
 5. [《Java 并发编程实战》（*Java Concurrency in Practice*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/JCP)
 6. [《深入理解 Java 虚拟机（第2版）》 周志明 著](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/JVM)
 
-### 1.3 // C/C++
+### 1.3 C/C++ （C/C++ 非常重要且复杂，由于时间关系，暂时先列出书目，待更）
 1. [《C 程序设计语言（第2版·新版）》（*K&R(Second Edition)*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/K&R2)
 2. [《C++ Primer Plus（第6版）》](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/C++PP)
 3. [《C Primer Plus（第五版）》](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/CPP)
 4. [《C++ Primer（第5版）》](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/C++P)
 5. [《C++ 编程思想》（*Thinking in C++*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/TIC++)
 
-### 1.4 // Linux
+### 1.4 Linux
 1. [《鸟哥的Linux私房菜——基础学习篇（第三版）》 鸟哥 著](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/NIAOGE-I)
 2. [《鸟哥的Linux私房菜——服务器架设篇（第三版）》 鸟哥 著](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/NIAOGE-II)
 
