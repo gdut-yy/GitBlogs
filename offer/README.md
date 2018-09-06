@@ -28,6 +28,8 @@
 - [阿里巴巴2017实习生笔试题（一）](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/阿里巴巴2017实习生笔试题（一）/阿里巴巴2017实习生笔试题（一）.md)
 - [阿里巴巴2016研发工程师笔试题（一）](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/阿里巴巴2016研发工程师笔试题（一）/阿里巴巴2016研发工程师笔试题（一）.md)
 - [阿里巴巴2017秋招研发工程师笔试题](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/阿里巴巴2017秋招研发工程师笔试题/阿里巴巴2017秋招研发工程师笔试题.md)
+- [美团点评2017秋招笔试真题-后台开发&系统工程师A](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/美团点评2017秋招笔试真题-后台开发&系统工程师A/美团点评2017秋招笔试真题-后台开发&系统工程师A.md)
+- [美团点评2017秋招笔试真题-后台开发&系统工程师B](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/美团点评2017秋招笔试真题-后台开发&系统工程师B/美团点评2017秋招笔试真题-后台开发&系统工程师B.md)
 
 ## 2018年秋招笔试题
 
@@ -40,14 +42,17 @@
 - （08.24）[智者四海1](2018Autumn/0824_1.md) | [智者四海2](2018Autumn/0824_2.md)
 - （08.25）[字节跳动1](2018Autumn/0825字节跳动/1.md) | [字节跳动2](2018Autumn/0825字节跳动/2.md) | [字节跳动3](2018Autumn/0825字节跳动/3.md) | [字节跳动4](2018Autumn/0825字节跳动/4.md) | [字节跳动5](2018Autumn/0825字节跳动/5.md)
 - （08.31）[腾讯（模拟）1](2018Autumn/0831腾讯（模拟考）/1.md)
-- （09.03）[触宝1](2018Autumn/0903触宝/1.md) | [触宝2](2018Autumn/0903触宝/2.md)
-- （09.03）[吉比特1](2018Autumn/0903吉比特/1.md) | [吉比特2](2018Autumn/0903吉比特/2.md)
+- （09.03）[触宝科技1](2018Autumn/0903触宝/1.md) | [触宝科技2](2018Autumn/0903触宝/2.md)
+- （09.03）[吉比特&雷霆游戏1](2018Autumn/0903吉比特/1.md) | [吉比特&雷霆游戏2](2018Autumn/0903吉比特/2.md)
 - （09.04）[CVTE1](2018Autumn/0904CVTE/1.md) | [CVTE2](2018Autumn/0904CVTE/2.md) | [CVTE其他](2018Autumn/0904CVTE/0.md)
-- （09.06）三七互娱
-- （09.06）美团点评
+- （09.06）[三七互娱1](2018Autumn/0904三七互娱/1.md) | [三七互娱2](2018Autumn/0904三七互娱/2.md) | [三七互娱其他](2018Autumn/0904三七互娱/0.md)
+- （09.06）[美团点评1](2018Autumn/0904美团点评/1.md) | [美团点评2](2018Autumn/0904美团点评/2.md) | [美团点评其他](2018Autumn/0904美团点评/0.md)
 - （09.07）bilibili
 - （09.07）阿里巴巴
+- （09.08）网易互联网
 - （09.09）字节跳动
 - （09.09）京东
+- （09.10）BIGO（华南理工）
+- （09.13）平安普惠（南国会）
 
 
