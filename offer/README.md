@@ -20,16 +20,22 @@
 - [Android工程师能力评估](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/Android工程师能力评估/Android工程师能力评估.md)
 - [网易有道2017内推选择题](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/网易有道2017内推选择题/网易有道2017内推选择题.md)
 - [腾讯2016研发工程师笔试题（三）](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/腾讯2016研发工程师笔试题（三）/腾讯2016研发工程师笔试题（三）.md)
-- [阿里巴巴2017实习生笔试题（二）](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/阿里巴巴2017实习生笔试题（二）/阿里巴巴2017实习生笔试题（二）.md)
 - [摩拜2018校招客户端开发笔试卷](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/摩拜2018校招客户端开发笔试卷/摩拜2018校招客户端开发笔试卷.md)
 - [招商银行信用卡中心2018春招IT笔试（开发方向第一批）](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/招商银行信用卡中心2018春招IT笔试（开发方向第一批）/招商银行信用卡中心2018春招IT笔试（开发方向第一批）.md)
 - [前端工程师能力评估](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/前端工程师能力评估/前端工程师能力评估.md)
 - [百度2016研发工程师笔试题（六）](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/百度2016研发工程师笔试题（六）/百度2016研发工程师笔试题（六）.md)
-- [阿里巴巴2017实习生笔试题（一）](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/阿里巴巴2017实习生笔试题（一）/阿里巴巴2017实习生笔试题（一）.md)
-- [阿里巴巴2016研发工程师笔试题（一）](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/阿里巴巴2016研发工程师笔试题（一）/阿里巴巴2016研发工程师笔试题（一）.md)
-- [阿里巴巴2017秋招研发工程师笔试题](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/阿里巴巴2017秋招研发工程师笔试题/阿里巴巴2017秋招研发工程师笔试题.md)
 - [美团点评2017秋招笔试真题-后台开发&系统工程师A](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/美团点评2017秋招笔试真题-后台开发&系统工程师A/美团点评2017秋招笔试真题-后台开发&系统工程师A.md)
 - [美团点评2017秋招笔试真题-后台开发&系统工程师B](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/美团点评2017秋招笔试真题-后台开发&系统工程师B/美团点评2017秋招笔试真题-后台开发&系统工程师B.md)
+
+
+### 阿里巴巴
+- [阿里巴巴2016研发工程师笔试题（一）](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/阿里巴巴2016研发工程师笔试题（一）/阿里巴巴2016研发工程师笔试题（一）.md)
+- [阿里巴巴2016研发工程师笔试题（二）](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/阿里巴巴2016研发工程师笔试题（二）/阿里巴巴2016研发工程师笔试题（二）.md)
+- [阿里巴巴2016研发工程师笔试题（四）](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/阿里巴巴2016研发工程师笔试题（四）/阿里巴巴2016研发工程师笔试题（四）.md)
+- [阿里巴巴2017实习生笔试题（一）](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/阿里巴巴2017实习生笔试题（一）/阿里巴巴2017实习生笔试题（一）.md)
+- [阿里巴巴2017实习生笔试题（二）](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/阿里巴巴2017实习生笔试题（二）/阿里巴巴2017实习生笔试题（二）.md)
+- [阿里巴巴2017秋招研发工程师笔试题](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/阿里巴巴2017秋招研发工程师笔试题/阿里巴巴2017秋招研发工程师笔试题.md)
+
 
 ## 2018年秋招笔试题
 
@@ -45,13 +51,14 @@
 - （09.03）[触宝科技1](2018Autumn/0903触宝/1.md) | [触宝科技2](2018Autumn/0903触宝/2.md)
 - （09.03）[吉比特&雷霆游戏1](2018Autumn/0903吉比特/1.md) | [吉比特&雷霆游戏2](2018Autumn/0903吉比特/2.md)
 - （09.04）[CVTE1](2018Autumn/0904CVTE/1.md) | [CVTE2](2018Autumn/0904CVTE/2.md) | [CVTE其他](2018Autumn/0904CVTE/0.md)
-- （09.06）[三七互娱1](2018Autumn/0904三七互娱/1.md) | [三七互娱2](2018Autumn/0904三七互娱/2.md) | [三七互娱其他](2018Autumn/0904三七互娱/0.md)
-- （09.06）[美团点评1](2018Autumn/0904美团点评/1.md) | [美团点评2](2018Autumn/0904美团点评/2.md) | [美团点评其他](2018Autumn/0904美团点评/0.md)
-- （09.07）bilibili
+- （09.06）[三七互娱1](2018Autumn/0906三七互娱/1.md) | [三七互娱2](2018Autumn/0906三七互娱/2.md) | [三七互娱其他](2018Autumn/0906三七互娱/0.md)
+- （09.06）[美团点评1](2018Autumn/0906美团点评/1.md) | [美团点评2](2018Autumn/0906美团点评/2.md) | [美团点评其他](2018Autumn/0906美团点评/0.md)
+- （09.07）[bilibili](2018Autumn/0907bilibili/0.md)
 - （09.07）阿里巴巴
 - （09.08）网易互联网
 - （09.09）字节跳动
 - （09.09）京东
+- （09.10）经纬系（华南理工）
 - （09.10）BIGO（华南理工）
 - （09.13）平安普惠（南国会）
 
