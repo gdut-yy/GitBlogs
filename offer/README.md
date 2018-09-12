@@ -31,6 +31,7 @@
 ### 阿里巴巴
 - [阿里巴巴2016研发工程师笔试题（一）](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/阿里巴巴2016研发工程师笔试题（一）/阿里巴巴2016研发工程师笔试题（一）.md)
 - [阿里巴巴2016研发工程师笔试题（二）](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/阿里巴巴2016研发工程师笔试题（二）/阿里巴巴2016研发工程师笔试题（二）.md)
+- [阿里巴巴2016研发工程师笔试题（三）](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/阿里巴巴2016研发工程师笔试题（三）/阿里巴巴2016研发工程师笔试题（三）.md)
 - [阿里巴巴2016研发工程师笔试题（四）](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/阿里巴巴2016研发工程师笔试题（四）/阿里巴巴2016研发工程师笔试题（四）.md)
 - [阿里巴巴2017实习生笔试题（一）](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/阿里巴巴2017实习生笔试题（一）/阿里巴巴2017实习生笔试题（一）.md)
 - [阿里巴巴2017实习生笔试题（二）](https://github.com/gdut-yy/GitReadingNotes/blob/master/offer/nowcoder/阿里巴巴2017实习生笔试题（二）/阿里巴巴2017实习生笔试题（二）.md)
@@ -62,7 +63,9 @@
 - （09.10）[BIGO（华工线下笔试）](2018Autumn/0910BIGO/0.md)
 - （09.11）[高新兴科技](2018Autumn/0911高新兴/0.md)
 - （09.11）[金山WPS（广工线下笔试）](2018Autumn/0911金山WPS/0.md)
+- （09.12）[华资软件（广工线下笔试）](2018Autumn/0912华资软件/0.md)
 - （09.13）平安普惠（南国会）
 - （09.15）顺丰科技
+- （09.15）网易互娱
 
 
