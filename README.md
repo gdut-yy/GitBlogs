@@ -71,6 +71,12 @@
 
 1. [《第一行代码——Android（第2版）》 郭霖 著](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/DIYIHANGDAIMA2)
 2. [《Andorid 编程权威指南（第三版）》（*Android Programming The Big Nerd Ranch Guide, Third Edition*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/AndroidProgramming3)
+3. [《Android 开发艺术探索》 任玉刚 著]()
+4. [《Android 群英传》 徐宜生 著]()
+5. [《Android 群英传：神兵利器》 徐宜生 著]()
+6. [《Android 源码设计模式：解析与实战》 何红辉 关爱民 著]()
+7. [《App研发录：架构设计、Crash分析和竞品技术分析》 包建强 著]()
+8. [《Android 进阶之光》 刘望舒 著]()
 
 ### 1.7 HTML、CSS、JavaScript
 

@@ -4,6 +4,17 @@
 
 ## 书评
 
+| 应用图标 | 应用名 | github 地址 |
+| :-: | :-: | - |
+| ![](ic_geoquiz.png) | GeoQuiz | 暂无 |
+| ![](ic_criminalintent.png) | CriminalIntent | [https://github.com/gdut-yy/CriminalIntent](https://github.com/gdut-yy/CriminalIntent) |
+| ![](ic_beatbox.png) | BeatBox | [https://github.com/gdut-yy/BeatBox](https://github.com/gdut-yy/BeatBox) |
+| ![](ic_nerdlauncher.png) | NerdLauncher | [https://github.com/gdut-yy/NerdLauncher](https://github.com/gdut-yy/NerdLauncher) |
+| ![](ic_photogallery.png) | PhotoGallery | 暂无 |
+| ![](ic_draganddraw.png) | DragAndDraw | [https://github.com/gdut-yy/DragAndDraw](https://github.com/gdut-yy/DragAndDraw) |
+| ![](ic_sunset.png) | Sunset | [https://github.com/gdut-yy/Sunset](https://github.com/gdut-yy/Sunset) |
+| ![](ic_locatr.png) | Locatr | 暂无 |
+
 ## 第 1 章 Android 开发初体验
 ### GeoQuiz 应用
 ## 第 2 章 Android 与 MVC 设计模式
