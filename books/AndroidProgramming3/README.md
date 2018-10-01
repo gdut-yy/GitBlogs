@@ -4,16 +4,16 @@
 
 ## 书评
 
-| 应用图标 | 应用名 | github 地址 |
-| :-: | :-: | - |
-| ![](ic_geoquiz.png) | GeoQuiz | 暂无 |
-| ![](ic_criminalintent.png) | CriminalIntent | [https://github.com/gdut-yy/CriminalIntent](https://github.com/gdut-yy/CriminalIntent) |
-| ![](ic_beatbox.png) | BeatBox | [https://github.com/gdut-yy/BeatBox](https://github.com/gdut-yy/BeatBox) |
-| ![](ic_nerdlauncher.png) | NerdLauncher | [https://github.com/gdut-yy/NerdLauncher](https://github.com/gdut-yy/NerdLauncher) |
-| ![](ic_photogallery.png) | PhotoGallery | 暂无 |
-| ![](ic_draganddraw.png) | DragAndDraw | [https://github.com/gdut-yy/DragAndDraw](https://github.com/gdut-yy/DragAndDraw) |
-| ![](ic_sunset.png) | Sunset | [https://github.com/gdut-yy/Sunset](https://github.com/gdut-yy/Sunset) |
-| ![](ic_locatr.png) | Locatr | 暂无 |
+| 应用图标 | 应用名 | github 地址 | 对应章节 |
+| :-: | :-: | :-: | :-: |
+| ![](ic_geoquiz.png) | GeoQuiz | [https://github.com/gdut-yy/GeoQuiz](https://github.com/gdut-yy/GeoQuiz) | 1~6 |
+| ![](ic_criminalintent.png) | CriminalIntent | [https://github.com/gdut-yy/CriminalIntent](https://github.com/gdut-yy/CriminalIntent) | 7~19 |
+| ![](ic_beatbox.png) | BeatBox | [https://github.com/gdut-yy/BeatBox](https://github.com/gdut-yy/BeatBox) | 20~23 |
+| ![](ic_nerdlauncher.png) | NerdLauncher | [https://github.com/gdut-yy/NerdLauncher](https://github.com/gdut-yy/NerdLauncher) | 24 |
+| ![](ic_photogallery.png) | PhotoGallery | [https://github.com/gdut-yy/PhotoGallery](https://github.com/gdut-yy/PhotoGallery) | 25~30 |
+| ![](ic_draganddraw.png) | DragAndDraw | [https://github.com/gdut-yy/DragAndDraw](https://github.com/gdut-yy/DragAndDraw) | 31 |
+| ![](ic_sunset.png) | Sunset | [https://github.com/gdut-yy/Sunset](https://github.com/gdut-yy/Sunset) | 32 |
+| ![](ic_locatr.png) | Locatr | 暂无 | 33~35 |
 
 ## 第 1 章 Android 开发初体验
 ### GeoQuiz 应用
