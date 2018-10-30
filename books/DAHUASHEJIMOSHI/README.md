@@ -469,7 +469,7 @@
 	具体装饰对象B的操作
 
 
-<h2 id="chapter6">第 6 章 穿什么有这么重要？——装饰模式</h2>
+<h2 id="chapter7">第 7 章 为别人做嫁衣——代理模式</h2>
 
 代理模式，主要目的是为其他对象提供一种代理以控制对这个对象的访问。
 
@@ -528,7 +528,7 @@ Proxy 类保存一个引用是的代理可以访问实体。
 	真实的请求
 
 
-<h2 id="chapter7">第 7 章 为别人做嫁衣——代理模式</h2>
+<h2 id="chapter8">第 8 章 雷锋依然在人间——工厂方法模式</h2>
 
 简单工厂的升级版，工厂方法模式是简单工厂模式的进一步抽象和推广。
 
@@ -587,7 +587,7 @@ Proxy 类保存一个引用是的代理可以访问实体。
 	OUTPUT:
 	3.0
 
-<h2 id="chapter8">第 8 章 雷锋依然在人间——工厂方法模式</h2>
+<h2 id="chapter9">第 9 章 简历复印——原型模式</h2>
 
 原型模式主要是用原型实例指定创建对象的种类，并且通过拷贝这些原型创建新的对象。
 
@@ -795,7 +795,7 @@ Java 中提供了 Cloneable 接口写法。可通过继承该接口重写 clone(
 	工作经历：1998-2003 ZZ 企业
 
 
-<h2 id="chapter9">第 9 章 简历复印——原型模式</h2>
+
 
 <h2 id="chapter10">第 10 章 考题抄错会做也白搭——模板方法模式</h2>
 
@@ -1025,6 +1025,27 @@ Java 中有自带的观察者模式：
 <h2 id="chapter21">第 21 章 有些类也需计划生育——单例模式</h2>
 
 **单例模式（Singleton）**，保证一个类仅有一个实例，并提供一个访问它的全局访问点。
+
+
+	public class Singleton {
+	
+	    private static volatile Singleton instance;
+	
+	    private Singleton() {
+	
+	    }
+	
+	    public static Singleton getInstance() {
+	        if (instance == null) {
+	            synchronized (Singleton.class) {
+	                if (instance == null) {
+	                    instance = new Singleton();
+	                }
+	            }
+	        }
+	        return instance;
+	    }
+	}
 
 <h2 id="chapter22">第 22 章 手机软件何时统一——桥接模式</h2>
 
