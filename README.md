@@ -45,6 +45,8 @@
 6. [《人件（原书第3版）》（*Peopleware: Productive Projects and Teams (Third Edition)*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/Peopleware3)
 7. [《剑指 Offer：名企面试官精讲典型编程题（第2版）》 何海涛 著](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/JIANZHIOffer/README.md)
 8. [《编程之美——微软技术面试心得》 《编程之美》小组 著](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/BIANCHENGZHIMEI)
+9. 《高性能 MySQL（第三版）》
+10. 《技术之瞳》
 
 ### 1.3 Java基础 （“Java四大名著”及其他）
 
@@ -54,6 +56,9 @@
 4. [《Java 编程思想（第4版）》（*Thinking in Java (Fourth Edition)*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/TIJ4)
 5. [《Java 并发编程实战》（*Java Concurrency in Practice*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/JCP)
 6. [《深入理解 Java 虚拟机（第2版）》 周志明 著](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/JVM)
+7. 《Java 8 函数式编程》（Java 8 Lambdas : Functional Programming For The Masses）
+8. 《Java 9 模块化开发：核心原则与实践》（Java 9 Modularity : Patterns and Practices for Developing Maintainable Applications）
+9. 《Java 多线程编程核心技术》 高洪岩 著
 
 ### 1.4 Java 框架
 
@@ -61,6 +66,8 @@
 2. [《Spring Boot 实战》（*Spring Boot In Action*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/SpringBoot)
 3. 《Spring 微服务实战》
 4. 《Netty 实战》
+5. 《RxJava2.x 实战》
+6. 《云原生 Java》
 
 ### 1.5 Linux
 
@@ -72,11 +79,15 @@
 1. [《第一行代码——Android（第2版）》 郭霖 著](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/DIYIHANGDAIMA2)
 2. [《Andorid 编程权威指南（第三版）》（*Android Programming The Big Nerd Ranch Guide, Third Edition*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/AndroidProgramming3)
 3. [《Android 开发艺术探索》 任玉刚 著]()
-4. [《Android 群英传》 徐宜生 著]()
-5. [《Android 群英传：神兵利器》 徐宜生 著]()
-6. [《Android 源码设计模式：解析与实战》 何红辉 关爱民 著]()
-7. [《App研发录：架构设计、Crash分析和竞品技术分析》 包建强 著]()
-8. [《Android 进阶之光》 刘望舒 著]()
+4. 《Android 群英传》 徐宜生 著
+5. 《Android 群英传：神兵利器》 徐宜生 著
+6. 《Android 源码设计模式：解析与实战》 何红辉 关爱民 著
+7. 《App研发录：架构设计、Crash分析和竞品技术分析》 包建强 著
+8. 《Android 进阶之光》 刘望舒 著
+9. 《Android 进阶解密》 刘望舒 著
+10. 《Android 组件化架构》
+11. 《深入探索 Android 热修复技术原理》
+12. 《Kotlin 实战》
 
 ### 1.7 HTML、CSS、JavaScript
 
