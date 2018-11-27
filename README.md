@@ -46,7 +46,7 @@
 7. [《剑指 Offer：名企面试官精讲典型编程题（第2版）》 何海涛 著](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/JIANZHIOffer/README.md)
 8. [《编程之美——微软技术面试心得》 《编程之美》小组 著](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/BIANCHENGZHIMEI)
 9. 《高性能 MySQL（第三版）》
-10. 《技术之瞳》
+10. 《技术之瞳——阿里巴巴技术笔试心得》
 
 ### 1.3 Java基础 （“Java四大名著”及其他）
 
@@ -64,10 +64,11 @@
 
 1. [《Spring 实战（第4版）》（*Spring In Action, Fourth Edition*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/Spring)
 2. [《Spring Boot 实战》（*Spring Boot In Action*）](https://github.com/gdut-yy/GitReadingNotes/tree/master/books/SpringBoot)
-3. 《Spring 微服务实战》
+3. 《Spring 微服务实战》（*Spring Microservices In Action*）
 4. 《Netty 实战》
-5. 《RxJava2.x 实战》
+5. 《RxJava2.x 实战》 沈哲 编著
 6. 《云原生 Java》
+7. 《分布式消息中间件实践》 倪炜 著
 
 ### 1.5 Linux
 
@@ -85,7 +86,7 @@
 7. 《App研发录：架构设计、Crash分析和竞品技术分析》 包建强 著
 8. 《Android 进阶之光》 刘望舒 著
 9. 《Android 进阶解密》 刘望舒 著
-10. 《Android 组件化架构》
+10. 《Android 组件化架构》 苍王 著
 11. 《深入探索 Android 热修复技术原理》
 12. 《Kotlin 实战》
 
