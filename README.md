@@ -56,8 +56,8 @@
 4. [《Java 编程思想（第4版）》（*Thinking in Java (Fourth Edition)*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/TIJ4)
 5. [《Java 并发编程实战》（*Java Concurrency in Practice*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/JCP)
 6. [《深入理解 Java 虚拟机（第2版）》 周志明 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/JVM)
-7. 《Java 8 函数式编程》（Java 8 Lambdas : Functional Programming For The Masses）
-8. 《Java 9 模块化开发：核心原则与实践》（Java 9 Modularity : Patterns and Practices for Developing Maintainable Applications）
+7. [《Java 8 函数式编程》（*Java 8 Lambdas : Functional Programming For The Masses*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/Java8Lambdas)
+8. 《Java 9 模块化开发：核心原则与实践》（*Java 9 Modularity : Patterns and Practices for Developing Maintainable Applications*）
 9. 《Java 多线程编程核心技术》 高洪岩 著
 
 ### 1.4 Java 框架
