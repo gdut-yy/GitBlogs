@@ -57,19 +57,21 @@
 5. [《Java 并发编程实战》（*Java Concurrency in Practice*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/JCP)
 6. [《深入理解 Java 虚拟机（第2版）》 周志明 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/JVM)
 7. [《Java 8 函数式编程》（*Java 8 Lambdas : Functional Programming For The Masses*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/Java8Lambdas)
-8. 《Java 9 模块化开发：核心原则与实践》（*Java 9 Modularity : Patterns and Practices for Developing Maintainable Applications*）
-9. 《Java 多线程编程核心技术》 高洪岩 著
+8. [《Java 9 模块化开发：核心原则与实践》（*Java 9 Modularity : Patterns and Practices for Developing Maintainable Applications*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/Java9Modularity)
+9. [《Java 多线程编程核心技术》 高洪岩 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/JavaDUOXIANCHENG)
 
 ### 1.4 框架 & 架构
 
 1. [《Spring 实战（第4版）》（*Spring In Action, Fourth Edition*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/Spring)
 2. [《Spring Boot 实战》（*Spring Boot In Action*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/SpringBoot)
-3. 《Spring 微服务实战》（*Spring Microservices In Action*）
-4. 《Netty 实战》
-5. 《RxJava2.x 实战》 沈哲 编著
+3. [《Spring 微服务实战》（*Spring Microservices In Action*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/SpringMicro)
+4. 《Netty 实战》（*Netty In Action*）
+5. [《RxJava2.x 实战》 沈哲 编著](https://github.com/gdut-yy/GitBlogs/tree/master/books/RxJava2)
 6. 《云原生 Java》
-7. 《分布式消息中间件实践》 倪炜 著
-8. [《大型网站 技术架构演进与性能优化》 许令波（君山） 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/DAXINGWANGZHAN)
+7. [《分布式消息中间件实践》 倪炜 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/MQ-Middleware)
+8. [《大型网站 技术架构演进与性能优化》 许令波（君山） 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/DAXINGWANGZHANJISHUJIAGOU)
+9. *OAuth2 In Action*
+10. 《REST 实战》（*REST in Practice*）
 
 ### 1.5 Linux
 
