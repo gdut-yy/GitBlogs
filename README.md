@@ -45,8 +45,9 @@
 6. [《人件（原书第3版）》（*Peopleware: Productive Projects and Teams (Third Edition)*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/Peopleware3)
 7. [《剑指 Offer：名企面试官精讲典型编程题（第2版）》 何海涛 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/JIANZHIOffer/README.md)
 8. [《编程之美——微软技术面试心得》 《编程之美》小组 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/BIANCHENGZHIMEI)
-9. 《高性能 MySQL（第三版）》
-10. 《技术之瞳——阿里巴巴技术笔试心得》
+9. [《高性能 MySQL（第三版）》（*High Performance MySQL*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/High-Performance-MySQL)
+10. [《技术之瞳——阿里巴巴技术笔试心得》 阿里巴巴集团校园招聘笔试项目组 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/JISHUZHITONG)
+11. [《正则指引（第2版）》 余晟 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/ZHENGZEZHIYIN2)
 
 ### 1.3 Java 基础 （“Java四大名著”及其他）
 
@@ -59,6 +60,7 @@
 7. [《Java 8 函数式编程》（*Java 8 Lambdas : Functional Programming For The Masses*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/Java8Lambdas)
 8. [《Java 9 模块化开发：核心原则与实践》（*Java 9 Modularity : Patterns and Practices for Developing Maintainable Applications*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/Java9Modularity)
 9. [《Java 多线程编程核心技术》 高洪岩 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/JavaDUOXIANCHENG)
+10. [《Java 性能权威指南》（*Java Performance : The Definitive Guide*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/Java-Performance)
 
 ### 1.4 框架 & 架构
 
@@ -67,11 +69,14 @@
 3. [《Spring 微服务实战》（*Spring Microservices In Action*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/SpringMicro)
 4. 《Netty 实战》（*Netty In Action*）
 5. [《RxJava2.x 实战》 沈哲 编著](https://github.com/gdut-yy/GitBlogs/tree/master/books/RxJava2)
-6. 《云原生 Java》
+6. 《云原生 Java》（*Cloud Native Java*）
 7. [《分布式消息中间件实践》 倪炜 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/MQ-Middleware)
 8. [《大型网站 技术架构演进与性能优化》 许令波（君山） 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/DAXINGWANGZHANJISHUJIAGOU)
-9. *OAuth2 In Action*
-10. 《REST 实战》（*REST in Practice*）
+9. 《Struts2 实战》（*Struts2 in action*）
+10. *OAuth2 In Action*
+11. 《REST 实战》（*REST in Practice*）
+12. 《Docker 实践》（*Docker IN PRACTICE*）
+13. 《Kubernetes 权威指南：从 Docker 到 Kubernetes 实践全接触》（*Kubernetes : The Definitive Guide*）
 
 ### 1.5 Linux
 
@@ -88,10 +93,10 @@
 6. 《Android 源码设计模式：解析与实战》 何红辉 关爱民 著
 7. 《App 研发录：架构设计、Crash分析和竞品技术分析》 包建强 著
 8. 《Android 进阶之光》 刘望舒 著
-9. 《Android 进阶解密》 刘望舒 著
-10. 《Android 组件化架构》 苍王 著
-11. 《深入探索 Android 热修复技术原理》
-12. 《Kotlin 实战》
+9. [《Android 进阶解密》 刘望舒 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/Andoroid-JINJIEJIEMI)
+10. [《Android 组件化架构》 苍王 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/Android-ZHUJIANHUA)
+11. [《深入探索 Android 热修复技术原理》 甘晓霖 廖斌斌 杨青 编著](https://github.com/gdut-yy/GitBlogs/tree/master/books/Android-REXIUFU)
+12. [《Kotlin 实战》（*Kotlin In Action*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/Kotlin-in-action)
 
 ### 1.7 HTML、CSS、JavaScript
 

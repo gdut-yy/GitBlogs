@@ -42,11 +42,11 @@
 
 ### Item 6 : Avoid creating unnecessary objects【避免创建不必要的对象】
 
-### Item 7 : Eliminate obsolete object references
+### Item 7 : Eliminate obsolete object references【消除过时的对象引用】
 
-### Item 8 : Avoid finalizers and cleaners
+### Item 8 : Avoid finalizers and cleaners【避免使用 finalizers 和 cleaners】
 
-### Item 9 : Prefer try-with-resources to try-finally
+### Item 9 : Prefer try-with-resources to try-finally【try-with-resources 优先于 try-finally】
 
 ## CHAPTER 3 : Methods Common to All Objects【对于所有对象都通用的方法】
 
@@ -76,7 +76,7 @@
 
 ### Item 20 : Prefer interfaces to abstract classes【接口优于抽象类】
 
-### Item 21 : Design interfaces for posterity【】
+### Item 21 : Design interfaces for posterity【为子类设计接口】
 
 ### Item 22 : Use interfaces only to define types【接口只用于定于类型】
 
@@ -174,19 +174,19 @@ ordinal() 方法
 
 Java 8 新特性
 
-### Item 42 : Perfer lambdas to anonymous classes
+### Item 42 : Perfer lambdas to anonymous classes【Lambdas表达式 优先于 匿名类】
 
-### Item 43 : Perfer methods references to lambdas
+### Item 43 : Perfer methods references to lambdas【方法引用 优先于 Lambdas表达式】
 
-### Item 44 : Favor the use of standard functional interfaces
+### Item 44 : Favor the use of standard functional interfaces【优先使用标准的函数接口】
 
-### Item 45 : User streams judiciously
+### Item 45 : User streams judiciously【谨慎地使用流】
 
-### Item 46 : Perfer side-effect-free functions in streams
+### Item 46 : Perfer side-effect-free functions in streams【在流中优先使用无副作用的函数】
 
-### Item 47 : Perfer Collection to Stream as a return type
+### Item 47 : Perfer Collection to Stream as a return type【优先使用 Collection 而不是 Stream 作为返回类型】
 
-### Item 48 : Use caution when making streams parallel
+### Item 48 : Use caution when making streams parallel【谨慎地使用并行流】
 
 ## CHAPTER 8 : Methods【方法】
 
@@ -236,23 +236,23 @@ Java 8 新特性
 
 ## CHAPTER 10 : Exceptions【异常】
 
-### Item 69 : Use exceptions only for exceptional conditions
+### Item 69 : Use exceptions only for exceptional conditions【只针对异常的情况才使用异常】
 
-### Item 70 : Use checked exceptions for recoverable conditions and runtime exceptions for programming errors
+### Item 70 : Use checked exceptions for recoverable conditions and runtime exceptions for programming errors【在可重现环境中使用受检异常，在程序错误中使用运行时异常】
 
-### Item 71 : Avoid unnecessary use of checked exceptions
+### Item 71 : Avoid unnecessary use of checked exceptions【避免不必要地使用受检的异常】
 
-### Item 72 : Favor the use of standard exceptions
+### Item 72 : Favor the use of standard exceptions【优先使用标准的异常】
 
-### Item 73 : Throw exceptions appropriate to the abstraction
+### Item 73 : Throw exceptions appropriate to the abstraction【抛出与抽象相对应的异常】
 
-### Item 74 : Document all exceptions thrown by each method
+### Item 74 : Document all exceptions thrown by each method【每个方法抛出的异常都要有文档】
 
-### Item 75 : Include failure-capture information in detail messages
+### Item 75 : Include failure-capture information in detail messages【在细节消息中包含能捕获失败的信息】
 
-### Item 76 : Strive for failure atomicity
+### Item 76 : Strive for failure atomicity【努力使失败保持原子性】
 
-### Item 77 : Don't ignore exceptions 
+### Item 77 : Don't ignore exceptions【不要忽略异常】
 
 ## CHAPTER 11 : Concurrency 并发
 
@@ -298,14 +298,14 @@ volatile 关键字。虽然 volatile 修饰符不执行互斥访问，但它可�
 
 ## CHAPTER 12 : Serialization
 
-### Item 85 : Perfer alternatives to Java serialization
+### Item 85 : Perfer alternatives to Java serialization【选择要优先于 Java 序列化】
 
-### Item 86 : Implement Serializable with great caution
+### Item 86 : Implement Serializable with great caution【谨慎地实现 Serializable 接口】
 
-### Item 87 : Consider using a custom serialized form
+### Item 87 : Consider using a custom serialized form【考虑使用自定义的序列化形式】
 
-### Item 88 : Write readObject methods defensively
+### Item 88 : Write readObject methods defensively【保护性地编写 readObject 方法】
 
-### Item 89 : For instance control, prefer enum types to readResolve
+### Item 89 : For instance control, prefer enum types to readResolve【对于实例控制，枚举类型优先于 readResolve】
 
-### Item 90 : Consider serialization proxies instead of serialized instances
+### Item 90 : Consider serialization proxies instead of serialized instances【考虑用序列化代理代替序列化实例】
