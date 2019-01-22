@@ -21,57 +21,57 @@
 
 ### 1.1 计算机基础（数据结构、算法、计算机网络、操作系统、数据库）
 
-1. [《数据结构（C语言版）》 严蔚敏 吴伟民 编著](https://github.com/gdut-yy/GitBlogs/tree/master/books/SHUJUJIEGOU_YAN)
-2. [《大话数据结构》 程杰 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/DAHUASHUJUJIEGOU)
-3. [《数据结构与算法分析——C语言描述（原书第2版）》（*Data Structures and Algorithm Analysis in C, Second Edition*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/DataStructuresinC2)
-4. [《算法：C语言实现（第1~4部分）基础知识、数据结构、排序及搜索（原书第3版）》（*Algorithms in C: Parts 1-4 Fundamentals, Data Structures, Sorting, Searching, Third Edition*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/AlgorithmsinC1-4)
+1. [《数据结构（C语言版）》 严蔚敏 吴伟民 编著](module-books/SHUJUJIEGOU_YAN)
+2. [《大话数据结构》 程杰 著](module-books/DAHUASHUJUJIEGOU)
+3. [《数据结构与算法分析——C语言描述（原书第2版）》（*Data Structures and Algorithm Analysis in C, Second Edition*）](module-books/DataStructuresinC2)
+4. [《算法：C语言实现（第1~4部分）基础知识、数据结构、排序及搜索（原书第3版）》（*Algorithms in C: Parts 1-4 Fundamentals, Data Structures, Sorting, Searching, Third Edition*）](module-books/AlgorithmsinC1-4)
 5. 《算法：C语言实现（第5部分）图算法》
-6. [《算法导论（原书第3版）》（*Introduction to Algorithms(Third Edition)*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/ItoAlgorithms3)
-7. [《算法（第4版）》（*Algorithms(Fourth Edition)*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/Algorithms4)
-8. [《TCP/IP 详解 卷1：协议（原书第2版）》（*TCP/IP Illustrated, Volume 1: The Protocols, Second Edition*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/TCPIP_1)
-9. [《TCP/IP 详解 卷2：实现》（*TCP/IP Illustrated, Volume 2: The Implementation*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/TCPIP_2)
-10. [《TCP/IP 详解 卷3：TCP事务协议、HTTP、NNTP和UNIX域协议》（*TCP/IP Illustrated, Volume 3: TCP for Transactions,HTTP,NNTP,and the UNIX Domain Protocols*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/TCPIP_3)
-11. [《计算机网络（第5版）》（*Computer Networks, Fifth Edittion*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/ComputerNetworks5)
-12. [《深入理解计算机系统（原书第3版）》（*Computer Systems: A Programmer's Perspective, Third Edition*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/ComputerSystems3)
-13. [《数据库系统概念（原书第6版）》（Database System Concepts, Sixth Edition）](https://github.com/gdut-yy/GitBlogs/tree/master/books/DatabaseSystem6)
+6. [《算法导论（原书第3版）》（*Introduction to Algorithms(Third Edition)*）](module-books/ItoAlgorithms3)
+7. [《算法（第4版）》（*Algorithms(Fourth Edition)*）](module-books/Algorithms4)
+8. [《TCP/IP 详解 卷1：协议（原书第2版）》（*TCP/IP Illustrated, Volume 1: The Protocols, Second Edition*）](module-books/TCPIP_1)
+9. [《TCP/IP 详解 卷2：实现》（*TCP/IP Illustrated, Volume 2: The Implementation*）](module-books/TCPIP_2)
+10. [《TCP/IP 详解 卷3：TCP事务协议、HTTP、NNTP和UNIX域协议》（*TCP/IP Illustrated, Volume 3: TCP for Transactions,HTTP,NNTP,and the UNIX Domain Protocols*）](module-books/TCPIP_3)
+11. [《计算机网络（第5版）》（*Computer Networks, Fifth Edittion*）](module-books/ComputerNetworks5)
+12. [《深入理解计算机系统（原书第3版）》（*Computer Systems: A Programmer's Perspective, Third Edition*）](module-books/ComputerSystems3)
+13. [《数据库系统概念（原书第6版）》（Database System Concepts, Sixth Edition）](module-books/DatabaseSystem6)
 
 ### 1.2 进阶（设计模式、代码规范）
 
-1. [《大话设计模式》 程杰 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/DAHUASHEJIMOSHI)
-2. [《设计模式：可复用面向对象软件的基础》（*GoF*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/GoF)
-3. [《重构：改善既有代码的设计》（*Refactoring : Improving the Design of Existing Code*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/Refactoring)
-4. [《代码整洁之道》（*Clean Code : A Handbook of Agile Software Craftsmanship*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/CleanCode)
-5. [《编码：隐匿在计算机软硬件后的语言》（*Code : The Hidden Language of Computer Hardware and Software*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/Code)
-6. [《人件（原书第3版）》（*Peopleware: Productive Projects and Teams (Third Edition)*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/Peopleware3)
-7. [《剑指 Offer：名企面试官精讲典型编程题（第2版）》 何海涛 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/JIANZHIOffer/README.md)
-8. [《编程之美——微软技术面试心得》 《编程之美》小组 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/BIANCHENGZHIMEI)
-9. [《高性能 MySQL（第三版）》（*High Performance MySQL*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/High-Performance-MySQL)
-10. [《技术之瞳——阿里巴巴技术笔试心得》 阿里巴巴集团校园招聘笔试项目组 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/JISHUZHITONG)
-11. [《正则指引（第2版）》 余晟 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/ZHENGZEZHIYIN2)
+1. [《大话设计模式》 程杰 著](module-books/DAHUASHEJIMOSHI)
+2. [《设计模式：可复用面向对象软件的基础》（*GoF*）](module-books/GoF)
+3. [《重构：改善既有代码的设计》（*Refactoring : Improving the Design of Existing Code*）](module-books/Refactoring)
+4. [《代码整洁之道》（*Clean Code : A Handbook of Agile Software Craftsmanship*）](module-books/CleanCode)
+5. [《编码：隐匿在计算机软硬件后的语言》（*Code : The Hidden Language of Computer Hardware and Software*）](module-books/Code)
+6. [《人件（原书第3版）》（*Peopleware: Productive Projects and Teams (Third Edition)*）](module-books/Peopleware3)
+7. [《剑指 Offer：名企面试官精讲典型编程题（第2版）》 何海涛 著](module-books/JIANZHIOffer/README.md)
+8. [《编程之美——微软技术面试心得》 《编程之美》小组 著](module-books/BIANCHENGZHIMEI)
+9. [《高性能 MySQL（第三版）》（*High Performance MySQL*）](module-books/High-Performance-MySQL)
+10. [《技术之瞳——阿里巴巴技术笔试心得》 阿里巴巴集团校园招聘笔试项目组 著](module-books/JISHUZHITONG)
+11. [《正则指引（第2版）》 余晟 著](module-books/ZHENGZEZHIYIN2)
 
 ### 1.3 Java 基础 （“Java四大名著”及其他）
 
-1. [《Java 核心技术 卷I》（原书第十版）（*Core Java Volume I——Fundamentals (10th Edition)*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/CJV-I10)
-2. [《Java 核心技术 卷II》（原书第十版）（*Core Java Volume II——Advance Features (10th Edition)*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/CJV-II10)
-3. [*Effecitive Java (Third Edition)*](https://github.com/gdut-yy/GitBlogs/tree/master/books/EJ3)
-4. [《Java 编程思想（第4版）》（*Thinking in Java (Fourth Edition)*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/TIJ4)
-5. [《Java 并发编程实战》（*Java Concurrency in Practice*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/JCP)
-6. [《深入理解 Java 虚拟机（第2版）》 周志明 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/JVM)
-7. [《Java 8 函数式编程》（*Java 8 Lambdas : Functional Programming For The Masses*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/Java8Lambdas)
-8. [《Java 9 模块化开发：核心原则与实践》（*Java 9 Modularity : Patterns and Practices for Developing Maintainable Applications*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/Java9Modularity)
-9. [《Java 多线程编程核心技术》 高洪岩 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/JavaDUOXIANCHENG)
-10. [《Java 性能权威指南》（*Java Performance : The Definitive Guide*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/Java-Performance)
+1. [《Java 核心技术 卷I》（原书第十版）（*Core Java Volume I——Fundamentals (10th Edition)*）](module-books/CJV-I10)
+2. [《Java 核心技术 卷II》（原书第十版）（*Core Java Volume II——Advance Features (10th Edition)*）](module-books/CJV-II10)
+3. [*Effecitive Java (Third Edition)*](module-books/EJ3)
+4. [《Java 编程思想（第4版）》（*Thinking in Java (Fourth Edition)*）](module-books/TIJ4)
+5. [《Java 并发编程实战》（*Java Concurrency in Practice*）](module-books/JCP)
+6. [《深入理解 Java 虚拟机（第2版）》 周志明 著](module-books/JVM)
+7. [《Java 8 函数式编程》（*Java 8 Lambdas : Functional Programming For The Masses*）](module-books/Java8Lambdas)
+8. [《Java 9 模块化开发：核心原则与实践》（*Java 9 Modularity : Patterns and Practices for Developing Maintainable Applications*）](module-books/Java9Modularity)
+9. [《Java 多线程编程核心技术》 高洪岩 著](module-books/JavaDUOXIANCHENG)
+10. [《Java 性能权威指南》（*Java Performance : The Definitive Guide*）](module-books/Java-Performance)
 
 ### 1.4 框架 & 架构
 
-1. [《Spring 实战（第4版）》（*Spring In Action, Fourth Edition*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/Spring)
-2. [《Spring Boot 实战》（*Spring Boot In Action*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/SpringBoot)
-3. [《Spring 微服务实战》（*Spring Microservices In Action*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/SpringMicro)
+1. [《Spring 实战（第4版）》（*Spring In Action, Fourth Edition*）](module-books/Spring)
+2. [《Spring Boot 实战》（*Spring Boot In Action*）](module-books/SpringBoot)
+3. [《Spring 微服务实战》（*Spring Microservices In Action*）](module-books/SpringMicro)
 4. 《Netty 实战》（*Netty In Action*）
-5. [《RxJava2.x 实战》 沈哲 编著](https://github.com/gdut-yy/GitBlogs/tree/master/books/RxJava2)
+5. [《RxJava2.x 实战》 沈哲 编著](module-books/RxJava2)
 6. 《云原生 Java》（*Cloud Native Java*）
-7. [《分布式消息中间件实践》 倪炜 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/MQ-Middleware)
-8. [《大型网站 技术架构演进与性能优化》 许令波（君山） 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/DAXINGWANGZHANJISHUJIAGOU)
+7. [《分布式消息中间件实践》 倪炜 著](module-books/MQ-Middleware)
+8. [《大型网站 技术架构演进与性能优化》 许令波（君山） 著](module-books/DAXINGWANGZHANJISHUJIAGOU)
 9. 《Struts2 实战》（*Struts2 in action*）
 10. *OAuth2 In Action*
 11. 《REST 实战》（*REST in Practice*）
@@ -80,43 +80,44 @@
 
 ### 1.5 Linux
 
-1. [《鸟哥的Linux私房菜——基础学习篇（第三版）》 鸟哥 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/NIAOGE-I)
-2. [《鸟哥的Linux私房菜——服务器架设篇（第三版）》 鸟哥 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/NIAOGE-II)
+1. [《鸟哥的Linux私房菜——基础学习篇（第三版）》 鸟哥 著](module-books/NIAOGE-I)
+2. [《鸟哥的Linux私房菜——服务器架设篇（第三版）》 鸟哥 著](module-books/NIAOGE-II)
 
 ### 1.6 Android
 
-1. [《第一行代码——Android（第2版）》 郭霖 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/DIYIHANGDAIMA2)
-2. [《Andorid 编程权威指南（第三版）》（*Android Programming The Big Nerd Ranch Guide, Third Edition*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/AndroidProgramming3)
+1. [《第一行代码——Android（第2版）》 郭霖 著](module-books/DIYIHANGDAIMA2)
+2. [《Andorid 编程权威指南（第三版）》（*Android Programming The Big Nerd Ranch Guide, Third Edition*）](module-books/AndroidProgramming3)
 3. [《Android 开发艺术探索》 任玉刚 著]()
 4. 《Android 群英传》 徐宜生 著
 5. 《Android 群英传：神兵利器》 徐宜生 著
 6. 《Android 源码设计模式：解析与实战》 何红辉 关爱民 著
 7. 《App 研发录：架构设计、Crash分析和竞品技术分析》 包建强 著
 8. 《Android 进阶之光》 刘望舒 著
-9. [《Android 进阶解密》 刘望舒 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/Andoroid-JINJIEJIEMI)
-10. [《Android 组件化架构》 苍王 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/Android-ZHUJIANHUA)
-11. [《深入探索 Android 热修复技术原理》 甘晓霖 廖斌斌 杨青 编著](https://github.com/gdut-yy/GitBlogs/tree/master/books/Android-REXIUFU)
-12. [《Kotlin 实战》（*Kotlin In Action*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/Kotlin-in-action)
+9. [《Android 进阶解密》 刘望舒 著](module-books/Andoroid-JINJIEJIEMI)
+10. [《Android 组件化架构》 苍王 著](module-books/Android-ZHUJIANHUA)
+11. [《深入探索 Android 热修复技术原理》 甘晓霖 廖斌斌 杨青 编著](module-books/Android-REXIUFU)
+12. [《Kotlin 实战》（*Kotlin In Action*）](module-books/Kotlin-in-action)
 
 ### 1.7 HTML、CSS、JavaScript
 
-1. [《JavaScritp 高级程序设计（第3版）》（*Professional JavaScript for Web Developers 3rd Edition*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/PJWD3)
-2. [《JavaScritp DOM 编程艺术（第2版）》（*DOM Scripting Web Design with JavaScript and the Document Object Model Second Edition*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/DOMScripting2)
-3. [《深入浅出 Node.js》 朴灵 著](https://github.com/gdut-yy/GitBlogs/tree/master/books/Nodejs)
-4. [《CSS 权威指南（第4版）》（*CSS: The Definitive Guide, 4th Edition Visual Presentation for the Web*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/CSSTDG4)
+1. [《JavaScritp 高级程序设计（第3版）》（*Professional JavaScript for Web Developers 3rd Edition*）](module-books/PJWD3)
+2. [《JavaScritp DOM 编程艺术（第2版）》（*DOM Scripting Web Design with JavaScript and the Document Object Model Second Edition*）](module-books/DOMScripting2)
+3. [《深入浅出 Node.js》 朴灵 著](module-books/Nodejs)
+4. [《CSS 权威指南（第4版）》（*CSS: The Definitive Guide, 4th Edition Visual Presentation for the Web*）](module-books/CSSTDG4)
 
 ### 1.8 C/C++ （C/C++ 非常重要且复杂，由于时间关系，暂先列出书目，待更）
 
-1. [《C 程序设计语言（第2版·新版）》（*K&R(Second Edition)*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/K&R2)
-2. [《C++ Primer Plus（第6版）》](https://github.com/gdut-yy/GitBlogs/tree/master/books/C++PP)
-3. [《C Primer Plus（第五版）》](https://github.com/gdut-yy/GitBlogs/tree/master/books/CPP)
-4. [《C++ Primer（第5版）》](https://github.com/gdut-yy/GitBlogs/tree/master/books/C++P)
-5. [《C++ 编程思想》（*Thinking in C++*）](https://github.com/gdut-yy/GitBlogs/tree/master/books/TIC++)
+1. [《C 程序设计语言（第2版·新版）》（*K&R(Second Edition)*）](module-books/K&R2)
+2. [《C++ Primer Plus（第6版）》](module-books/C++PP)
+3. [《C Primer Plus（第五版）》](module-books/CPP)
+4. [《C++ Primer（第5版）》](module-books/C++P)
+5. [《C++ 编程思想》（*Thinking in C++*）](module-books/TIC++)
 
 ## 二、相关链接
 
-- [校选教材 (⊙_⊙?)](https://github.com/gdut-yy/GitBlogs/tree/master/edu/README.md)
-- [漫漫 Offer 路 (๑و•̀Δ•́)و](https://github.com/gdut-yy/GitBlogs/tree/master/offer/README.md)
+### 2.1 [校选教材 (⊙_⊙?)](https://github.com/gdut-yy/GitBlogs/tree/master/module-edus/README.md)
+### 2.2 [漫漫 Offer 路 (๑و•̀Δ•́)و](https://github.com/gdut-yy/GitBlogs/tree/master/offer/README.md)
+### 2.3 [我的博客(ノ￣▽￣)](https://github.com/gdut-yy/GitBlogs/tree/master/module-blogs/README.md)
 
 ## 三、后记
 

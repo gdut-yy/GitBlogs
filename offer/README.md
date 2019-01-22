@@ -10,32 +10,32 @@
 
 ## 牛客网【公司真题】选择题
 
-- [Java工程师能力评估](https://github.com/gdut-yy/GitBlogs/blob/master/offer/nowcoder/Java工程师能力评估/Java工程师能力评估.md)
-- [网易2018实习生招聘笔试题-Android开发实习生](https://github.com/gdut-yy/GitBlogs/blob/master/offer/nowcoder/网易2018实习生招聘笔试题-Android开发实习生/网易2018实习生招聘笔试题-Android开发实习生.md)
-- [网易2018实习生招聘笔试题-JAVA开发实习生](https://github.com/gdut-yy/GitBlogs/blob/master/offer/nowcoder/网易2018实习生招聘笔试题-JAVA开发实习生/网易2018实习生招聘笔试题-JAVA开发实习生.md)
+- [Java工程师能力评估](nowcoder/Java工程师能力评估/Java工程师能力评估.md)
+- [网易2018实习生招聘笔试题-Android开发实习生](nowcoder/网易2018实习生招聘笔试题-Android开发实习生/网易2018实习生招聘笔试题-Android开发实习生.md)
+- [网易2018实习生招聘笔试题-JAVA开发实习生](nowcoder/网易2018实习生招聘笔试题-JAVA开发实习生/网易2018实习生招聘笔试题-JAVA开发实习生.md)
 
 ----
 
-- [滴滴出行2018校园招聘网申笔试-系统开发工程师（第一批）](https://github.com/gdut-yy/GitBlogs/blob/master/offer/nowcoder/滴滴出行2018校园招聘网申笔试-系统开发工程师（第一批）/滴滴出行2018校园招聘网申笔试-系统开发工程师（第一批）.md)
-- [Android工程师能力评估](https://github.com/gdut-yy/GitBlogs/blob/master/offer/nowcoder/Android工程师能力评估/Android工程师能力评估.md)
-- [网易有道2017内推选择题](https://github.com/gdut-yy/GitBlogs/blob/master/offer/nowcoder/网易有道2017内推选择题/网易有道2017内推选择题.md)
-- [腾讯2016研发工程师笔试题（三）](https://github.com/gdut-yy/GitBlogs/blob/master/offer/nowcoder/腾讯2016研发工程师笔试题（三）/腾讯2016研发工程师笔试题（三）.md)
-- [摩拜2018校招客户端开发笔试卷](https://github.com/gdut-yy/GitBlogs/blob/master/offer/nowcoder/摩拜2018校招客户端开发笔试卷/摩拜2018校招客户端开发笔试卷.md)
-- [招商银行信用卡中心2018春招IT笔试（开发方向第一批）](https://github.com/gdut-yy/GitBlogs/blob/master/offer/nowcoder/招商银行信用卡中心2018春招IT笔试（开发方向第一批）/招商银行信用卡中心2018春招IT笔试（开发方向第一批）.md)
-- [前端工程师能力评估](https://github.com/gdut-yy/GitBlogs/blob/master/offer/nowcoder/前端工程师能力评估/前端工程师能力评估.md)
-- [百度2016研发工程师笔试题（六）](https://github.com/gdut-yy/GitBlogs/blob/master/offer/nowcoder/百度2016研发工程师笔试题（六）/百度2016研发工程师笔试题（六）.md)
-- [美团点评2017秋招笔试真题-后台开发&系统工程师A](https://github.com/gdut-yy/GitBlogs/blob/master/offer/nowcoder/美团点评2017秋招笔试真题-后台开发&系统工程师A/美团点评2017秋招笔试真题-后台开发&系统工程师A.md)
-- [美团点评2017秋招笔试真题-后台开发&系统工程师B](https://github.com/gdut-yy/GitBlogs/blob/master/offer/nowcoder/美团点评2017秋招笔试真题-后台开发&系统工程师B/美团点评2017秋招笔试真题-后台开发&系统工程师B.md)
+- [滴滴出行2018校园招聘网申笔试-系统开发工程师（第一批）](nowcoder/滴滴出行2018校园招聘网申笔试-系统开发工程师（第一批）/滴滴出行2018校园招聘网申笔试-系统开发工程师（第一批）.md)
+- [Android工程师能力评估](nowcoder/Android工程师能力评估/Android工程师能力评估.md)
+- [网易有道2017内推选择题](nowcoder/网易有道2017内推选择题/网易有道2017内推选择题.md)
+- [腾讯2016研发工程师笔试题（三）](nowcoder/腾讯2016研发工程师笔试题（三）/腾讯2016研发工程师笔试题（三）.md)
+- [摩拜2018校招客户端开发笔试卷](nowcoder/摩拜2018校招客户端开发笔试卷/摩拜2018校招客户端开发笔试卷.md)
+- [招商银行信用卡中心2018春招IT笔试（开发方向第一批）](nowcoder/招商银行信用卡中心2018春招IT笔试（开发方向第一批）/招商银行信用卡中心2018春招IT笔试（开发方向第一批）.md)
+- [前端工程师能力评估](nowcoder/前端工程师能力评估/前端工程师能力评估.md)
+- [百度2016研发工程师笔试题（六）](nowcoder/百度2016研发工程师笔试题（六）/百度2016研发工程师笔试题（六）.md)
+- [美团点评2017秋招笔试真题-后台开发&系统工程师A](nowcoder/美团点评2017秋招笔试真题-后台开发&系统工程师A/美团点评2017秋招笔试真题-后台开发&系统工程师A.md)
+- [美团点评2017秋招笔试真题-后台开发&系统工程师B](nowcoder/美团点评2017秋招笔试真题-后台开发&系统工程师B/美团点评2017秋招笔试真题-后台开发&系统工程师B.md)
 
 
 ### 阿里巴巴
-- [阿里巴巴2016研发工程师笔试题（一）](https://github.com/gdut-yy/GitBlogs/blob/master/offer/nowcoder/阿里巴巴2016研发工程师笔试题（一）/阿里巴巴2016研发工程师笔试题（一）.md)
-- [阿里巴巴2016研发工程师笔试题（二）](https://github.com/gdut-yy/GitBlogs/blob/master/offer/nowcoder/阿里巴巴2016研发工程师笔试题（二）/阿里巴巴2016研发工程师笔试题（二）.md)
-- [阿里巴巴2016研发工程师笔试题（三）](https://github.com/gdut-yy/GitBlogs/blob/master/offer/nowcoder/阿里巴巴2016研发工程师笔试题（三）/阿里巴巴2016研发工程师笔试题（三）.md)
-- [阿里巴巴2016研发工程师笔试题（四）](https://github.com/gdut-yy/GitBlogs/blob/master/offer/nowcoder/阿里巴巴2016研发工程师笔试题（四）/阿里巴巴2016研发工程师笔试题（四）.md)
-- [阿里巴巴2017实习生笔试题（一）](https://github.com/gdut-yy/GitBlogs/blob/master/offer/nowcoder/阿里巴巴2017实习生笔试题（一）/阿里巴巴2017实习生笔试题（一）.md)
-- [阿里巴巴2017实习生笔试题（二）](https://github.com/gdut-yy/GitBlogs/blob/master/offer/nowcoder/阿里巴巴2017实习生笔试题（二）/阿里巴巴2017实习生笔试题（二）.md)
-- [阿里巴巴2017秋招研发工程师笔试题](https://github.com/gdut-yy/GitBlogs/blob/master/offer/nowcoder/阿里巴巴2017秋招研发工程师笔试题/阿里巴巴2017秋招研发工程师笔试题.md)
+- [阿里巴巴2016研发工程师笔试题（一）](nowcoder/阿里巴巴2016研发工程师笔试题（一）/阿里巴巴2016研发工程师笔试题（一）.md)
+- [阿里巴巴2016研发工程师笔试题（二）](nowcoder/阿里巴巴2016研发工程师笔试题（二）/阿里巴巴2016研发工程师笔试题（二）.md)
+- [阿里巴巴2016研发工程师笔试题（三）](nowcoder/阿里巴巴2016研发工程师笔试题（三）/阿里巴巴2016研发工程师笔试题（三）.md)
+- [阿里巴巴2016研发工程师笔试题（四）](nowcoder/阿里巴巴2016研发工程师笔试题（四）/阿里巴巴2016研发工程师笔试题（四）.md)
+- [阿里巴巴2017实习生笔试题（一）](nowcoder/阿里巴巴2017实习生笔试题（一）/阿里巴巴2017实习生笔试题（一）.md)
+- [阿里巴巴2017实习生笔试题（二）](nowcoder/阿里巴巴2017实习生笔试题（二）/阿里巴巴2017实习生笔试题（二）.md)
+- [阿里巴巴2017秋招研发工程师笔试题](nowcoder/阿里巴巴2017秋招研发工程师笔试题/阿里巴巴2017秋招研发工程师笔试题.md)
 
 
 ## 2018年秋招笔试题
