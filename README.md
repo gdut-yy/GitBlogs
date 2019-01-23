@@ -48,6 +48,7 @@
 9. [《高性能 MySQL（第三版）》（*High Performance MySQL*）](module-books/High-Performance-MySQL)
 10. [《技术之瞳——阿里巴巴技术笔试心得》 阿里巴巴集团校园招聘笔试项目组 著](module-books/JISHUZHITONG)
 11. [《正则指引（第2版）》 余晟 著](module-books/ZHENGZEZHIYIN2)
+12. [《码出高效 Java 开发手册》 杨冠宝（孤尽） 高海慧（鸣莎） 著](module-books/MACHUGAOXIAO)
 
 ### 1.3 Java 基础 （“Java四大名著”及其他）
 
