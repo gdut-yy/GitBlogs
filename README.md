@@ -41,14 +41,10 @@
 2. [《设计模式：可复用面向对象软件的基础》（*GoF*）](module-books/GoF)
 3. [《重构：改善既有代码的设计》（*Refactoring : Improving the Design of Existing Code*）](module-books/Refactoring)
 4. [《代码整洁之道》（*Clean Code : A Handbook of Agile Software Craftsmanship*）](module-books/CleanCode)
-5. [《编码：隐匿在计算机软硬件后的语言》（*Code : The Hidden Language of Computer Hardware and Software*）](module-books/Code)
-6. [《人件（原书第3版）》（*Peopleware: Productive Projects and Teams (Third Edition)*）](module-books/Peopleware3)
-7. [《剑指 Offer：名企面试官精讲典型编程题（第2版）》 何海涛 著](module-books/JIANZHIOffer/README.md)
-8. [《编程之美——微软技术面试心得》 《编程之美》小组 著](module-books/BIANCHENGZHIMEI)
-9. [《高性能 MySQL（第三版）》（*High Performance MySQL*）](module-books/High-Performance-MySQL)
-10. [《技术之瞳——阿里巴巴技术笔试心得》 阿里巴巴集团校园招聘笔试项目组 著](module-books/JISHUZHITONG)
-11. [《正则指引（第2版）》 余晟 著](module-books/ZHENGZEZHIYIN2)
-12. [《码出高效 Java 开发手册》 杨冠宝（孤尽） 高海慧（鸣莎） 著](module-books/MACHUGAOXIAO)
+5. [《剑指 Offer：名企面试官精讲典型编程题（第2版）》 何海涛 著](module-books/JIANZHIOffer/README.md)
+6. [《编程之美——微软技术面试心得》 《编程之美》小组 著](module-books/BIANCHENGZHIMEI)
+7. [《技术之瞳——阿里巴巴技术笔试心得》 阿里巴巴集团校园招聘笔试项目组 著](module-books/JISHUZHITONG)
+8. [《正则指引（第2版）》 余晟 著](module-books/ZHENGZEZHIYIN2)
 
 ### 1.3 Java 基础 （“Java四大名著”及其他）
 
@@ -62,8 +58,9 @@
 8. [《Java 9 模块化开发：核心原则与实践》（*Java 9 Modularity : Patterns and Practices for Developing Maintainable Applications*）](module-books/Java9Modularity)
 9. [《Java 多线程编程核心技术》 高洪岩 著](module-books/JavaDUOXIANCHENG)
 10. [《Java 性能权威指南》（*Java Performance : The Definitive Guide*）](module-books/Java-Performance)
+11. [《码出高效 Java 开发手册》 杨冠宝（孤尽） 高海慧（鸣莎） 著](module-books/MACHUGAOXIAO)
 
-### 1.4 框架 & 架构
+### 1.4 后端相关（框架、架构）
 
 1. [《Spring 实战（第4版）》（*Spring In Action, Fourth Edition*）](module-books/Spring)
 2. [《Spring Boot 实战》（*Spring Boot In Action*）](module-books/SpringBoot)
@@ -78,13 +75,16 @@
 11. 《REST 实战》（*REST in Practice*）
 12. 《Docker 实践》（*Docker IN PRACTICE*）
 13. 《Kubernetes 权威指南：从 Docker 到 Kubernetes 实践全接触》（*Kubernetes : The Definitive Guide*）
+14. [《高性能 MySQL（第三版）》（*High Performance MySQL*）](module-books/High-Performance-MySQL)
+15. [《Spring 源码深度解析（第 2 版）》 郝佳 编著](module-books/SpringYUANMASHENDUJIEXI)
+16. [《Redis 4.x Cookbook 中文版》 黄鹏程 王左非 著](module-books/Redis-Cookbook)
 
 ### 1.5 Linux
 
 1. [《鸟哥的Linux私房菜——基础学习篇（第三版）》 鸟哥 著](module-books/NIAOGE-I)
 2. [《鸟哥的Linux私房菜——服务器架设篇（第三版）》 鸟哥 著](module-books/NIAOGE-II)
 
-### 1.6 Android
+### 1.6 Android 相关
 
 1. [《第一行代码——Android（第2版）》 郭霖 著](module-books/DIYIHANGDAIMA2)
 2. [《Andorid 编程权威指南（第三版）》（*Android Programming The Big Nerd Ranch Guide, Third Edition*）](module-books/AndroidProgramming3)
@@ -99,20 +99,25 @@
 11. [《深入探索 Android 热修复技术原理》 甘晓霖 廖斌斌 杨青 编著](module-books/Android-REXIUFU)
 12. [《Kotlin 实战》（*Kotlin In Action*）](module-books/Kotlin-in-action)
 
-### 1.7 HTML、CSS、JavaScript
+### 1.7 前端相关（HTML、CSS、JavaScript）
 
 1. [《JavaScritp 高级程序设计（第3版）》（*Professional JavaScript for Web Developers 3rd Edition*）](module-books/PJWD3)
 2. [《JavaScritp DOM 编程艺术（第2版）》（*DOM Scripting Web Design with JavaScript and the Document Object Model Second Edition*）](module-books/DOMScripting2)
 3. [《深入浅出 Node.js》 朴灵 著](module-books/Nodejs)
 4. [《CSS 权威指南（第4版）》（*CSS: The Definitive Guide, 4th Edition Visual Presentation for the Web*）](module-books/CSSTDG4)
 
-### 1.8 C/C++ （C/C++ 非常重要且复杂，由于时间关系，暂先列出书目，待更）
+### 1.8 C/C++ （C/C++ 非常重要且复杂，由于时间关系，无限期待更）
 
 1. [《C 程序设计语言（第2版·新版）》（*K&R(Second Edition)*）](module-books/K&R2)
 2. [《C++ Primer Plus（第6版）》](module-books/C++PP)
 3. [《C Primer Plus（第五版）》](module-books/CPP)
 4. [《C++ Primer（第5版）》](module-books/C++P)
 5. [《C++ 编程思想》（*Thinking in C++*）](module-books/TIC++)
+
+### 1.9 泛技术书籍
+
+1. [《编码：隐匿在计算机软硬件后的语言》（*Code : The Hidden Language of Computer Hardware and Software*）](module-books/Code)
+2. [《人件（原书第3版）》（*Peopleware: Productive Projects and Teams (Third Edition)*）](module-books/Peopleware3)
 
 ## 二、相关链接
 
