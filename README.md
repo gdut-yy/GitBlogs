@@ -118,44 +118,44 @@
 
 1. [《编码：隐匿在计算机软硬件后的语言》（*Code : The Hidden Language of Computer Hardware and Software*）](module-techs-extra/Code)
 2. [《人件（原书第3版）》（*Peopleware: Productive Projects and Teams (Third Edition)*）](module-techs-extra/Peopleware3)
-3. 《硅谷之谜》 
-4. 《智能时代：大数据与智能革命重新定义未来》
-5. 《见识》
-6. 《大学之路》
-7. 《PostgreSQL 实战》
+3. [《硅谷之谜》 吴军 著](module-techs-extra/GUIGUZHIMI) 
+4. [《智能时代：大数据与智能革命重新定义未来》 吴军 著](module-techs-extra/ZHINENGSHIDAI)
+5. [《见识》 吴军 著](module-techs-extra/JIANSHI)
+6. [《大学之路》 吴军 著](module-techs-extra/DASHUJUZHILU)
+7. [《PostgreSQL 实战》 谭峰 张文升 编著](module-techs-extra/PostgreSHIZHAN)@
 8. ~~《深入理解计算机系统》~~
-9. 《Head First 设计模式》
-10. 《基业长青》
-11. 《企业 IT 架构转型之道阿里巴巴中台战略思想与架构实战》
-12. 《物演通论》
-13. 《失控：全人类的最终命运和结局》
-14. 《进入空气稀薄地带》
-15. 《美国简史》
-16. 《鞋狗》
-17. 《从 0 到 1》
+9. [《Head First 设计模式》](module-techs-extra/HeadFirst-SHEJIMOSHI)@
+10. [《基业长青》 吉姆·柯林斯 等著](module-techs-extra/JIYECHANGQING)
+11. [《企业 IT 架构转型之道阿里巴巴中台战略思想与架构实战》 钟华 著](module-techs-extra/QIYEITJIAGOUZHUANXINGZHIDAO)@
+12. [《物演通论》 王东岳 著](module-techs-extra/WUYANTONGLUN)
+13. [《失控：全人类的最终命运和结局》 凯文·凯利 著](module-techs-extra/SHIKONG)
+14. [《进入空气稀薄地带》 乔恩·克拉考尔（Jon Krakauer）著](module-techs-extra/JINRUKONGQIXIBODIDAI)
+15. [《美国简史》 亨德里克·威廉·房龙 著](module-techs-extra/MEIGUOJIANSHI)
+16. [《鞋狗》 菲尔·奈特 著](module-techs-extra/XIEGOU)
+17. [《从 0 到 1》 彼得·蒂尔，布莱克·马斯特斯（Blake Masters）著](module-techs-extra/CONG0DAO1)
 18. ~~《设计模式》~~
-19. 《深度思考：不断逼近问题的本质》
-20. 《麦肯锡卓越工作方法》
+19. [《深度思考：不断逼近问题的本质》 莫琳.希凯 著](module-techs-extra/SHENDUSIKAO)
+20. [《麦肯锡卓越工作方法》](module-techs-extra/MAIKENXIWENTIFENXIYUJIEJUEJIQIAO)
 21. ~~《C++ Primer Plus》~~
-22. 《人月神话》
-23. 《程序员健康指南》
-24. 《数据库系统实现》
-25. 《赋能》
-26. 《未来简史》
-27. 《设计模式之禅》
+22. [《人月神话》 小弗雷德里克·布鲁克斯（Frederick，P.Brooks，Jr.）著](module-techs-extra/RENYUESHENHUA)
+23. [《程序员健康指南》 JoeKutner 著](module-techs-extra/CHENGXUYUANJIANKANGZHINAN)
+24. [《数据库系统实现》](module-techs-extra/SHUJUKUXITONGSHIXIAN)@
+25. [《赋能：打造应对不确定性的敏捷团队》 斯坦利·麦克里斯特尔 著](module-techs-extra/FUNENG)
+26. [《未来简史》 尤瓦尔·赫拉利 著](module-techs-extra/WEILAIJIANSHI)
+27. [《设计模式之禅》 秦小波 著](module-techs-extra/SHEJIMOSHIZHICHAN)@
 28. ~~《Effective Java》~~
-29. 《黑客与画家》
-30. 《大数据之路》
-31. 《运筹学》
-32. 《模式识别》
-33. 《曾国藩》
-34. 《机器学习》
-35. 《The Righteous Mind》
-36. 《How Google works》
+29. [《黑客与画家》 Paul Graham 著](module-techs-extra/HEIKEYUHUAJIA)
+30. [《大数据之路》 阿里巴巴数据技术及产品部 著](module-techs-extra/DASHUJUZHILU)@
+31. [《运筹学》 罗纳德 L.拉丁 著](module-techs-extra/YUNCHOUXUE)
+32. [《模式识别》 张学工 著](module-techs-extra/MOSHISHIBIE)@
+33. [《曾国藩》 唐浩明 著](module-techs-extra/ZENGGUOFAN)
+34. [《机器学习》](module-techs-extra/JIQIXUEXI)@
+35. [《正义之心：为什么人们总是坚持“我对你错”》（*The Righteous Mind*）](module-techs-extra/TheRighteousMind)
+36. [《重新定义公司：谷歌是如何运营的》（*How Google works*）](module-techs-extra/HowGoogleworks)
 37. ~~《三体》~~
-38. 《人类简史》
-39. 《深度学习》
-40. 《刷新》
+38. [《人类简史》 尤瓦尔·赫拉利 著](module-techs-extra/RENLEIJIANSHI)
+39. [《深度学习》（*deep learning*）](module-techs-extra/DeepLearning)@
+40. [《刷新：重新发现商业与未来》（*Hit Refresh*）](module-techs-extra/SHUAXIN)
 
 ## 二、相关链接
 
