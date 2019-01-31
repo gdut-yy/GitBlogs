@@ -45,6 +45,7 @@
 6. [《编程之美——微软技术面试心得》 《编程之美》小组 著](module-techs/BIANCHENGZHIMEI)
 7. [《技术之瞳——阿里巴巴技术笔试心得》 阿里巴巴集团校园招聘笔试项目组 著](module-techs/JISHUZHITONG)
 8. [《正则指引（第2版）》 余晟 著](module-techs/ZHENGZEZHIYIN2)
+9. [《架构整洁之道》（*Clean Architecture*）](module-techs/CleanArchitecture)
 
 ### 1.3 Java 基础 （“Java四大名著”及其他）
 
@@ -78,6 +79,7 @@
 14. [《高性能 MySQL（第三版）》（*High Performance MySQL*）](module-techs/High-Performance-MySQL)
 15. [《Spring 源码深度解析（第 2 版）》 郝佳 编著](module-techs/SpringYUANMASHENDUJIEXI)
 16. [《Redis 4.x Cookbook 中文版》 黄鹏程 王左非 著](module-techs/Redis-Cookbook)
+17. [《分布式服务框架原理与实践》 李林锋 著](module-techs/FENBUSHIFUWUKUANGJIA)
 
 ### 1.5 Linux
 
