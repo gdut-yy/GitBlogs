@@ -13,34 +13,34 @@
 
 ### 1 必修（专业相关）
 
-1. [《C程序设计（第四版）》 谭浩强 著](module-edus/C-CHENGXUSHEJI)
-2. [★《数据结构》（校内修订教材第二版）](module-edus/SHUJUJIEGOU)
-3. [☆《算法设计与分析基础（第3版）》](module-edus/SUANFASHEJIYUFENXIJICHU)
-4. [★《计算机网络（第7版）》 谢希仁 编著](module-edus/JISUANJIWANGLUO)
-5. [★《计算机组成原理 （第3版）》 蒋本珊 编著](module-edus/JISUANJIZUCHENGYUANLI)
-6. [☆《数据库系统概论（第5版）》 王珊 萨师煊 编著](module-edus/SHUJUKUXITONGGAILUN)
-7. [《人工智能》马少平 朱小燕 编著](module-edus/RENGONGZHINENG)
-8. [☆《软件工程导论（第6版）》 张海潘 牟永敏 编著](module-edus/RUANJIANGONGCHENGDAOLUN)
-9. [★《计算机操作系统（第4版）》 汤小丹 梁红兵 哲凤屏 汤子瀛 编著](module-edus/JISUANJICAOZUOXITONG)
-10. [☆《编译原理（第3版）》 王生原 董渊 吕映芝 蒋维杜 编著](module-edus/BIANYIYUANLI)
+1. [《C程序设计（第四版）》 谭浩强 著](C-CHENGXUSHEJI)
+2. [★《数据结构》（校内修订教材第二版）](SHUJUJIEGOU)
+3. [☆《算法设计与分析基础（第3版）》](SUANFASHEJIYUFENXIJICHU)
+4. [★《计算机网络（第7版）》 谢希仁 编著](JISUANJIWANGLUO)
+5. [★《计算机组成原理 （第3版）》 蒋本珊 编著](JISUANJIZUCHENGYUANLI)
+6. [☆《数据库系统概论（第5版）》 王珊 萨师煊 编著](SHUJUKUXITONGGAILUN)
+7. [《人工智能》马少平 朱小燕 编著](RENGONGZHINENG)
+8. [☆《软件工程导论（第6版）》 张海潘 牟永敏 编著](RUANJIANGONGCHENGDAOLUN)
+9. [★《计算机操作系统（第4版）》 汤小丹 梁红兵 哲凤屏 汤子瀛 编著](JISUANJICAOZUOXITONG)
+10. [☆《编译原理（第3版）》 王生原 董渊 吕映芝 蒋维杜 编著](BIANYIYUANLI)
 
 ### 2 选修（n 选 m）
 
-1. [《Java 技术基础及其应用》](module-edus/Java) | [《C# 程序设计教程》](module-edus/C#)
-2. [《信息安全概论》](module-edus/XINXIANQUANGAILUN)
-3. [《人机交互基础教程（第3版）》](module-edus/RENJIJIAOHU)
+1. [《Java 技术基础及其应用》](Java) | [《C# 程序设计教程》](C#)
+2. [《信息安全概论》](XINXIANQUANGAILUN)
+3. [《人机交互基础教程（第3版）》](RENJIJIAOHU)
 
 ### 3 Android-相关
-- [《Android 程序设计教程》](module-edus/Android-CHENGXUSHEJIJIAOCHENG)
-- [《Android 移动应用基础教程》](module-edus/Android-YIDONGYINGYONGJICHUJIAOCHENG)
-- [《Android 应用程序开发（第3版）》](module-edus/Android-YINGYONGCHENGXUKAIFA)
+- [《Android 程序设计教程》](Android-CHENGXUSHEJIJIAOCHENG)
+- [《Android 移动应用基础教程》](Android-YIDONGYINGYONGJICHUJIAOCHENG)
+- [《Android 应用程序开发（第3版）》](Android-YINGYONGCHENGXUKAIFA)
 
 ### 4 大数据-相关
-- [《大数据技术原理与应用（第2版）》林子雨 编著](module-edus/BigData-DASHUJU)
-- [《数据挖掘原理与实践》](module-edus/BigData-SHUJUWAJUE)
-- [《云计算（第三版）》](module-edus/BigData-YUNJISUAN)
-- [《大数据：互联网大规模数据挖掘与分布式处理（第2版）》](module-edus/BigData-SHISHIDASHUJU)
-- [《数据可视化的基本原理与方法》](module-edus/BigData-SHUJUKESHIHUA)
+- [《大数据技术原理与应用（第2版）》林子雨 编著](BigData-DASHUJU)
+- [《数据挖掘原理与实践》](BigData-SHUJUWAJUE)
+- [《云计算（第三版）》](BigData-YUNJISUAN)
+- [《大数据：互联网大规模数据挖掘与分布式处理（第2版）》](BigData-SHISHIDASHUJU)
+- [《数据可视化的基本原理与方法》](BigData-SHUJUKESHIHUA)
 
 ## 二、备注
 注：大学英语、高等数学、线性代数、概率论、离散数学、大学物理、电工学、EDA 等课程未包含于本项目中。
