@@ -23,6 +23,7 @@
 8. [☆《软件工程导论（第6版）》 张海潘 牟永敏 编著](RUANJIANGONGCHENGDAOLUN)
 9. [★《计算机操作系统（第4版）》 汤小丹 梁红兵 哲凤屏 汤子瀛 编著](JISUANJICAOZUOXITONG)
 10. [☆《编译原理（第3版）》 王生原 董渊 吕映芝 蒋维杜 编著](BIANYIYUANLI)
+11. [☆《高级数据结构（C++ 版）》 林厚从 著](GAOJISHUJUJIEGOU)
 
 ### 2 选修（n 选 m）
 
