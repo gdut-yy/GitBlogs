@@ -61,6 +61,7 @@
 9. [《Java 多线程编程核心技术》 高洪岩 著](module-techs/JavaDUOXIANCHENG)
 10. [《Java 性能权威指南》（*Java Performance : The Definitive Guide*）](module-techs/Java-Performance)
 11. [《码出高效 Java 开发手册》 杨冠宝（孤尽） 高海慧（鸣莎） 著](module-techs/MACHUGAOXIAO)
+12. 《JRockit 权威指南：深入理解 JVM》（*Oracle JRockit : The Definitive Guide*）
 
 ### 1.4 后端相关（框架、架构）
 
@@ -81,6 +82,7 @@
 15. [《Spring 源码深度解析（第 2 版）》 郝佳 编著](module-techs/SpringYUANMASHENDUJIEXI)
 16. [《Redis 4.x Cookbook 中文版》 黄鹏程 王左非 著](module-techs/Redis-Cookbook)
 17. [《分布式服务框架原理与实践》 李林锋 著](module-techs/FENBUSHIFUWUKUANGJIA)
+18. 《Elasticsearch 实战》（*Elasticsearch In Action*）
 
 ### 1.5 Linux
 
@@ -101,6 +103,7 @@
 10. [《Android 组件化架构》 苍王 著](module-techs/Android-ZHUJIANHUA)
 11. [《深入探索 Android 热修复技术原理》 甘晓霖 廖斌斌 杨青 编著](module-techs/Android-REXIUFU)
 12. [《Kotlin 实战》（*Kotlin In Action*）](module-techs/Kotlin-in-action)
+13. 《Android 音视频开发》 何俊林 著
 
 ### 1.7 前端相关（HTML、CSS、JavaScript）
 
@@ -152,6 +155,8 @@
 31. [《重新定义公司：谷歌是如何运营的》（*How Google Works*）](module-techs-extra/HowGoogleworks)
 32. ~~[《深度学习》（*Deep Learning*）](module-techs-extra/DeepLearning)~~
 33. [《刷新：重新发现商业与未来》（*Hit Refresh*）](module-techs-extra/SHUAXIN)
+34. 《编程珠玑（第2版）》（*Programming Perals, Second Edition*）
+35. 《编程珠玑·续》（*More Programming Perals*）
 
 ## 二、相关链接
 
