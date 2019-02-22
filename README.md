@@ -42,11 +42,11 @@
 3. [《重构：改善既有代码的设计》（*Refactoring : Improving the Design of Existing Code*）](module-techs/Refactoring)
 4. [《代码整洁之道》（*Clean Code : A Handbook of Agile Software Craftsmanship*）](module-techs/CleanCode)
 5. [《剑指 Offer：名企面试官精讲典型编程题（第2版）》 何海涛 著](module-techs/JIANZHIOffer/README.md)
-6. [《编程之美——微软技术面试心得》 《编程之美》小组 著](module-techs/BIANCHENGZHIMEI)
+6. [《编程之美——微软技术面试心得》 《编程之美》小组 著](module-techs/BIANCHENGZHIMEI/README.md)
 7. [《技术之瞳——阿里巴巴技术笔试心得》 阿里巴巴集团校园招聘笔试项目组 著](module-techs/JISHUZHITONG)
 8. [《正则指引（第2版）》 余晟 著](module-techs/ZHENGZEZHIYIN2)
 9. [《架构整洁之道》（*Clean Architecture*）](module-techs/CleanArchitecture)
-10. [《设计模式之禅》 秦小波 著](module-techs/SHEJIMOSHIZHICHAN)
+10. [《设计模式之禅（第2版）》 秦小波 著](module-techs/SHEJIMOSHIZHICHAN)
 
 ### 1.3 Java 基础 （“Java四大名著”及其他）
 
@@ -76,13 +76,13 @@
 9. 《Struts2 实战》（*Struts2 in action*）
 10. *OAuth2 In Action*
 11. 《REST 实战》（*REST in Practice*）
-12. 《Docker 实践》（*Docker IN PRACTICE*）
+12. [《Docker 实践》（*Docker IN PRACTICE*）](module-techs/Docker-IN-PRACTICE)
 13. 《Kubernetes 权威指南：从 Docker 到 Kubernetes 实践全接触》（*Kubernetes : The Definitive Guide*）
 14. [《高性能 MySQL（第三版）》（*High Performance MySQL*）](module-techs/High-Performance-MySQL)
 15. [《Spring 源码深度解析（第 2 版）》 郝佳 编著](module-techs/SpringYUANMASHENDUJIEXI)
 16. [《Redis 4.x Cookbook 中文版》 黄鹏程 王左非 著](module-techs/Redis-Cookbook)
 17. [《分布式服务框架原理与实践》 李林锋 著](module-techs/FENBUSHIFUWUKUANGJIA)
-18. 《Elasticsearch 实战》（*Elasticsearch In Action*）
+18. [《Elasticsearch 实战》（*Elasticsearch In Action*）](module-techs/Elasticsearch-In-Action)
 
 ### 1.5 Linux
 
@@ -91,19 +91,19 @@
 
 ### 1.6 Android 相关
 
-1. [《第一行代码——Android（第2版）》 郭霖 著](module-techs/DIYIHANGDAIMA2)
-2. [《Andorid 编程权威指南（第三版）》（*Android Programming The Big Nerd Ranch Guide, Third Edition*）](module-techs/AndroidProgramming3)
-3. [《Android 开发艺术探索》 任玉刚 著]()
+1. [《第一行代码——Android（第2版）》 郭霖 著](module-techs/Android-DIYIHANGDAIMA2)
+2. [《Andorid 编程权威指南（第三版）》（*Android Programming The Big Nerd Ranch Guide, Third Edition*）](module-techs/Android-Programming3)
+3. [《Android 开发艺术探索》 任玉刚 著](module-techs/Android-KAIFAYISHUTANSUO)
 4. 《Android 群英传》 徐宜生 著
 5. 《Android 群英传：神兵利器》 徐宜生 著
 6. 《Android 源码设计模式：解析与实战》 何红辉 关爱民 著
 7. 《App 研发录：架构设计、Crash分析和竞品技术分析》 包建强 著
 8. 《Android 进阶之光》 刘望舒 著
-9. [《Android 进阶解密》 刘望舒 著](module-techs/Andoroid-JINJIEJIEMI)
+9. [《Android 进阶解密》 刘望舒 著](module-techs/Android-JINJIEJIEMI)
 10. [《Android 组件化架构》 苍王 著](module-techs/Android-ZHUJIANHUA)
 11. [《深入探索 Android 热修复技术原理》 甘晓霖 廖斌斌 杨青 编著](module-techs/Android-REXIUFU)
 12. [《Kotlin 实战》（*Kotlin In Action*）](module-techs/Kotlin-in-action)
-13. 《Android 音视频开发》 何俊林 著
+13. [《Android 音视频开发》 何俊林 著](module-techs/Android-YINSHIPINKAIFA)
 
 ### 1.7 前端相关（HTML、CSS、JavaScript）
 
