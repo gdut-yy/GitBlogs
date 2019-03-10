@@ -143,6 +143,10 @@
 13. [《Android 音视频开发》 何俊林 著](module-techs/Android-YINSHIPINKAIFA)
 14. [《Flutter 技术入门与实战》 亢少军 著](module-techs/Android-Flutter-JISHURUMENYUSHIZHAN)
 
+### Dart 语言
+1. [《Dart 语言程序设计》（*Dart for Hipsters : Fast,Flexible,Structured Code for the Moden Web*）](module-techs/DartForHipsters)
+2. 《Dart 编程语言》（*The Dart Programming Language*）
+
 
 ### 1.13 前端相关（HTML、CSS、JavaScript）
 1. [《JavaScritp 高级程序设计（第3版）》（*Professional JavaScript for Web Developers 3rd Edition*）](module-techs/PJWD3)

@@ -36,3 +36,8 @@
 - [【例 11-3】文本检查（text.???）](example11-3.md)
  
 ## 第 12 章 树链部分与动态树
+
+- [【例 12-1】树的查询（qtree.???）](example12-1.md)
+- [【例 12-2】种草地（grassplant.???）](example12-2.md)
+- [【例 12-3】洞穴勘测（cave.???）](example12-3.md)
+- [【例 12-4】实时查询（otoci.???）](example12-4.md)
