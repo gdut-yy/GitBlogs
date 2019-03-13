@@ -58,6 +58,7 @@
 2. [《数据库系统实现》（*Database System Implementation,Second Edition*）](module-techs-extra/SHUJUKUXITONGSHIXIAN)
 3. [《高性能 MySQL（第三版）》（*High Performance MySQL*）](module-techs/High-Performance-MySQL)
 4. [《PostgreSQL 实战》 谭峰 张文升 编著](module-techs-extra/PostgreSHIZHAN)
+5. 《MySQL 8 Cookbook（中文版）》
 
 
 ### 1.5 设计模式
@@ -99,6 +100,7 @@
 8. 《Struts2 实战》（*Struts2 in action*）
 9. *OAuth2 In Action*
 10. 《REST 实战》（*REST in Practice*）
+11. 《Netty 进阶之路：跟着案例学 Netty》 李林锋 著
 
 
 ### 1.9 架构
@@ -112,6 +114,9 @@
 2. [《分布式消息中间件实践》 倪炜 著](module-techs/MQ-Middleware)
 3. [《RocketMQ 实战与原理解析》 杨开元 著](module-techs/RocketMQ-SHIZHANYUYUANLIJIEXI)
 4. [《RocketMQ 技术内幕：RocketMQ 架构设计与实现原理》 丁威 周继峰 著](module-techs/RocketMQ-JIAGOUSHEJIYUSHIXIANYUANLI)
+5. 《ZooKeeper 分布式过程协同技术详解》（*ZooKeeper : Distributed Process Coordination*）
+6. 《深入理解 Kafka：核心设计与实践原理》 朱忠华 著
+7. 《RabbitMQ 实战：高效部署分布式消息队列》 （*RabbitMQ in Action : Distributed Messageing for Everyone*）
 
 
 ### 1.11 运维（Linux、ELK、Dokcer、k8s）
@@ -125,6 +130,8 @@
 8. 《Docker 经典实例》（*Docker Cookbook*）
 9. 《Docker 即学即用》（*Docker : Using and Running*）
 10. 《第一本 Docker 书》（*THE DOCKER BOOK*）
+11. 《Jenkins 权威指南》（*Jenkins : The Definitive Guide*）
+12. 《Linux 命令行与 shell 脚本编程大全（第 3 版）》（*Linux Command Line and Shell Scripting Bible, 3E*）
 
 
 ### 1.12 移动端
@@ -143,9 +150,15 @@
 13. [《Android 音视频开发》 何俊林 著](module-techs/Android-YINSHIPINKAIFA)
 14. [《Flutter 技术入门与实战》 亢少军 著](module-techs/Android-Flutter-JISHURUMENYUSHIZHAN)
 
+
 ### Dart 语言
 1. [《Dart 语言程序设计》（*Dart for Hipsters : Fast,Flexible,Structured Code for the Moden Web*）](module-techs/DartForHipsters)
 2. 《Dart 编程语言》（*The Dart Programming Language*）
+
+
+### Go 语言
+1. 《Go 语言实践》（*Go In Action*）
+2. 《Go 程序设计语言》（*The Go Programming Language*）
 
 
 ### 1.13 前端相关（HTML、CSS、JavaScript）
@@ -153,6 +166,7 @@
 2. [《JavaScritp DOM 编程艺术（第2版）》（*DOM Scripting Web Design with JavaScript and the Document Object Model Second Edition*）](module-techs/DOMScripting2)
 3. [《深入浅出 Node.js》 朴灵 著](module-techs/Nodejs)
 4. [《CSS 权威指南（第4版）》（*CSS: The Definitive Guide, 4th Edition Visual Presentation for the Web*）](module-techs/CSSTDG4)
+5. 《Node.js 实战：使用 Egg.js + Vue.js + Docker 构建渐进式、可持续集成与交付应用》 陈微明 著
 
 
 ### 1.14 C/C++ （C/C++ 非常重要且复杂，由于时间关系，无限期待更）
@@ -197,7 +211,8 @@
 25. [《刷新：重新发现商业与未来》（*Hit Refresh*）](module-techs-extra/SHUAXIN)
 26. 《编程珠玑（第2版）》（*Programming Perals, Second Edition*）
 27. 《编程珠玑·续》（*More Programming Perals*）
-3. [《正则指引（第2版）》 余晟 著](module-techs/ZHENGZEZHIYIN2)
+28. [《正则指引（第2版）》 余晟 著](module-techs/ZHENGZEZHIYIN2)
+29. 《禅与摩托车维修艺术》
 
 
 ### 1.17 技术笔试面试
