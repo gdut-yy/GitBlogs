@@ -21,7 +21,7 @@
 | 序号 | 分类 | 内容 |
 | :-: | :-: | - |
 | 1 | 计算机基础-base（1.1 ~ 1.4） | 数据结构、算法、计算机网络、操作系统、数据库 |
-| 2 | 编程语言-language | Java、JavaScript、C/C++、Kotlin、Dart、Go、Erlang |
+| 2 | 编程语言-language | Java、JavaScript、C/C++、Python、Kotlin、Dart、Go、Erlang |
 | 3 | 通用-common（1.5 ~ 1.6） | 设计模式、重构 |
 | 4 | 服务端开发-backend（1.7 ~ 1.11） | 框架、架构、中间件 |
 | 5 | 运维-sre（1.12） | Linux、ELK、Dokcer、k8s |
@@ -114,9 +114,10 @@
 2. [《分布式消息中间件实践》 倪炜 著](module-techs/MQ-Middleware)
 3. [《RocketMQ 实战与原理解析》 杨开元 著](module-techs/RocketMQ-SHIZHANYUYUANLIJIEXI)
 4. [《RocketMQ 技术内幕：RocketMQ 架构设计与实现原理》 丁威 周继峰 著](module-techs/RocketMQ-JIAGOUSHEJIYUSHIXIANYUANLI)
-5. 《ZooKeeper 分布式过程协同技术详解》（*ZooKeeper : Distributed Process Coordination*）
-6. 《深入理解 Kafka：核心设计与实践原理》 朱忠华 著
-7. 《RabbitMQ 实战：高效部署分布式消息队列》 （*RabbitMQ in Action : Distributed Messageing for Everyone*）
+5. 《深入理解 Kafka：核心设计与实践原理》 朱忠华 著
+6. 《RabbitMQ 实战：高效部署分布式消息队列》 （*RabbitMQ in Action : Distributed Messageing for Everyone*）
+7. [《ZooKeeper 分布式过程协同技术详解》（*ZooKeeper : Distributed Process Coordination*）](module-techs/ZooKeeper-DistributedProcessCoordination)
+8. [《从 Paxos 到 ZooKeeper：分布式一致性原理与实践》 倪超 著](module-techs/PaxosTOZooKeeper)
 
 
 ### 1.11 运维（Linux、ELK、Dokcer、k8s）
@@ -192,10 +193,10 @@
 6. [《大学之路》 吴军 著](module-techs-extra/DASHUJUZHILU)
 7. [《基业长青》 吉姆·柯林斯 等著](module-techs-extra/JIYECHANGQING)
 8. [《物演通论》 王东岳 著](module-techs-extra/WUYANTONGLUN)
-9. [《失控：全人类的最终命运和结局》 凯文·凯利 著](module-techs-extra/SHIKONG)（“KK 三部曲”）
+9. [《失控：全人类的最终命运和结局》](module-techs-extra/SHIKONG) | 《必然》 | 《科技想要什么》（“KK 三部曲”）
 10. [《进入空气稀薄地带》 乔恩·克拉考尔（Jon Krakauer）著](module-techs-extra/JINRUKONGQIXIBODIDAI)
 11. [《美国简史》 亨德里克·威廉·房龙 著](module-techs-extra/MEIGUOJIANSHI)
-12. [《鞋狗》 菲尔·奈特 著](module-techs-extra/XIEGOU)
+12. [《鞋狗》 （*SHOE DOG*）](module-techs-extra/XIEGOU)
 13. [《从 0 到 1》 彼得·蒂尔，布莱克·马斯特斯（Blake Masters）著](module-techs-extra/CONG0DAO1)
 14. [《深度思考：不断逼近问题的本质》 莫琳.希凯 著](module-techs-extra/SHENDUSIKAO)
 15. [《麦肯锡卓越工作方法》](module-techs-extra/MAIKENXIWENTIFENXIYUJIEJUEJIQIAO)
@@ -213,6 +214,17 @@
 27. 《编程珠玑·续》（*More Programming Perals*）
 28. [《正则指引（第2版）》 余晟 著](module-techs/ZHENGZEZHIYIN2)
 29. 《禅与摩托车维修艺术》
+30. 《淘宝技术这十年》 子柳 著
+31. 《淘宝十年产品事》 苏杰 编著
+32. 《人人都是产品经理 2.0：写给泛产品经理》 苏杰 著
+33. 《企业 IT 架构转型之道：阿里巴巴中台战略思想与架构实践》 钟华 著
+34. 《终身成长（全新修订版）》 卡罗尔·德韦克 著 
+35. 《清单革命：如何持续、正确、安全地把事情做好》 阿图·葛文德 著
+36. 《亲密关系》
+37. 《非暴力沟通》
+38. 《男人来自火星，女人来自金星：修炼亲密关系的方法》（*Beyond MARS and VENUS*）
+39. 《白帽子讲 Web 安全》
+40. 《Mac Talk》 迟建强 著
 
 
 ### 1.17 技术笔试面试

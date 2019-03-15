@@ -53,7 +53,21 @@ Dart 诞生于 2011 年 10 月 10 日，谷歌 Dart 语言项目的领导人 Lar
 - 列表组件
 - 表单组件
 ## 第 5 章 Material Design 风格组件
-## 第 6 章 Cuper tino 风格组件
+### 5.1.1 MaterialApp
+![](flutter-04.jpg)
+### 5.1.2 Scaffold
+![](flutter-05.jpg)
+### 5.1.3 AppBar
+![](flutter-06.jpg)
+### 5.1.4 BottomNavigationBar
+![](flutter-07.jpg)
+### 5.1.5 TabBar TabBarView
+![](flutter-08.jpg)
+
+![](flutter-09.jpg)
+### 5.1.6 Drawer
+![](flutter-10.jpg)
+## 第 6 章 Cupertino 风格组件
 ## 第 7 章 页面布局
 ### 7.1 基础布局处理
 - Container（容器布局）
