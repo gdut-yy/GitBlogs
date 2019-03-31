@@ -193,7 +193,8 @@
 6. [《大学之路》 吴军 著](module-techs-extra/DASHUJUZHILU)
 7. [《基业长青》 吉姆·柯林斯 等著](module-techs-extra/JIYECHANGQING)
 8. [《物演通论》 王东岳 著](module-techs-extra/WUYANTONGLUN)
-9. [《失控：全人类的最终命运和结局》](module-techs-extra/SHIKONG) | 《必然》 | 《科技想要什么》（“KK 三部曲”）
+9. [《失控：全人类的最终命运和结局》](module-techs-extra/SHIKONG) | 《科技想要什么》 | [《必然》](module-techs-extra/BIRAN) 凯文·凯利 著（“KK 三部曲”）
+10. 《新经济，新规则：网络经济的十种策略》 | 《技术元素》 凯文·凯利 著
 10. [《进入空气稀薄地带》 乔恩·克拉考尔（Jon Krakauer）著](module-techs-extra/JINRUKONGQIXIBODIDAI)
 11. [《美国简史》 亨德里克·威廉·房龙 著](module-techs-extra/MEIGUOJIANSHI)
 12. [《鞋狗》 （*SHOE DOG*）](module-techs-extra/XIEGOU)
@@ -213,9 +214,9 @@
 26. 《编程珠玑（第2版）》（*Programming Perals, Second Edition*）
 27. 《编程珠玑·续》（*More Programming Perals*）
 28. [《正则指引（第2版）》 余晟 著](module-techs/ZHENGZEZHIYIN2)
-29. 《禅与摩托车维修艺术》
-30. 《淘宝技术这十年》 子柳 著
-31. 《淘宝十年产品事》 苏杰 编著
+29. [《禅与摩托车维修艺术》（*Zen and the Art of Motorcycle Maintenance*）](module-techs-extra/ZenAndTheArtOfMotorcycleMaintenance)
+30. [《淘宝技术这十年》 子柳 著](module-techs-extra/TAOBAOJISHUZHESHINIAN)
+31. [《淘宝十年产品事》 苏杰 编著](module-techs-extra/TAOBAOSHINIANCHANPINSHI)
 32. 《人人都是产品经理 2.0：写给泛产品经理》 苏杰 著
 33. 《企业 IT 架构转型之道：阿里巴巴中台战略思想与架构实践》 钟华 著
 34. 《终身成长（全新修订版）》 卡罗尔·德韦克 著 
@@ -224,7 +225,9 @@
 37. 《非暴力沟通》
 38. 《男人来自火星，女人来自金星：修炼亲密关系的方法》（*Beyond MARS and VENUS*）
 39. 《白帽子讲 Web 安全》
-40. 《Mac Talk》 迟建强 著
+40. [《MacTalk 人生元编程》](module-techs-extra/MACTALK-RENSHENGYUANBIANCHENG) | [《MacTalk 跨越边界》](module-techs-extra/MACTALK-KUAYUEBIANJIE) 迟建强 著
+41. [《前方的路》](module-techs-extra/QIANFANGDELU) | [《未来世界的幸存者》](module-techs-extra/WEILAISHIJIEDEXINGCUNZHE) 阮一峰 著
+43. 《黄金时代》 | 《白银时代》 | 《青铜时代》 王小波 著
 
 
 ### 1.17 技术笔试面试

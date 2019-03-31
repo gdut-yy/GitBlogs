@@ -24,20 +24,20 @@
 ## 第 9 章 平衡树
 ## 第 10 章 块状链表与块状树
 
-- [【例 10-1】文本编辑器（editor.???）](example10-1.md)
-- [【例 10-2】枚举（enum.???）](example10-2.md)
-- [【例 10-3】维护数列（sequence.???）](example10-3.md)
-- [【例 10-4】树的统计（count.???）](example10-4.md)
+- [【例 10-1】文本编辑器（editor.???）](readme/example10-1.md)
+- [【例 10-2】枚举（enum.???）](readme/example10-2.md)
+- [【例 10-3】维护数列（readme/sequence.???）](example10-3.md)
+- [【例 10-4】树的统计（readme/count.???）](example10-4.md)
 
 ## 第 11 章 后缀树与后缀树组
 
-- [【例 11-1】不同子串（distinct.???）](example11-1.md)
-- [【例 11-2】公共子串（life.???）](example11-2.md)
-- [【例 11-3】文本检查（text.???）](example11-3.md)
+- [【例 11-1】不同子串（distinct.???）](readme/example11-1.md)
+- [【例 11-2】公共子串（life.???）](readme/example11-2.md)
+- [【例 11-3】文本检查（text.???）](readme/example11-3.md)
  
 ## 第 12 章 树链部分与动态树
 
-- [【例 12-1】树的查询（qtree.???）](example12-1.md)
-- [【例 12-2】种草地（grassplant.???）](example12-2.md)
-- [【例 12-3】洞穴勘测（cave.???）](example12-3.md)
-- [【例 12-4】实时查询（otoci.???）](example12-4.md)
+- [【例 12-1】树的查询（qtree.???）](readme/example12-1.md)
+- [【例 12-2】种草地（grassplant.???）](readme/example12-2.md)
+- [【例 12-3】洞穴勘测（cave.???）](readme/example12-3.md)
+- [【例 12-4】实时查询（otoci.???）](readme/example12-4.md)
