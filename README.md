@@ -228,6 +228,7 @@
 40. [《MacTalk 人生元编程》](module-techs-extra/MACTALK-RENSHENGYUANBIANCHENG) | [《MacTalk 跨越边界》](module-techs-extra/MACTALK-KUAYUEBIANJIE) 迟建强 著
 41. [《前方的路》](module-techs-extra/QIANFANGDELU) | [《未来世界的幸存者》](module-techs-extra/WEILAISHIJIEDEXINGCUNZHE) 阮一峰 著
 43. 《黄金时代》 | 《白银时代》 | 《青铜时代》 王小波 著
+44. [《逆流而上：阿里巴巴技术成长之路》 阿里巴巴集团成长集编委会 著](module-techs-extra/NILIUERSHANG)
 
 
 ### 1.17 技术笔试面试
