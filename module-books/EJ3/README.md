@@ -13,40 +13,32 @@
 此书是本人真正意义上的第一本 英文编程类书籍。
 
 值得纪念。
-
-## CHAPTER 1 : Introduction【简介】
-
-## CHAPTER 2 : Creating and Destroying Objects【创建和销毁对象】
-
-### Item 1 : Consider static factory methods instead of constructors【考虑用静态工厂方法代替构造器】
-
-### Item 2 : Consider a builder when faced with many constructor parameters【遇到多个构造器时考虑 builder】
-
-### Item 3 : Enforce the singleton property with a private constructor or an enum type【使用私有构造器或枚举类型实现单例模式】
-
+```
 单例模式是一个非常经典的模式
 
 特别是涉及到 线程安全 和 反射攻击 的时候
 
 作者认为单元素的枚举类型通常是实现单例的最佳方法，即：
 
-	public enum Elvis{
-		INSTANCE;
-	
-		public void leaveTheBuilding(){ ... }
-	}
+public enum Elvis{
+    INSTANCE;
 
-### Item 4 : Enforce noninstantiability with a private constructor【使用私有构造器实现不可实例化】
+    public void leaveTheBuilding(){ ... }
+}
+```
+## CHAPTER 1 : Introduction【简介】
 
-### Item 5 : Prefer dependency injection to hardwiring resources【DI（依赖注入）优于】
+## CHAPTER 2 : Creating and Destroying Objects【创建和销毁对象】
 
-### Item 6 : Avoid creating unnecessary objects【避免创建不必要的对象】
-
-### Item 7 : Eliminate obsolete object references【消除过时的对象引用】
-
-### Item 8 : Avoid finalizers and cleaners【避免使用 finalizers 和 cleaners】
-
-### Item 9 : Prefer try-with-resources to try-finally【try-with-resources 优先于 try-finally】
+- [Item 1 : Consider static factory methods instead of constructors【考虑用静态工厂方法代替构造器】](chap2/item1.md)
+- [Item 2 : Consider a builder when faced with many constructor parameters【遇到多个构造器时考虑 builder】](chap2/item2.md)
+- [Item 3 : Enforce the singleton property with a private constructor or an enum type【使用私有构造器或枚举类型实现单例模式】](chap2/item3.md)
+- [Item 4 : Enforce noninstantiability with a private constructor【使用私有构造器实现不可实例化】](chap2/item4.md)
+- [Item 5 : Prefer dependency injection to hardwiring resources【DI（依赖注入）优于】](chap2/item5.md)
+- [Item 6 : Avoid creating unnecessary objects【避免创建不必要的对象】](chap2/item6.md)
+- [Item 7 : Eliminate obsolete object references【消除过时的对象引用】](chap2/item7.md)
+- [Item 8 : Avoid finalizers and cleaners【避免使用 finalizers 和 cleaners】](chap2/item8.md)
+- [Item 9 : Prefer try-with-resources to try-finally【try-with-resources 优先于 try-finally】](chap2/item9.md)
 
 ## CHAPTER 3 : Methods Common to All Objects【对于所有对象都通用的方法】
 

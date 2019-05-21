@@ -137,7 +137,7 @@
 
 ### 1.12 移动端
 1. [《第一行代码——Android（第2版）》 郭霖 著](module-techs/Android-DIYIHANGDAIMA2)
-2. [《Andorid 编程权威指南（第三版）》（*Android Programming The Big Nerd Ranch Guide, Third Edition*）](module-techs/Android-Programming3)
+2. [《Android 编程权威指南（第三版）》（*Android Programming The Big Nerd Ranch Guide, Third Edition*）](module-techs/Android-Programming3)
 3. [《Android 开发艺术探索》 任玉刚 著](module-techs/Android-KAIFAYISHUTANSUO)
 4. 《Android 群英传》 徐宜生 著
 5. 《Android 群英传：神兵利器》 徐宜生 著
