@@ -42,19 +42,13 @@ public enum Elvis{
 
 ## CHAPTER 3 : Methods Common to All Objects【对于所有对象都通用的方法】
 
-### Item 10 : Obey the general contract when overriding equals【重写 equals() 方法请遵守通用约定】
-
-### Item 11 : Always override hashCode when you override equals【重写 equals() 时重写 hashCode()】
-
-### Item 12 : Always override toString【总是重写 toString()】
-
-### Item 13 : Override clone judiciously【谨慎重写 clone()】
-
-### Item 14 : Consider implementing Comparable【考虑实现 Comparable 接口】
-
+- [Item 10 : Obey the general contract when overriding equals【重写 equals() 方法请遵守通用约定】](chap3/item10.md)
+- [Item 11 : Always override hashCode when you override equals【重写 equals() 时重写 hashCode()】](chap3/item11.md)
+- [Item 12 : Always override toString【总是重写 toString()】](chap3/item12.md)
+- [Item 13 : Override clone judiciously【谨慎重写 clone()】](chap3/item13.md)
+- [Item 14 : Consider implementing Comparable【考虑实现 Comparable 接口】](chap3/item14.md)
 
 ## CHAPTER 4 : Classes and Interfaces【类 和 接口】
-
 
 ### Item 15 : Minimize the accessibility of classes and members【使类和成员的可访问性最小化】
 
