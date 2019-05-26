@@ -17,8 +17,29 @@
 
 ## 第 3 章 优先队列与二叉堆
 ## 第 4 章 并查集
+
+- [【例 4-1】亲戚（relation.???）](readme/example04-1.md)
+- [【例 4-2】食物链（eat.???）](readme/example04-2.md)
+- [【例 4-3】最近公共祖先问题（LCA.???）](readme/example04-3.md)
+
 ## 第 5 章 线段树
+
+- [【例 5-1】数列（queue.???）](readme/example05-1.md)
+- [【例 5-2】火星探险（mars.???）](readme/example05-2.md)
+- [【例 5-3】栅栏（fence.???）](example05-3.md)
+- [【例 5-4】3D方块（tet.???）](example05-4.md)
+- [【例 5-5】动态排名（ranking.???）](readme/example05-5.md)
+- [【例 5-6】买票（ticket.???）](readme/example05-6.md)
+- [【例 5-7】取牌游戏（mousetrap.???）](example05-7.md)
+- [【例 5-8】旅馆预订（hotel.???）](example05-8.md)
+
 ## 第 6 章 树状数组
+
+- [【例 6-1】逆序对（inversions.???）](readme/example06-1.md)
+- [【例 6-2】矩阵操作（matrix.???）](readme/example06-2.md)
+- [【例 6-3】奶牛狂欢节（moofeat.???）](example06-3.md)
+- [【例 6-4】数星星（stars.???）](example06-4.md)
+
 ## 第 7 章 伸展树
 ## 第 8 章 Treap
 ## 第 9 章 平衡树
