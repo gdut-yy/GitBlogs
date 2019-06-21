@@ -237,6 +237,13 @@
 3. [《技术之瞳——阿里巴巴技术笔试心得》 阿里巴巴集团校园招聘笔试项目组 著](module-techs/JISHUZHITONG)
 
 
+## 1.18 华为 IMooc
+1. [《下一个倒下的会不会是华为（终极版）》 田涛 吴春波 著](module-huawei/YIKEHUWEIZHONGXIN/README.md)
+2. 《以客户为中心》 黄卫伟 著
+3. 《以奋斗者为本》 黄卫伟 著
+4. 《价值为纲》 黄卫伟 著
+
+
 ## 二、相关链接
 
 ### 2.1 [校选教材 (⊙_⊙?)](https://github.com/gdut-yy/GitBlogs/tree/master/module-edus/README.md)
