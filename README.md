@@ -237,11 +237,19 @@
 3. [《技术之瞳——阿里巴巴技术笔试心得》 阿里巴巴集团校园招聘笔试项目组 著](module-techs/JISHUZHITONG)
 
 
-## 1.18 华为 IMooc
-1. [《下一个倒下的会不会是华为（终极版）》 田涛 吴春波 著](module-huawei/YIKEHUWEIZHONGXIN/README.md)
-2. 《以客户为中心》 黄卫伟 著
-3. 《以奋斗者为本》 黄卫伟 著
-4. 《价值为纲》 黄卫伟 著
+## 1.18 华为 iMooc
+1. 《下一个倒下的会不会是华为（终极版）》 田涛 吴春波 著
+2. [《以客户为中心》 黄卫伟 著](module-huawei/YIKEHUWEIZHONGXIN/README.md)
+3. [《以奋斗者为本》 黄卫伟 著](module-huawei/YIFENDOUZHEWEIBEN/README.md)
+4. [《价值为纲》 黄卫伟 著](module-huawei/JIAZHIWEIGANG/README.md)
+5. 《奇特的一生：柳比歇夫坚持56年的“时间统计法”》 格列宁 著
+6. [《吃掉那只青蛙：博恩·崔西的高效时间管理法则（原书第3版）》 博恩·崔西 著](module-huawei/CHIDIAONAZHIQINGWA/README.md)
+7. [《番茄工作法图解：简单易行的时间管理方法》 史蒂夫·诺特伯格 著](module-huawei/FANQIEGONGZUOFATUJIE/README.md)
+8. 《高效能人士的七个习惯》 史蒂芬·柯维 著
+9. 《时间管理——如何充分利用你的24小时》 吉姆·兰德尔 著
+10. 《把时间留给最重要的事：高效能人士的自我管理手册》 洛塔尔·赛韦特 著
+11. 《爆发：大数据时代预见未来的新思维》 艾伯特－拉斯洛·巴拉巴西 著
+12. 《尽在双11——阿里巴巴技术演进与超越》 阿里巴巴集团双11技术团队 著
 
 
 ## 二、相关链接
