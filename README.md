@@ -85,8 +85,7 @@
 8. [《Java 9 模块化开发：核心原则与实践》（*Java 9 Modularity : Patterns and Practices for Developing Maintainable Applications*）](module-techs/Java9Modularity)
 9. [《Java 多线程编程核心技术》 高洪岩 著](module-techs/JavaDUOXIANCHENG)
 10. [《Java 性能权威指南》（*Java Performance : The Definitive Guide*）](module-techs/Java-Performance)
-11. [《码出高效 Java 开发手册》 杨冠宝（孤尽） 高海慧（鸣莎） 著](module-techs/MACHUGAOXIAO)
-12. 《JRockit 权威指南：深入理解 JVM》（*Oracle JRockit : The Definitive Guide*）
+11. 《JRockit 权威指南：深入理解 JVM》（*Oracle JRockit : The Definitive Guide*）
 
 
 ### 1.8 框架
@@ -106,7 +105,6 @@
 ### 1.9 架构
 1. [《大型网站 技术架构演进与性能优化》 许令波（君山） 著](module-techs/DAXINGWANGZHANJISHUJIAGOU)
 2. [《分布式服务框架原理与实践》 李林锋 著](module-techs/FENBUSHIFUWUKUANGJIA)
-3. [《企业 IT 架构转型之道阿里巴巴中台战略思想与架构实战》 钟华 著](module-techs-extra/QIYEITJIAGOUZHUANXINGZHIDAO)
 
 
 ### 1.10 中间件（Redis、MQ）
@@ -123,7 +121,6 @@
 ### 1.11 运维（Linux、ELK、Dokcer、k8s）
 1. [《鸟哥的Linux私房菜——基础学习篇（第三版）》 鸟哥 著](module-techs/NIAOGE-I)
 2. [《鸟哥的Linux私房菜——服务器架设篇（第三版）》 鸟哥 著](module-techs/NIAOGE-II)
-3. [《大数据之路》 阿里巴巴数据技术及产品部 著](module-techs-extra/DASHUJUZHILU)
 4. [《Elasticsearch 实战》（*Elasticsearch In Action*）](module-techs/Elasticsearch-In-Action)
 5. [《Docker 实践》（*Docker IN PRACTICE*）](module-techs/Docker-IN-PRACTICE)
 6. 《Kubernetes 权威指南：从 Docker 到 Kubernetes 实践全接触》（*Kubernetes : The Definitive Guide*）
@@ -146,7 +143,6 @@
 8. 《Android 进阶之光》 刘望舒 著
 9. [《Android 进阶解密》 刘望舒 著](module-techs/Android-JINJIEJIEMI)
 10. [《Android 组件化架构》 苍王 著](module-techs/Android-ZHUJIANHUA)
-11. [《深入探索 Android 热修复技术原理》 甘晓霖 廖斌斌 杨青 编著](module-techs/Android-REXIUFU)
 12. [《Kotlin 实战》（*Kotlin In Action*）](module-techs/Kotlin-in-action)
 13. [《Android 音视频开发》 何俊林 著](module-techs/Android-YINSHIPINKAIFA)
 14. [《Flutter 技术入门与实战》 亢少军 著](module-techs/Android-Flutter-JISHURUMENYUSHIZHAN)
@@ -187,10 +183,7 @@
 ### 1.16 泛技术书籍
 1. [《编码：隐匿在计算机软硬件后的语言》（*Code : The Hidden Language of Computer Hardware and Software*）](module-techs-extra/Code)
 2. [《人件（原书第3版）》（*Peopleware: Productive Projects and Teams (Third Edition)*）](module-techs-extra/Peopleware3)
-3. [《硅谷之谜》 吴军 著](module-techs-extra/GUIGUZHIMI) 
-4. [《智能时代：大数据与智能革命重新定义未来》 吴军 著](module-techs-extra/ZHINENGSHIDAI)
-5. [《见识》 吴军 著](module-techs-extra/JIANSHI)
-6. [《大学之路》 吴军 著](module-techs-extra/DASHUJUZHILU)
+3. [《浪潮之巅》](module-techs-extra/LANGCHAOZHIDIAN) | [《硅谷之谜》](module-techs-extra/GUIGUZHIMI) | 《数学之美》 | [《见识》](module-techs-extra/JIANSHI) | 《态度》 | [《大学之路》](module-techs-extra/DASHUJUZHILU) | 《文明之光》 | [《智能时代：大数据与智能革命重新定义未来》](module-techs-extra/ZHINENGSHIDAI) 吴军 著
 7. [《基业长青》 吉姆·柯林斯 等著](module-techs-extra/JIYECHANGQING)
 8. [《物演通论》 王东岳 著](module-techs-extra/WUYANTONGLUN)
 9. [《失控：全人类的最终命运和结局》](module-techs-extra/SHIKONG) | 《科技想要什么》 | [《必然》](module-techs-extra/BIRAN) 凯文·凯利 著（“KK 三部曲”）
@@ -215,10 +208,7 @@
 27. 《编程珠玑·续》（*More Programming Perals*）
 28. [《正则指引（第2版）》 余晟 著](module-techs/ZHENGZEZHIYIN2)
 29. [《禅与摩托车维修艺术》（*Zen and the Art of Motorcycle Maintenance*）](module-techs-extra/ZenAndTheArtOfMotorcycleMaintenance)
-30. [《淘宝技术这十年》 子柳 著](module-techs-extra/TAOBAOJISHUZHESHINIAN)
-31. [《淘宝十年产品事》 苏杰 编著](module-techs-extra/TAOBAOSHINIANCHANPINSHI)
 32. 《人人都是产品经理 2.0：写给泛产品经理》 苏杰 著
-33. 《企业 IT 架构转型之道：阿里巴巴中台战略思想与架构实践》 钟华 著
 34. 《终身成长（全新修订版）》 卡罗尔·德韦克 著 
 35. 《清单革命：如何持续、正确、安全地把事情做好》 阿图·葛文德 著
 36. 《亲密关系》
@@ -227,15 +217,24 @@
 39. 《白帽子讲 Web 安全》
 40. [《MacTalk 人生元编程》](module-techs-extra/MACTALK-RENSHENGYUANBIANCHENG) | [《MacTalk 跨越边界》](module-techs-extra/MACTALK-KUAYUEBIANJIE) 迟建强 著
 41. [《前方的路》](module-techs-extra/QIANFANGDELU) | [《未来世界的幸存者》](module-techs-extra/WEILAISHIJIEDEXINGCUNZHE) 阮一峰 著
-43. 《黄金时代》 | 《白银时代》 | 《青铜时代》 王小波 著
-44. [《逆流而上：阿里巴巴技术成长之路》 阿里巴巴集团成长集编委会 著](module-techs-extra/NILIUERSHANG)
+43. 《黄金时代》 | 《白银时代》 | 《青铜时代》 | 《沉默的大多数》 | 《我的精神家园》 | 《一只特立独行的猪》 王小波 著
 
 
 ### 1.17 技术笔试面试
 1. [《剑指 Offer：名企面试官精讲典型编程题（第2版）》 何海涛 著](module-techs/JIANZHIOffer/README.md)
 2. [《编程之美——微软技术面试心得》 《编程之美》小组 著](module-techs/BIANCHENGZHIMEI/README.md)
-3. [《技术之瞳——阿里巴巴技术笔试心得》 阿里巴巴集团校园招聘笔试项目组 著](module-techs/JISHUZHITONG)
 
+
+## 1.17 阿里技术
+1. [《技术之瞳——阿里巴巴技术笔试心得》 阿里巴巴集团校园招聘笔试项目组 著](module-techs/JISHUZHITONG)
+2. [《码出高效 Java 开发手册》 杨冠宝（孤尽） 高海慧（鸣莎） 著](module-techs/MACHUGAOXIAO)
+3. [《逆流而上：阿里巴巴技术成长之路》 阿里巴巴集团成长集编委会 著](module-techs-extra/NILIUERSHANG)
+4. [《大数据之路》 阿里巴巴数据技术及产品部 著](module-techs-extra/DASHUJUZHILU)
+5. 《尽在双11——阿里巴巴技术演进与超越》 阿里巴巴集团双11技术团队 著
+6. [《深入探索 Android 热修复技术原理》 甘晓霖 廖斌斌 杨青 编著](module-techs/Android-REXIUFU)
+7. [《企业 IT 架构转型之道阿里巴巴中台战略思想与架构实战》 钟华 著](module-techs-extra/QIYEITJIAGOUZHUANXINGZHIDAO)
+8. [《淘宝技术这十年》 子柳 著](module-techs-extra/TAOBAOJISHUZHESHINIAN)
+9. [《淘宝十年产品事》 苏杰 编著](module-techs-extra/TAOBAOSHINIANCHANPINSHI)
 
 ## 1.18 华为 iMooc
 1. 《下一个倒下的会不会是华为（终极版）》 田涛 吴春波 著
@@ -249,7 +248,7 @@
 9. 《时间管理——如何充分利用你的24小时》 吉姆·兰德尔 著
 10. 《把时间留给最重要的事：高效能人士的自我管理手册》 洛塔尔·赛韦特 著
 11. 《爆发：大数据时代预见未来的新思维》 艾伯特－拉斯洛·巴拉巴西 著
-12. 《尽在双11——阿里巴巴技术演进与超越》 阿里巴巴集团双11技术团队 著
+
 
 
 ## 二、相关链接
