@@ -218,6 +218,13 @@
 40. [《MacTalk 人生元编程》](module-techs-extra/MACTALK-RENSHENGYUANBIANCHENG) | [《MacTalk 跨越边界》](module-techs-extra/MACTALK-KUAYUEBIANJIE) 迟建强 著
 41. [《前方的路》](module-techs-extra/QIANFANGDELU) | [《未来世界的幸存者》](module-techs-extra/WEILAISHIJIEDEXINGCUNZHE) 阮一峰 著
 43. 《黄金时代》 | 《白银时代》 | 《青铜时代》 | 《沉默的大多数》 | 《我的精神家园》 | 《一只特立独行的猪》 王小波 著
+44. 《奇特的一生：柳比歇夫坚持56年的“时间统计法”》 格列宁 著
+45. [《吃掉那只青蛙：博恩·崔西的高效时间管理法则（原书第3版）》 博恩·崔西 著](module-techs-extra/CHIDIAONAZHIQINGWA/README.md)
+46. [《番茄工作法图解：简单易行的时间管理方法》 史蒂夫·诺特伯格 著](module-techs-extra/FANQIEGONGZUOFATUJIE/README.md)
+47. 《高效能人士的七个习惯》 史蒂芬·柯维 著
+48. 《时间管理——如何充分利用你的24小时》 吉姆·兰德尔 著
+49. 《把时间留给最重要的事：高效能人士的自我管理手册》 洛塔尔·赛韦特 著
+50. 《爆发：大数据时代预见未来的新思维》 艾伯特－拉斯洛·巴拉巴西 著
 
 
 ### 1.17 技术笔试面试
@@ -235,20 +242,6 @@
 7. [《企业 IT 架构转型之道阿里巴巴中台战略思想与架构实战》 钟华 著](module-techs-extra/QIYEITJIAGOUZHUANXINGZHIDAO)
 8. [《淘宝技术这十年》 子柳 著](module-techs-extra/TAOBAOJISHUZHESHINIAN)
 9. [《淘宝十年产品事》 苏杰 编著](module-techs-extra/TAOBAOSHINIANCHANPINSHI)
-
-## 1.18 华为 iMooc
-1. 《下一个倒下的会不会是华为（终极版）》 田涛 吴春波 著
-2. [《以客户为中心》 黄卫伟 著](module-huawei/YIKEHUWEIZHONGXIN/README.md)
-3. [《以奋斗者为本》 黄卫伟 著](module-huawei/YIFENDOUZHEWEIBEN/README.md)
-4. [《价值为纲》 黄卫伟 著](module-huawei/JIAZHIWEIGANG/README.md)
-5. 《奇特的一生：柳比歇夫坚持56年的“时间统计法”》 格列宁 著
-6. [《吃掉那只青蛙：博恩·崔西的高效时间管理法则（原书第3版）》 博恩·崔西 著](module-huawei/CHIDIAONAZHIQINGWA/README.md)
-7. [《番茄工作法图解：简单易行的时间管理方法》 史蒂夫·诺特伯格 著](module-huawei/FANQIEGONGZUOFATUJIE/README.md)
-8. 《高效能人士的七个习惯》 史蒂芬·柯维 著
-9. 《时间管理——如何充分利用你的24小时》 吉姆·兰德尔 著
-10. 《把时间留给最重要的事：高效能人士的自我管理手册》 洛塔尔·赛韦特 著
-11. 《爆发：大数据时代预见未来的新思维》 艾伯特－拉斯洛·巴拉巴西 著
-
 
 
 ## 二、相关链接
