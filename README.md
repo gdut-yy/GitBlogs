@@ -17,6 +17,14 @@
 > 
 > —— 日剧 《女王的教室》
 
+## 模块导航
+### 0.1 [OJ 大杂烩](https://github.com/gdut-yy/GitBlogs/tree/master/module-oj/README.md)
+### 0.2 [校选教材](https://github.com/gdut-yy/GitBlogs/tree/master/module-edus/README.md)
+### 0.3 技术类书籍
+### 0.4 泛技术类书籍
+### 0.5 电影 & 电视剧
+
+
 ## 〇、目录
 | 序号 | 分类 | 内容 |
 | :-: | :-: | - |
@@ -246,9 +254,8 @@
 
 ## 二、相关链接
 
-### 2.1 [校选教材 (⊙_⊙?)](https://github.com/gdut-yy/GitBlogs/tree/master/module-edus/README.md)
-### 2.2 [漫漫 Offer 路 (๑و•̀Δ•́)و](https://github.com/gdut-yy/GitBlogs/tree/master/offer/README.md)
-### 2.3 [我的博客(ノ￣▽￣)](https://github.com/gdut-yy/GitBlogs/tree/master/module-blogs/README.md)
+### 2.1 [漫漫 Offer 路 (๑و•̀Δ•́)و](https://github.com/gdut-yy/GitBlogs/tree/master/offer/README.md)
+### 2.2 [我的博客(ノ￣▽￣)](https://github.com/gdut-yy/GitBlogs/tree/master/module-blogs/README.md)
 
 ## 三、后记
 
