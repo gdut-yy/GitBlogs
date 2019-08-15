@@ -12,6 +12,11 @@ A A A A
 Yes
 No
 ```
+### 提示
+```
+(5-1/5)*5=24
+```
+----
 ## 法 1：24 点（递归解法）
 ```java
 import java.util.Scanner;

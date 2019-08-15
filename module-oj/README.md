@@ -5,6 +5,6 @@
 ## 3 [编程之美](https://github.com/gdut-yy/GitBlogs/blob/master/module-techs/BIANCHENGZHIMEI/README.md)
 ## 4 [高级数据结构](https://github.com/gdut-yy/GitBlogs/blob/master/module-edus/GAOJISHUJUJIEGOU/README.md)
 ## 5 HW-OJ
-- [24 点]()
+- [24 点](https://github.com/gdut-yy/GitBlogs/blob/master/module-oj/hw-oj/judgePoint24.md)
 ## 6 [LeetCode](https://leetcode-cn.com/)
 ## 7 [牛客网](https://www.nowcoder.com/)
