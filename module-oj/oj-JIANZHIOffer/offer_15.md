@@ -21,7 +21,7 @@ int NumberOf1(int n){
 }
 ```
 ### 惊喜解法（二进制n个1 运行n次）
-```
+```cpp
 int NumberOf1(int n){
 	int cnt = 0;
 	while(n){
