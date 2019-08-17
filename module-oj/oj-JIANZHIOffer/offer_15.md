@@ -7,26 +7,27 @@
 ----
 
 ### 常规解法（二进制n位 运行n次）
-
-	int NumberOf1(int n){
-	    int cnt = 0;
-	    unsigned int flag = 1;
-	    while(flag){
-	        if(n&flag){
-	            cnt++;
-	        }
-	        flag=flag << 1;
-	    }
-	    return cnt;
+```cpp
+int NumberOf1(int n){
+	int cnt = 0;
+	unsigned int flag = 1;
+	while(flag){
+		if(n&flag){
+			cnt++;
+		}
+		flag=flag << 1;
 	}
-
+	return cnt;
+}
+```
 ### 惊喜解法（二进制n个1 运行n次）
-
-	int NumberOf1(int n){
-	    int cnt = 0;
-	    while(n){
-	        ++cnt;
-	        n=(n-1)&n;
-	    }
-	    return cnt;
+```
+int NumberOf1(int n){
+	int cnt = 0;
+	while(n){
+		++cnt;
+		n=(n-1)&n;
 	}
+	return cnt;
+}
+```
