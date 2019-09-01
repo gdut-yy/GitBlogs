@@ -191,7 +191,7 @@
 ### 1.16 泛技术书籍
 1. [《编码：隐匿在计算机软硬件后的语言》（*Code : The Hidden Language of Computer Hardware and Software*）](module-techs-extra/Code)
 2. [《人件（原书第3版）》（*Peopleware: Productive Projects and Teams (Third Edition)*）](module-techs-extra/Peopleware3)
-3. [《浪潮之巅》](module-techs-extra/LANGCHAOZHIDIAN) | [《硅谷之谜》](module-techs-extra/GUIGUZHIMI) | 《数学之美》 | [《见识》](module-techs-extra/JIANSHI) | 《态度》 | [《大学之路》](module-techs-extra/DASHUJUZHILU) | 《文明之光》 | [《智能时代：大数据与智能革命重新定义未来》](module-techs-extra/ZHINENGSHIDAI) 吴军 著
+3. [《浪潮之巅》](module-techs-extra/LANGCHAOZHIDIAN) | [《硅谷之谜》](module-techs-extra/GUIGUZHIMI) | 《数学之美》 | [《见识》](module-techs-extra/JIANSHI) | 《态度》 | [《大学之路》](module-techs-extra/DAXUEZHILU) | 《文明之光》 | [《智能时代：大数据与智能革命重新定义未来》](module-techs-extra/ZHINENGSHIDAI) 吴军 著
 7. [《基业长青》 吉姆·柯林斯 等著](module-techs-extra/JIYECHANGQING)
 8. [《物演通论》 王东岳 著](module-techs-extra/WUYANTONGLUN)
 9. [《失控：全人类的最终命运和结局》](module-techs-extra/SHIKONG) | 《科技想要什么》 | [《必然》](module-techs-extra/BIRAN) 凯文·凯利 著（“KK 三部曲”）
