@@ -133,7 +133,8 @@ module.exports = {
         'WEILAISHIJIEDEXINGCUNZHE/'
       ],
       '/module_movie/movie/': [''],
-      '/module_movie/tv/': ['']
+      '/module_movie/tv/': [''],
+      '/module_blog/': [''],
     }
   }
 }
