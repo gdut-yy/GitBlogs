@@ -24,6 +24,8 @@ module.exports = {
     editLinkText: '帮助我们改善此页面！',
     // 最后更新时间
     lastUpdated: 'Last Updated',
+    // 最大深度
+    sidebarDepth: 4,
     // 导航栏
     nav: [
       { text: '首页', link: '/' },
@@ -49,25 +51,38 @@ module.exports = {
         ]
       },
       {
-        text: '阅读',
+        text: '书·影',
         items: [
           {
-            text: 'Group1',
+            text: '阅读',
             items: [
               { text: '技术书籍', link: '/module_book/tech/' },
-              { text: '泛技术书籍', link: '/module_book/tech-extra/' }
+              { text: '泛技术书籍', link: '/module_book/tech-extra/' },
+              { text: '校选教材', link: '/module_book/edu/' }
             ]
           },
-          { text: 'Group2', items: [{ text: '校选教材', link: '/module_book/edu/' }] }
+          {
+            text: '观影',
+            items: [{ text: '电影', link: '/module_movie/movie/' }, { text: '电视剧', link: '/module_movie/tv/' }]
+          },
+          { text: 'TODO', items: [{ text: '10 本书', link: '/module_book/todo/' }] }
         ]
       },
       {
-        text: '观影',
-        items: [{ text: '电影', link: '/module_movie/movie/' }, { text: '电视剧', link: '/module_movie/tv/' }]
+        text: 'Wiki',
+        items: [
+          { text: 'Web前端', link: '/module_wiki/frontend/' },
+          { text: '服务端', link: '/module_wiki/backend/' },
+          { text: 'Android移动端', link: '/module_wiki/android/' }
+        ]
       },
       {
         text: 'Blog',
-        items: [{ text: '源码学习', link: '/module_blog/' }, { text: '建设中', link: '/module_blog/' }]
+        items: [
+          { text: '年终总结', link: '/module_blog/year-end-summary/' },
+          { text: '百万级图片爬虫', link: '/module_blog/reptile/' },
+          { text: '源码学习', link: '/module_blog/learn-source/' }
+        ]
       }
       // { text: 'Github', link: 'https://www.github.com/gdut-yy' }
     ],
@@ -115,7 +130,13 @@ module.exports = {
         'PaxosTOZooKeeper/',
         'PJWD3/',
         'MACHUGAOXIAO/',
-        'NILIUERSHANG/'
+        'NILIUERSHANG/',
+        'You-Dont-Know-Js/up&going/',
+        'You-Dont-Know-Js/scope&closures/',
+        'You-Dont-Know-Js/this&objectprototypes/',   
+        'You-Dont-Know-Js/types&grammar/',
+        'You-Dont-Know-Js/async&performance/',
+        'You-Dont-Know-Js/es6&beyond/',
       ],
       // 泛技术书籍
       '/module_book/tech-extra/': [
@@ -132,9 +153,25 @@ module.exports = {
         'SHIKONG/',
         'WEILAISHIJIEDEXINGCUNZHE/'
       ],
+      // 10本书
+      '/module_book/todo/': [
+        '',
+        'CJV-I10/',
+        'PyTorch/',
+        'ZHIXINGHEYI/',
+        'YONGHUTIYANYAOSU/',
+        'SpringBoot2/',
+        'SpringCloud-Docker/',
+        'Vuejs/',
+        'TUMO-MySQL/',
+        'ERP/'
+      ],
       '/module_movie/movie/': [''],
       '/module_movie/tv/': [''],
-      '/module_blog/': [''],
+      // Wiki
+      '/module_wiki/': ['frontend/', 'backend/', 'android/'],
+      // Blog
+      '/module_blog/': ['year-end-summary/', 'reptile/', 'learn-source/']
     }
   }
 }

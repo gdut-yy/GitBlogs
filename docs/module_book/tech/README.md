@@ -14,3 +14,4 @@
 12. [《编程之美——微软技术面试心得》 《编程之美》小组 著](BIANCHENGZHIMEI)
 13. [《码出高效 Java 开发手册》 杨冠宝（孤尽） 高海慧（鸣莎） 著](MACHUGAOXIAO)
 14. [《逆流而上：阿里巴巴技术成长之路》 阿里巴巴集团成长集编委会 著](NILIUERSHANG)
+15. [《你不知道的 JavaScript（上中下卷）》](You-Dont-Know-Js)
