@@ -62,6 +62,22 @@ module.exports = {
             ]
           },
           {
+            text: 'JavaScript',
+            items: [
+              { text: 'YDKJS-起步上路', link: '/module_book/JS/up&going/' },
+              { text: 'YDKJS-作用域与闭包', link: '/module_book/JS/scope&closures/' },
+              { text: 'YDKJS-this与对象原型', link: '/module_book/JS/this&objectprototypes/' },
+              { text: 'YDKJS-类型与文法', link: '/module_book/JS/types&grammar/' },
+              { text: 'YDKJS-异步与性能', link: '/module_book/JS/async&performance/' },
+              { text: 'YDKJS-ES6与未来', link: '/module_book/JS/es6&beyond/' },
+              { text: '轻量函数式 JavaScript', link: '/module_book/JS/Functional-Light-JS-zh/' }
+            ]
+          },
+          {
+            text: 'CSS（建设中）',
+            items: [{ text: 'CSS 权威指南 4th', link: 'https://github.com/gdut-yy/CSS-The-Definitive-Guide-4th-zh' }]
+          },
+          {
             text: '观影',
             items: [{ text: '电影', link: '/module_movie/movie/' }, { text: '电视剧', link: '/module_movie/tv/' }]
           },
@@ -130,13 +146,7 @@ module.exports = {
         'PaxosTOZooKeeper/',
         'PJWD3/',
         'MACHUGAOXIAO/',
-        'NILIUERSHANG/',
-        'You-Dont-Know-Js/up&going/',
-        'You-Dont-Know-Js/scope&closures/',
-        'You-Dont-Know-Js/this&objectprototypes/',   
-        'You-Dont-Know-Js/types&grammar/',
-        'You-Dont-Know-Js/async&performance/',
-        'You-Dont-Know-Js/es6&beyond/',
+        'NILIUERSHANG/'
       ],
       // 泛技术书籍
       '/module_book/tech-extra/': [
@@ -152,6 +162,80 @@ module.exports = {
         'RENYUESHENHUA/',
         'SHIKONG/',
         'WEILAISHIJIEDEXINGCUNZHE/'
+      ],
+      // JS-起步上路
+      '/module_book/JS/up&going/': ['', 'foreword.md', 'ch1.md', 'ch2.md', 'ch3.md'],
+      // JS-作用域与闭包
+      '/module_book/JS/scope&closures/': [
+        '',
+        'ch1.md',
+        'ch2.md',
+        'ch3.md',
+        'ch4.md',
+        'ch5.md',
+        'apA.md',
+        'apB.md',
+        'apC.md'
+      ],
+      // JS-this与对象原型
+      '/module_book/JS/this&objectprototypes/': [
+        '',
+        'foreword.md',
+        'ch1.md',
+        'ch2.md',
+        'ch3.md',
+        'ch4.md',
+        'ch5.md',
+        'ch6.md',
+        'apA.md'
+      ],
+      // JS-类型与文法
+      '/module_book/JS/types&grammar/': ['', 'foreword.md', 'ch1.md', 'ch2.md', 'ch3.md', 'ch4.md', 'ch5.md', 'apA.md'],
+      // JS-异步与性能
+      '/module_book/JS/async&performance/': [
+        '',
+        'foreword.md',
+        'ch1.md',
+        'ch2.md',
+        'ch3.md',
+        'ch4.md',
+        'ch5.md',
+        'ch6.md',
+        'apA.md',
+        'apB.md'
+      ],
+      // JS-ES6与未来
+      '/module_book/JS/es6&beyond/': [
+        '',
+        'foreword.md',
+        'ch1.md',
+        'ch2.md',
+        'ch3.md',
+        'ch4.md',
+        'ch5.md',
+        'ch6.md',
+        'ch7.md',
+        'ch8.md'
+      ],
+      // JS-轻量函数式 JavaScript
+      '/module_book/JS/Functional-Light-JS-zh/': [
+        '',
+        'foreword.md',
+        'preface.md',
+        'ch1.md',
+        'ch2.md',
+        'ch3.md',
+        'ch4.md',
+        'ch5.md',
+        'ch6.md',
+        'ch7.md',
+        'ch8.md',
+        'ch9.md',
+        'ch10.md',
+        'ch11.md',
+        'apA.md',
+        'apB.md',
+        'apC.md'
       ],
       // 10本书
       '/module_book/todo/': [
