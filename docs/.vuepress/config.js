@@ -14,8 +14,6 @@ module.exports = {
     // 以下为可选的编辑链接选项
     // 假如你的文档仓库和项目本身不在一个仓库：
     docsRepo: 'gdut-yy/GitBlogs',
-    // 假如文档不是放在仓库的根目录下：
-    // docsDir: 'docs',
     // 假如文档放在一个特定的分支下：
     docsBranch: 'github-io',
     // 默认是 false, 设置为 true 来启用
@@ -51,15 +49,20 @@ module.exports = {
         ]
       },
       {
-        text: '书·影',
+        text: '阅读',
         items: [
           {
             text: '阅读',
             items: [
               { text: '技术书籍', link: '/module_book/tech/' },
               { text: '泛技术书籍', link: '/module_book/tech-extra/' },
-              { text: '校选教材', link: '/module_book/edu/' }
+              { text: '校选教材', link: '/module_book/edu/' },
+              { text: '文学 & 小说', link: '/module_book/literature/' }
             ]
+          },
+          {
+            text: 'CSS（建设中）',
+            items: [{ text: 'CSS 权威指南 4th', link: 'https://github.com/gdut-yy/CSS-The-Definitive-Guide-4th-zh' }]
           },
           {
             text: 'JavaScript',
@@ -73,34 +76,30 @@ module.exports = {
               { text: '轻量函数式 JavaScript', link: '/module_book/JS/Functional-Light-JS-zh/' }
             ]
           },
-          {
-            text: 'CSS（建设中）',
-            items: [{ text: 'CSS 权威指南 4th', link: 'https://github.com/gdut-yy/CSS-The-Definitive-Guide-4th-zh' }]
-          },
-          {
-            text: '观影',
-            items: [{ text: '电影', link: '/module_movie/movie/' }, { text: '电视剧', link: '/module_movie/tv/' }]
-          },
           { text: 'TODO', items: [{ text: '10 本书', link: '/module_book/todo/' }] }
         ]
       },
       {
+        text: '观影',
+        items: [{ text: '电影', link: '/module_movie/movie/' } /*{ text: '电视剧', link: '/module_movie/tv/' }*/]
+      },
+      {
         text: 'Wiki',
         items: [
-          { text: 'Web前端', link: '/module_wiki/frontend/' },
-          { text: '服务端', link: '/module_wiki/backend/' },
-          { text: 'Android移动端', link: '/module_wiki/android/' }
+          { text: '前端', link: '/module_wiki/frontend/' },
+          { text: '后端', link: '/module_wiki/backend/' },
+          { text: 'Android', link: '/module_wiki/android/' },
+          { text: 'DevOps', link: '/module_wiki/devops/' }
         ]
       },
       {
         text: 'Blog',
         items: [
           { text: '年终总结', link: '/module_blog/year-end-summary/' },
-          { text: '百万级图片爬虫', link: '/module_blog/reptile/' },
+          // { text: '百万级图片爬虫', link: '/module_blog/reptile/' },
           { text: '源码学习', link: '/module_blog/learn-source/' }
         ]
       }
-      // { text: 'Github', link: 'https://www.github.com/gdut-yy' }
     ],
     // 侧边栏
     sidebar: {
@@ -250,12 +249,12 @@ module.exports = {
         'TUMO-MySQL/',
         'ERP/'
       ],
-      '/module_movie/movie/': [''],
-      '/module_movie/tv/': [''],
+      // 观影
+      '/module_movie/': ['movie/', 'tv/'],
       // Wiki
-      '/module_wiki/': ['frontend/', 'backend/', 'android/'],
+      '/module_wiki/': ['frontend/', 'backend/', 'android/', 'devops/'],
       // Blog
-      '/module_blog/': ['year-end-summary/', 'reptile/', 'learn-source/']
+      '/module_blog/': ['year-end-summary/', /*'reptile/',*/ 'learn-source/']
     }
   }
 }
