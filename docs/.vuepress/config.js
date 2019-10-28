@@ -62,7 +62,10 @@ module.exports = {
           },
           {
             text: 'CSS（建设中）',
-            items: [{ text: 'CSS 权威指南 4th', link: 'https://github.com/gdut-yy/CSS-The-Definitive-Guide-4th-zh' }]
+            items: [
+              { text: 'CSS 权威指南 4th（Github）', link: 'https://github.com/gdut-yy/CSS-The-Definitive-Guide-4th-zh' },
+              { text: 'CSS 权威指南 4th（Preview）', link: 'http://gdut_yy.gitee.io/gitee-page/' }
+            ]
           },
           {
             text: 'JavaScript',
