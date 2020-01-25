@@ -95,11 +95,11 @@ module.exports = {
               { text: "校选教材", link: "/module_book/edu/" },
               { text: "文学 & 小说", link: "/module_book/literature/" }
             ]
-          },
-          {
-            text: "TODO",
-            items: [{ text: "10 本书", link: "/module_book/todo/" }]
           }
+          // {
+          //   text: "TODO",
+          //   items: [{ text: "10 本书", link: "/module_book/todo/" }]
+          // }
         ]
       },
       {
@@ -203,7 +203,7 @@ module.exports = {
         "ERP/"
       ],
       // 观影
-      "/module_movie/": ["movie/", "tv/"],
+      "/module_movie/": ["movie/" /*"tv/"*/],
       // Wiki
       "/module_wiki/": ["frontend/", "backend/", "android/", "devops/"],
       // Blog

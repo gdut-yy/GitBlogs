@@ -1,4 +1,5 @@
 # 源码学习
+
 ## minipack 源码学习
 
 源码地址：[https://github.com/ronami/minipack](https://github.com/ronami/minipack)
@@ -51,13 +52,13 @@
  * 并跳过其他内容，以使这个示例尽可能简单。
  */
 
-const fs = require('fs')
-const path = require('path')
-const babylon = require('babylon')
-const traverse = require('babel-traverse').default
-const { transformFromAst } = require('babel-core')
+const fs = require("fs");
+const path = require("path");
+const babylon = require("babylon");
+const traverse = require("babel-traverse").default;
+const { transformFromAst } = require("babel-core");
 
-let ID = 0
+let ID = 0;
 
 // We start by creating a function that will accept a path to a file, read
 // its contents, and extract its dependencies.
@@ -67,7 +68,7 @@ function createAsset(filename) {
   // Read the content of the file as a string.
   //
   // 将文件的内容作为字符串读取。
-  const content = fs.readFileSync(filename, 'utf-8')
+  const content = fs.readFileSync(filename, "utf-8");
 
   // Now we try to figure out which files this file depends on. We can do that
   // by looking at its content for import strings. However, this is a pretty
@@ -92,13 +93,13 @@ function createAsset(filename) {
   //
   // AST包含了很多关于我们代码的信息。我们可以查询它来理解我们的代码试图做什么。
   const ast = babylon.parse(content, {
-    sourceType: 'module'
-  })
+    sourceType: "module"
+  });
 
   // This array will hold the relative paths of modules this module depends on.
   //
   // 此数组将保存此模块所依赖的模块的相对路径。
-  const dependencies = []
+  const dependencies = [];
 
   // We traverse the AST to try and understand which modules this module depends
   // on. To do that, we check every import declaration in the AST.
@@ -116,15 +117,15 @@ function createAsset(filename) {
       // We push the value that we import into the dependencies array.
       //
       // 我们将导入的值推入dependencies数组。
-      dependencies.push(node.source.value)
+      dependencies.push(node.source.value);
     }
-  })
+  });
 
   // We also assign a unique identifier to this module by incrementing a simple
   // counter.
   //
   // 我们还通过递增一个简单计数器为这个模块分配一个唯一标识符。
-  const id = ID++
+  const id = ID++;
 
   // We use EcmaScript modules and other JavaScript features that may not be
   // supported on all browsers. To make sure our bundle runs in all browsers we
@@ -140,8 +141,8 @@ function createAsset(filename) {
   // “presets”选项是一组告诉Babel如何转换代码的规则。我们使用“babel-preset-env”
   // 将代码转换为大多数浏览器都能运行的代码。
   const { code } = transformFromAst(ast, null, {
-    presets: ['env']
-  })
+    presets: ["env"]
+  });
 
   // Return all information about this module.
   //
@@ -151,7 +152,7 @@ function createAsset(filename) {
     filename,
     dependencies,
     code
-  }
+  };
 }
 
 // Now that we can extract the dependencies of a single module, we are going to
@@ -170,13 +171,13 @@ function createGraph(entry) {
   // Start by parsing the entry file.
   //
   // 首先解析条目文件。
-  const mainAsset = createAsset(entry)
+  const mainAsset = createAsset(entry);
 
   // We're going to use a queue to parse the dependencies of every asset. To do
   // that we are defining an array with just the entry asset.
   //
   // 我们将使用一个队列来解析每个资产的依赖关系。为此，我们定义了一个只有条目资产的数组。
-  const queue = [mainAsset]
+  const queue = [mainAsset];
 
   // We use a `for ... of` loop to iterate over the queue. Initially the queue
   // only has one asset but as we iterate it we will push additional new assets
@@ -192,12 +193,12 @@ function createGraph(entry) {
     //
     // 我们的每个资产都有一个到它所依赖的模块的相对路径列表。我们将遍历它们，
     // 使用“createAsset()”函数解析它们，并跟踪这个模块在这个对象中的依赖关系。
-    asset.mapping = {}
+    asset.mapping = {};
 
     // This is the directory this module is in.
     //
     // 这是这个模块所在的目录。
-    const dirname = path.dirname(asset.filename)
+    const dirname = path.dirname(asset.filename);
 
     // We iterate over the list of relative paths to its dependencies.
     //
@@ -211,12 +212,12 @@ function createGraph(entry) {
       //
       // 函数的作用是:创建一个绝对文件名。依赖项数组是一个相对路径数组。这些路径相对于导入它们的
       // 文件。通过将相对路径与父资产目录的路径连接起来，我们可以将相对路径转换为绝对路径。
-      const absolutePath = path.join(dirname, relativePath)
+      const absolutePath = path.join(dirname, relativePath);
 
       // Parse the asset, read its content, and extract its dependencies.
       //
       // 解析资产，读取其内容，并提取其依赖项。
-      const child = createAsset(absolutePath)
+      const child = createAsset(absolutePath);
 
       // It's essential for us to know that `asset` depends on `child`. We
       // express that relationship by adding a new property to the `mapping`
@@ -224,21 +225,21 @@ function createGraph(entry) {
       //
       // 我们必须知道“资产”取决于“孩子”。我们通过使用子对象的id向“mapping”对象
       // 添加一个新属性来表达这种关系。
-      asset.mapping[relativePath] = child.id
+      asset.mapping[relativePath] = child.id;
 
       // Finally, we push the child asset into the queue so its dependencies
       // will also be iterated over and parsed.
       //
       // 最后，我们将子资产推入队列，这样它的依赖关系也将被迭代和解析。
-      queue.push(child)
-    })
+      queue.push(child);
+    });
   }
 
   // At this point the queue is just an array with every module in the target
   // application: This is how we represent our graph.
   //
   // 此时，队列只是一个数组，包含目标应用程序中的每个模块:这就是我们表示图形的方式。
-  return queue
+  return queue;
 }
 
 // Next, we define a function that will use our graph and return a bundle that
@@ -257,7 +258,7 @@ function createGraph(entry) {
 //
 // 该函数将只接收一个参数:一个对象，其中包含关于图中每个模块的信息。
 function bundle(graph) {
-  let modules = ''
+  let modules = "";
 
   // Before we get to the body of that function, we'll construct the object that
   // we'll pass to it as a parameter. Please note that this string that we're
@@ -307,8 +308,8 @@ function bundle(graph) {
         ${mod.code}
       },
       ${JSON.stringify(mod.mapping)},
-    ],`
-  })
+    ],`;
+  });
 
   // Finally, we implement the body of the self-invoking function.
   //
@@ -364,1042 +365,16 @@ function bundle(graph) {
 
       require(0);
     })({${modules}})
-  `
+  `;
 
   // We simply return the result, hurray! :)
   //
   // 我们只是返回结果，万岁! :)
-  return result
+  return result;
 }
 
-const graph = createGraph('./example/entry.js')
-const result = bundle(graph)
+const graph = createGraph("./example/entry.js");
+const result = bundle(graph);
 
-console.log(result)
-```
-
-## Vue.js 双向绑定源码
-
-## JDK-8 Executors 类
-```java
-/*
- * Written by Doug Lea with assistance from members of JCP JSR-166
- * Expert Group and released to the public domain, as explained at
- * http://creativecommons.org/publicdomain/zero/1.0/
- */
-
-package java.util.concurrent;
-import java.util.*;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.security.AccessControlContext;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.security.PrivilegedExceptionAction;
-import java.security.PrivilegedActionException;
-import java.security.AccessControlException;
-import sun.security.util.SecurityConstants;
-
-/**
- * Factory and utility methods for {@link Executor}, {@link
- * ExecutorService}, {@link ScheduledExecutorService}, {@link
- * ThreadFactory}, and {@link Callable} classes defined in this
- * package. This class supports the following kinds of methods:
- *
- * <ul>
- *   <li> Methods that create and return an {@link ExecutorService}
- *        set up with commonly useful configuration settings.
- *   <li> Methods that create and return a {@link ScheduledExecutorService}
- *        set up with commonly useful configuration settings.
- *   <li> Methods that create and return a "wrapped" ExecutorService, that
- *        disables reconfiguration by making implementation-specific methods
- *        inaccessible.
- *   <li> Methods that create and return a {@link ThreadFactory}
- *        that sets newly created threads to a known state.
- *   <li> Methods that create and return a {@link Callable}
- *        out of other closure-like forms, so they can be used
- *        in execution methods requiring {@code Callable}.
- * </ul>
- *
- * @since 1.5
- * @author Doug Lea
- */
-public class Executors {
-
-    /**
-     * Creates a thread pool that reuses a fixed number of threads
-     * operating off a shared unbounded queue.  At any point, at most
-     * {@code nThreads} threads will be active processing tasks.
-     * If additional tasks are submitted when all threads are active,
-     * they will wait in the queue until a thread is available.
-     * If any thread terminates due to a failure during execution
-     * prior to shutdown, a new one will take its place if needed to
-     * execute subsequent tasks.  The threads in the pool will exist
-     * until it is explicitly {@link ExecutorService#shutdown shutdown}.
-     *
-     * 创建一个线程池，该线程池重用在共享无界队列上运行的固定数量的线程。
-     * 在任何时候，大多数{@code nThreads}线程都是活动的处理任务。
-     * 如果在所有线程都处于活动状态时提交其他任务，它们将在队列中等待，直到线程可用为止。
-     * 如果任何线程在关闭之前的执行过程中由于失败而终止，那么如果需要执行后续任务，则会替换一个新线程。
-     * 池中的线程将一直存在，直到显式地变成{@link ExecutorService#shutdown shutdown}。
-     *
-     * @param nThreads the number of threads in the pool
-     * @return the newly created thread pool
-     * @throws IllegalArgumentException if {@code nThreads <= 0}
-     */
-    public static ExecutorService newFixedThreadPool(int nThreads) {
-        return new ThreadPoolExecutor(nThreads, nThreads,
-                                      0L, TimeUnit.MILLISECONDS,
-                                      new LinkedBlockingQueue<Runnable>());
-    }
-
-    /**
-     * Creates a thread pool that maintains enough threads to support
-     * the given parallelism level, and may use multiple queues to
-     * reduce contention. The parallelism level corresponds to the
-     * maximum number of threads actively engaged in, or available to
-     * engage in, task processing. The actual number of threads may
-     * grow and shrink dynamically. A work-stealing pool makes no
-     * guarantees about the order in which submitted tasks are
-     * executed.
-     *
-     * 创建一个线程池，该线程池维护足够的线程以支持给定的并行度级别，并且可以使用多个队列来减少争用。
-     * 并行度级别对应于ngage in任务处理中活动或可用的最大线程数。线程的实际数量可以动态地增长和收缩。
-     * 工作窃取池不能保证所提交任务的执行顺序。
-     *
-     * @param parallelism the targeted parallelism level
-     * @return the newly created thread pool
-     * @throws IllegalArgumentException if {@code parallelism <= 0}
-     * @since 1.8
-     */
-    public static ExecutorService newWorkStealingPool(int parallelism) {
-        return new ForkJoinPool
-            (parallelism,
-             ForkJoinPool.defaultForkJoinWorkerThreadFactory,
-             null, true);
-    }
-
-    /**
-     * Creates a work-stealing thread pool using all
-     * {@link Runtime#availableProcessors available processors}
-     * as its target parallelism level.
-     * @return the newly created thread pool
-     * @see #newWorkStealingPool(int)
-     * @since 1.8
-     */
-    public static ExecutorService newWorkStealingPool() {
-        return new ForkJoinPool
-            (Runtime.getRuntime().availableProcessors(),
-             ForkJoinPool.defaultForkJoinWorkerThreadFactory,
-             null, true);
-    }
-
-    /**
-     * Creates a thread pool that reuses a fixed number of threads
-     * operating off a shared unbounded queue, using the provided
-     * ThreadFactory to create new threads when needed.  At any point,
-     * at most {@code nThreads} threads will be active processing
-     * tasks.  If additional tasks are submitted when all threads are
-     * active, they will wait in the queue until a thread is
-     * available.  If any thread terminates due to a failure during
-     * execution prior to shutdown, a new one will take its place if
-     * needed to execute subsequent tasks.  The threads in the pool will
-     * exist until it is explicitly {@link ExecutorService#shutdown
-     * shutdown}.
-     *
-     * @param nThreads the number of threads in the pool
-     * @param threadFactory the factory to use when creating new threads
-     * @return the newly created thread pool
-     * @throws NullPointerException if threadFactory is null
-     * @throws IllegalArgumentException if {@code nThreads <= 0}
-     */
-    public static ExecutorService newFixedThreadPool(int nThreads, ThreadFactory threadFactory) {
-        return new ThreadPoolExecutor(nThreads, nThreads,
-                                      0L, TimeUnit.MILLISECONDS,
-                                      new LinkedBlockingQueue<Runnable>(),
-                                      threadFactory);
-    }
-
-    /**
-     * Creates an Executor that uses a single worker thread operating
-     * off an unbounded queue. (Note however that if this single
-     * thread terminates due to a failure during execution prior to
-     * shutdown, a new one will take its place if needed to execute
-     * subsequent tasks.)  Tasks are guaranteed to execute
-     * sequentially, and no more than one task will be active at any
-     * given time. Unlike the otherwise equivalent
-     * {@code newFixedThreadPool(1)} the returned executor is
-     * guaranteed not to be reconfigurable to use additional threads.
-     *
-     * @return the newly created single-threaded Executor
-     */
-    public static ExecutorService newSingleThreadExecutor() {
-        return new FinalizableDelegatedExecutorService
-            (new ThreadPoolExecutor(1, 1,
-                                    0L, TimeUnit.MILLISECONDS,
-                                    new LinkedBlockingQueue<Runnable>()));
-    }
-
-    /**
-     * Creates an Executor that uses a single worker thread operating
-     * off an unbounded queue, and uses the provided ThreadFactory to
-     * create a new thread when needed. Unlike the otherwise
-     * equivalent {@code newFixedThreadPool(1, threadFactory)} the
-     * returned executor is guaranteed not to be reconfigurable to use
-     * additional threads.
-     *
-     * @param threadFactory the factory to use when creating new
-     * threads
-     *
-     * @return the newly created single-threaded Executor
-     * @throws NullPointerException if threadFactory is null
-     */
-    public static ExecutorService newSingleThreadExecutor(ThreadFactory threadFactory) {
-        return new FinalizableDelegatedExecutorService
-            (new ThreadPoolExecutor(1, 1,
-                                    0L, TimeUnit.MILLISECONDS,
-                                    new LinkedBlockingQueue<Runnable>(),
-                                    threadFactory));
-    }
-
-    /**
-     * Creates a thread pool that creates new threads as needed, but
-     * will reuse previously constructed threads when they are
-     * available.  These pools will typically improve the performance
-     * of programs that execute many short-lived asynchronous tasks.
-     * Calls to {@code execute} will reuse previously constructed
-     * threads if available. If no existing thread is available, a new
-     * thread will be created and added to the pool. Threads that have
-     * not been used for sixty seconds are terminated and removed from
-     * the cache. Thus, a pool that remains idle for long enough will
-     * not consume any resources. Note that pools with similar
-     * properties but different details (for example, timeout parameters)
-     * may be created using {@link ThreadPoolExecutor} constructors.
-     *
-     * @return the newly created thread pool
-     */
-    public static ExecutorService newCachedThreadPool() {
-        return new ThreadPoolExecutor(0, Integer.MAX_VALUE,
-                                      60L, TimeUnit.SECONDS,
-                                      new SynchronousQueue<Runnable>());
-    }
-
-    /**
-     * Creates a thread pool that creates new threads as needed, but
-     * will reuse previously constructed threads when they are
-     * available, and uses the provided
-     * ThreadFactory to create new threads when needed.
-     * @param threadFactory the factory to use when creating new threads
-     * @return the newly created thread pool
-     * @throws NullPointerException if threadFactory is null
-     */
-    public static ExecutorService newCachedThreadPool(ThreadFactory threadFactory) {
-        return new ThreadPoolExecutor(0, Integer.MAX_VALUE,
-                                      60L, TimeUnit.SECONDS,
-                                      new SynchronousQueue<Runnable>(),
-                                      threadFactory);
-    }
-
-    /**
-     * Creates a single-threaded executor that can schedule commands
-     * to run after a given delay, or to execute periodically.
-     * (Note however that if this single
-     * thread terminates due to a failure during execution prior to
-     * shutdown, a new one will take its place if needed to execute
-     * subsequent tasks.)  Tasks are guaranteed to execute
-     * sequentially, and no more than one task will be active at any
-     * given time. Unlike the otherwise equivalent
-     * {@code newScheduledThreadPool(1)} the returned executor is
-     * guaranteed not to be reconfigurable to use additional threads.
-     * @return the newly created scheduled executor
-     */
-    public static ScheduledExecutorService newSingleThreadScheduledExecutor() {
-        return new DelegatedScheduledExecutorService
-            (new ScheduledThreadPoolExecutor(1));
-    }
-
-    /**
-     * Creates a single-threaded executor that can schedule commands
-     * to run after a given delay, or to execute periodically.  (Note
-     * however that if this single thread terminates due to a failure
-     * during execution prior to shutdown, a new one will take its
-     * place if needed to execute subsequent tasks.)  Tasks are
-     * guaranteed to execute sequentially, and no more than one task
-     * will be active at any given time. Unlike the otherwise
-     * equivalent {@code newScheduledThreadPool(1, threadFactory)}
-     * the returned executor is guaranteed not to be reconfigurable to
-     * use additional threads.
-     * @param threadFactory the factory to use when creating new
-     * threads
-     * @return a newly created scheduled executor
-     * @throws NullPointerException if threadFactory is null
-     */
-    public static ScheduledExecutorService newSingleThreadScheduledExecutor(ThreadFactory threadFactory) {
-        return new DelegatedScheduledExecutorService
-            (new ScheduledThreadPoolExecutor(1, threadFactory));
-    }
-
-    /**
-     * Creates a thread pool that can schedule commands to run after a
-     * given delay, or to execute periodically.
-     * @param corePoolSize the number of threads to keep in the pool,
-     * even if they are idle
-     * @return a newly created scheduled thread pool
-     * @throws IllegalArgumentException if {@code corePoolSize < 0}
-     */
-    public static ScheduledExecutorService newScheduledThreadPool(int corePoolSize) {
-        return new ScheduledThreadPoolExecutor(corePoolSize);
-    }
-
-    /**
-     * Creates a thread pool that can schedule commands to run after a
-     * given delay, or to execute periodically.
-     * @param corePoolSize the number of threads to keep in the pool,
-     * even if they are idle
-     * @param threadFactory the factory to use when the executor
-     * creates a new thread
-     * @return a newly created scheduled thread pool
-     * @throws IllegalArgumentException if {@code corePoolSize < 0}
-     * @throws NullPointerException if threadFactory is null
-     */
-    public static ScheduledExecutorService newScheduledThreadPool(
-            int corePoolSize, ThreadFactory threadFactory) {
-        return new ScheduledThreadPoolExecutor(corePoolSize, threadFactory);
-    }
-
-    /**
-     * Returns an object that delegates all defined {@link
-     * ExecutorService} methods to the given executor, but not any
-     * other methods that might otherwise be accessible using
-     * casts. This provides a way to safely "freeze" configuration and
-     * disallow tuning of a given concrete implementation.
-     * @param executor the underlying implementation
-     * @return an {@code ExecutorService} instance
-     * @throws NullPointerException if executor null
-     */
-    public static ExecutorService unconfigurableExecutorService(ExecutorService executor) {
-        if (executor == null)
-            throw new NullPointerException();
-        return new DelegatedExecutorService(executor);
-    }
-
-    /**
-     * Returns an object that delegates all defined {@link
-     * ScheduledExecutorService} methods to the given executor, but
-     * not any other methods that might otherwise be accessible using
-     * casts. This provides a way to safely "freeze" configuration and
-     * disallow tuning of a given concrete implementation.
-     * @param executor the underlying implementation
-     * @return a {@code ScheduledExecutorService} instance
-     * @throws NullPointerException if executor null
-     */
-    public static ScheduledExecutorService unconfigurableScheduledExecutorService(ScheduledExecutorService executor) {
-        if (executor == null)
-            throw new NullPointerException();
-        return new DelegatedScheduledExecutorService(executor);
-    }
-
-    /**
-     * Returns a default thread factory used to create new threads.
-     * This factory creates all new threads used by an Executor in the
-     * same {@link ThreadGroup}. If there is a {@link
-     * java.lang.SecurityManager}, it uses the group of {@link
-     * System#getSecurityManager}, else the group of the thread
-     * invoking this {@code defaultThreadFactory} method. Each new
-     * thread is created as a non-daemon thread with priority set to
-     * the smaller of {@code Thread.NORM_PRIORITY} and the maximum
-     * priority permitted in the thread group.  New threads have names
-     * accessible via {@link Thread#getName} of
-     * <em>pool-N-thread-M</em>, where <em>N</em> is the sequence
-     * number of this factory, and <em>M</em> is the sequence number
-     * of the thread created by this factory.
-     * @return a thread factory
-     */
-    public static ThreadFactory defaultThreadFactory() {
-        return new DefaultThreadFactory();
-    }
-
-    /**
-     * Returns a thread factory used to create new threads that
-     * have the same permissions as the current thread.
-     * This factory creates threads with the same settings as {@link
-     * Executors#defaultThreadFactory}, additionally setting the
-     * AccessControlContext and contextClassLoader of new threads to
-     * be the same as the thread invoking this
-     * {@code privilegedThreadFactory} method.  A new
-     * {@code privilegedThreadFactory} can be created within an
-     * {@link AccessController#doPrivileged AccessController.doPrivileged}
-     * action setting the current thread's access control context to
-     * create threads with the selected permission settings holding
-     * within that action.
-     *
-     * <p>Note that while tasks running within such threads will have
-     * the same access control and class loader settings as the
-     * current thread, they need not have the same {@link
-     * java.lang.ThreadLocal} or {@link
-     * java.lang.InheritableThreadLocal} values. If necessary,
-     * particular values of thread locals can be set or reset before
-     * any task runs in {@link ThreadPoolExecutor} subclasses using
-     * {@link ThreadPoolExecutor#beforeExecute(Thread, Runnable)}.
-     * Also, if it is necessary to initialize worker threads to have
-     * the same InheritableThreadLocal settings as some other
-     * designated thread, you can create a custom ThreadFactory in
-     * which that thread waits for and services requests to create
-     * others that will inherit its values.
-     *
-     * @return a thread factory
-     * @throws AccessControlException if the current access control
-     * context does not have permission to both get and set context
-     * class loader
-     */
-    public static ThreadFactory privilegedThreadFactory() {
-        return new PrivilegedThreadFactory();
-    }
-
-    /**
-     * Returns a {@link Callable} object that, when
-     * called, runs the given task and returns the given result.  This
-     * can be useful when applying methods requiring a
-     * {@code Callable} to an otherwise resultless action.
-     * @param task the task to run
-     * @param result the result to return
-     * @param <T> the type of the result
-     * @return a callable object
-     * @throws NullPointerException if task null
-     */
-    public static <T> Callable<T> callable(Runnable task, T result) {
-        if (task == null)
-            throw new NullPointerException();
-        return new RunnableAdapter<T>(task, result);
-    }
-
-    /**
-     * Returns a {@link Callable} object that, when
-     * called, runs the given task and returns {@code null}.
-     * @param task the task to run
-     * @return a callable object
-     * @throws NullPointerException if task null
-     */
-    public static Callable<Object> callable(Runnable task) {
-        if (task == null)
-            throw new NullPointerException();
-        return new RunnableAdapter<Object>(task, null);
-    }
-
-    /**
-     * Returns a {@link Callable} object that, when
-     * called, runs the given privileged action and returns its result.
-     * @param action the privileged action to run
-     * @return a callable object
-     * @throws NullPointerException if action null
-     */
-    public static Callable<Object> callable(final PrivilegedAction<?> action) {
-        if (action == null)
-            throw new NullPointerException();
-        return new Callable<Object>() {
-            public Object call() { return action.run(); }};
-    }
-
-    /**
-     * Returns a {@link Callable} object that, when
-     * called, runs the given privileged exception action and returns
-     * its result.
-     * @param action the privileged exception action to run
-     * @return a callable object
-     * @throws NullPointerException if action null
-     */
-    public static Callable<Object> callable(final PrivilegedExceptionAction<?> action) {
-        if (action == null)
-            throw new NullPointerException();
-        return new Callable<Object>() {
-            public Object call() throws Exception { return action.run(); }};
-    }
-
-    /**
-     * Returns a {@link Callable} object that will, when called,
-     * execute the given {@code callable} under the current access
-     * control context. This method should normally be invoked within
-     * an {@link AccessController#doPrivileged AccessController.doPrivileged}
-     * action to create callables that will, if possible, execute
-     * under the selected permission settings holding within that
-     * action; or if not possible, throw an associated {@link
-     * AccessControlException}.
-     * @param callable the underlying task
-     * @param <T> the type of the callable's result
-     * @return a callable object
-     * @throws NullPointerException if callable null
-     */
-    public static <T> Callable<T> privilegedCallable(Callable<T> callable) {
-        if (callable == null)
-            throw new NullPointerException();
-        return new PrivilegedCallable<T>(callable);
-    }
-
-    /**
-     * Returns a {@link Callable} object that will, when called,
-     * execute the given {@code callable} under the current access
-     * control context, with the current context class loader as the
-     * context class loader. This method should normally be invoked
-     * within an
-     * {@link AccessController#doPrivileged AccessController.doPrivileged}
-     * action to create callables that will, if possible, execute
-     * under the selected permission settings holding within that
-     * action; or if not possible, throw an associated {@link
-     * AccessControlException}.
-     *
-     * @param callable the underlying task
-     * @param <T> the type of the callable's result
-     * @return a callable object
-     * @throws NullPointerException if callable null
-     * @throws AccessControlException if the current access control
-     * context does not have permission to both set and get context
-     * class loader
-     */
-    public static <T> Callable<T> privilegedCallableUsingCurrentClassLoader(Callable<T> callable) {
-        if (callable == null)
-            throw new NullPointerException();
-        return new PrivilegedCallableUsingCurrentClassLoader<T>(callable);
-    }
-
-    // Non-public classes supporting the public methods
-
-    /**
-     * A callable that runs given task and returns given result
-     */
-    static final class RunnableAdapter<T> implements Callable<T> {
-        final Runnable task;
-        final T result;
-        RunnableAdapter(Runnable task, T result) {
-            this.task = task;
-            this.result = result;
-        }
-        public T call() {
-            task.run();
-            return result;
-        }
-    }
-
-    /**
-     * A callable that runs under established access control settings
-     */
-    static final class PrivilegedCallable<T> implements Callable<T> {
-        private final Callable<T> task;
-        private final AccessControlContext acc;
-
-        PrivilegedCallable(Callable<T> task) {
-            this.task = task;
-            this.acc = AccessController.getContext();
-        }
-
-        public T call() throws Exception {
-            try {
-                return AccessController.doPrivileged(
-                    new PrivilegedExceptionAction<T>() {
-                        public T run() throws Exception {
-                            return task.call();
-                        }
-                    }, acc);
-            } catch (PrivilegedActionException e) {
-                throw e.getException();
-            }
-        }
-    }
-
-    /**
-     * A callable that runs under established access control settings and
-     * current ClassLoader
-     */
-    static final class PrivilegedCallableUsingCurrentClassLoader<T> implements Callable<T> {
-        private final Callable<T> task;
-        private final AccessControlContext acc;
-        private final ClassLoader ccl;
-
-        PrivilegedCallableUsingCurrentClassLoader(Callable<T> task) {
-            SecurityManager sm = System.getSecurityManager();
-            if (sm != null) {
-                // Calls to getContextClassLoader from this class
-                // never trigger a security check, but we check
-                // whether our callers have this permission anyways.
-                sm.checkPermission(SecurityConstants.GET_CLASSLOADER_PERMISSION);
-
-                // Whether setContextClassLoader turns out to be necessary
-                // or not, we fail fast if permission is not available.
-                sm.checkPermission(new RuntimePermission("setContextClassLoader"));
-            }
-            this.task = task;
-            this.acc = AccessController.getContext();
-            this.ccl = Thread.currentThread().getContextClassLoader();
-        }
-
-        public T call() throws Exception {
-            try {
-                return AccessController.doPrivileged(
-                    new PrivilegedExceptionAction<T>() {
-                        public T run() throws Exception {
-                            Thread t = Thread.currentThread();
-                            ClassLoader cl = t.getContextClassLoader();
-                            if (ccl == cl) {
-                                return task.call();
-                            } else {
-                                t.setContextClassLoader(ccl);
-                                try {
-                                    return task.call();
-                                } finally {
-                                    t.setContextClassLoader(cl);
-                                }
-                            }
-                        }
-                    }, acc);
-            } catch (PrivilegedActionException e) {
-                throw e.getException();
-            }
-        }
-    }
-
-    /**
-     * The default thread factory
-     */
-    static class DefaultThreadFactory implements ThreadFactory {
-        private static final AtomicInteger poolNumber = new AtomicInteger(1);
-        private final ThreadGroup group;
-        private final AtomicInteger threadNumber = new AtomicInteger(1);
-        private final String namePrefix;
-
-        DefaultThreadFactory() {
-            SecurityManager s = System.getSecurityManager();
-            group = (s != null) ? s.getThreadGroup() :
-                                  Thread.currentThread().getThreadGroup();
-            namePrefix = "pool-" +
-                          poolNumber.getAndIncrement() +
-                         "-thread-";
-        }
-
-        public Thread newThread(Runnable r) {
-            Thread t = new Thread(group, r,
-                                  namePrefix + threadNumber.getAndIncrement(),
-                                  0);
-            if (t.isDaemon())
-                t.setDaemon(false);
-            if (t.getPriority() != Thread.NORM_PRIORITY)
-                t.setPriority(Thread.NORM_PRIORITY);
-            return t;
-        }
-    }
-
-    /**
-     * Thread factory capturing access control context and class loader
-     */
-    static class PrivilegedThreadFactory extends DefaultThreadFactory {
-        private final AccessControlContext acc;
-        private final ClassLoader ccl;
-
-        PrivilegedThreadFactory() {
-            super();
-            SecurityManager sm = System.getSecurityManager();
-            if (sm != null) {
-                // Calls to getContextClassLoader from this class
-                // never trigger a security check, but we check
-                // whether our callers have this permission anyways.
-                sm.checkPermission(SecurityConstants.GET_CLASSLOADER_PERMISSION);
-
-                // Fail fast
-                sm.checkPermission(new RuntimePermission("setContextClassLoader"));
-            }
-            this.acc = AccessController.getContext();
-            this.ccl = Thread.currentThread().getContextClassLoader();
-        }
-
-        public Thread newThread(final Runnable r) {
-            return super.newThread(new Runnable() {
-                public void run() {
-                    AccessController.doPrivileged(new PrivilegedAction<Void>() {
-                        public Void run() {
-                            Thread.currentThread().setContextClassLoader(ccl);
-                            r.run();
-                            return null;
-                        }
-                    }, acc);
-                }
-            });
-        }
-    }
-
-    /**
-     * A wrapper class that exposes only the ExecutorService methods
-     * of an ExecutorService implementation.
-     */
-    static class DelegatedExecutorService extends AbstractExecutorService {
-        private final ExecutorService e;
-        DelegatedExecutorService(ExecutorService executor) { e = executor; }
-        public void execute(Runnable command) { e.execute(command); }
-        public void shutdown() { e.shutdown(); }
-        public List<Runnable> shutdownNow() { return e.shutdownNow(); }
-        public boolean isShutdown() { return e.isShutdown(); }
-        public boolean isTerminated() { return e.isTerminated(); }
-        public boolean awaitTermination(long timeout, TimeUnit unit)
-            throws InterruptedException {
-            return e.awaitTermination(timeout, unit);
-        }
-        public Future<?> submit(Runnable task) {
-            return e.submit(task);
-        }
-        public <T> Future<T> submit(Callable<T> task) {
-            return e.submit(task);
-        }
-        public <T> Future<T> submit(Runnable task, T result) {
-            return e.submit(task, result);
-        }
-        public <T> List<Future<T>> invokeAll(Collection<? extends Callable<T>> tasks)
-            throws InterruptedException {
-            return e.invokeAll(tasks);
-        }
-        public <T> List<Future<T>> invokeAll(Collection<? extends Callable<T>> tasks,
-                                             long timeout, TimeUnit unit)
-            throws InterruptedException {
-            return e.invokeAll(tasks, timeout, unit);
-        }
-        public <T> T invokeAny(Collection<? extends Callable<T>> tasks)
-            throws InterruptedException, ExecutionException {
-            return e.invokeAny(tasks);
-        }
-        public <T> T invokeAny(Collection<? extends Callable<T>> tasks,
-                               long timeout, TimeUnit unit)
-            throws InterruptedException, ExecutionException, TimeoutException {
-            return e.invokeAny(tasks, timeout, unit);
-        }
-    }
-
-    static class FinalizableDelegatedExecutorService
-        extends DelegatedExecutorService {
-        FinalizableDelegatedExecutorService(ExecutorService executor) {
-            super(executor);
-        }
-        protected void finalize() {
-            super.shutdown();
-        }
-    }
-
-    /**
-     * A wrapper class that exposes only the ScheduledExecutorService
-     * methods of a ScheduledExecutorService implementation.
-     */
-    static class DelegatedScheduledExecutorService
-            extends DelegatedExecutorService
-            implements ScheduledExecutorService {
-        private final ScheduledExecutorService e;
-        DelegatedScheduledExecutorService(ScheduledExecutorService executor) {
-            super(executor);
-            e = executor;
-        }
-        public ScheduledFuture<?> schedule(Runnable command, long delay, TimeUnit unit) {
-            return e.schedule(command, delay, unit);
-        }
-        public <V> ScheduledFuture<V> schedule(Callable<V> callable, long delay, TimeUnit unit) {
-            return e.schedule(callable, delay, unit);
-        }
-        public ScheduledFuture<?> scheduleAtFixedRate(Runnable command, long initialDelay, long period, TimeUnit unit) {
-            return e.scheduleAtFixedRate(command, initialDelay, period, unit);
-        }
-        public ScheduledFuture<?> scheduleWithFixedDelay(Runnable command, long initialDelay, long delay, TimeUnit unit) {
-            return e.scheduleWithFixedDelay(command, initialDelay, delay, unit);
-        }
-    }
-
-    /** Cannot instantiate. */
-    private Executors() {}
-}
-```
-
-## JDK-8 `Object`
-```java
-package java.lang;
-public class Object {
-
-    private static native void registerNatives();
-    static {
-        registerNatives();
-    }
-
-    /**
-     * Returns the runtime class of this {@code Object}. The returned
-     * {@code Class} object is the object that is locked by {@code
-     * static synchronized} methods of the represented class.
-     *
-     * <p><b>The actual result type is {@code Class<? extends |X|>}
-     * where {@code |X|} is the erasure of the static type of the
-     * expression on which {@code getClass} is called.</b> For
-     * example, no cast is required in this code fragment:</p>
-     *
-     * <p>
-     * {@code Number n = 0;                             }<br>
-     * {@code Class<? extends Number> c = n.getClass(); }
-     * </p>
-     *
-     * @return The {@code Class} object that represents the runtime
-     *         class of this object.
-     * @jls 15.8.2 Class Literals
-     */
-    public final native Class<?> getClass();
-    
-    public native int hashCode();
-    
-    public boolean equals(Object obj) {
-        return (this == obj);
-    }
-    
-    protected native Object clone() throws CloneNotSupportedException;
-    
-    public String toString() {
-        return getClass().getName() + "@" + Integer.toHexString(hashCode());
-    }
-
-    /**
-     * 唤醒正在此对象监视器上等待的单个线程。如果有任何线程正在等待这个对象，则选择其中一个线程被唤醒。
-     * 选择是任意的，由实现决定。线程通过调用{@code wait}方法之一来等待对象的监视器。
-     * <p>
-     * 被唤醒的线程将无法继续，直到当前线程释放该对象上的锁。被唤醒的线程将以通常的方式与任何其他线程竞争，
-     * 这些线程可能正在积极地竞争同步该对象;例如，在成为下一个锁定此对象的线程时，被唤醒的线程没有可靠的特权或劣势。
-     * <p>
-     * This method should only be called by a thread that is the owner
-     * of this object's monitor. A thread becomes the owner of the
-     * object's monitor in one of three ways:
-     * <ul>
-     * <li>By executing a synchronized instance method of that object.
-     * <li>By executing the body of a {@code synchronized} statement
-     *     that synchronizes on the object.
-     * <li>For objects of type {@code Class,} by executing a
-     *     synchronized static method of that class.
-     * </ul>
-     * <p>
-     * Only one thread at a time can own an object's monitor.
-     *
-     * @throws  IllegalMonitorStateException  if the current thread is not
-     *               the owner of this object's monitor.
-     * @see        java.lang.Object#notifyAll()
-     * @see        java.lang.Object#wait()
-     */
-    public final native void notify();
-
-    public final native void notifyAll();
-
-    /**
-     * Causes the current thread to wait until either another thread invokes the
-     * {@link java.lang.Object#notify()} method or the
-     * {@link java.lang.Object#notifyAll()} method for this object, or a
-     * specified amount of time has elapsed.
-     * <p>
-     * The current thread must own this object's monitor.
-     * <p>
-     * This method causes the current thread (call it <var>T</var>) to
-     * place itself in the wait set for this object and then to relinquish
-     * any and all synchronization claims on this object. Thread <var>T</var>
-     * becomes disabled for thread scheduling purposes and lies dormant
-     * until one of four things happens:
-     * <ul>
-     * <li>Some other thread invokes the {@code notify} method for this
-     * object and thread <var>T</var> happens to be arbitrarily chosen as
-     * the thread to be awakened.
-     * <li>Some other thread invokes the {@code notifyAll} method for this
-     * object.
-     * <li>Some other thread {@linkplain Thread#interrupt() interrupts}
-     * thread <var>T</var>.
-     * <li>The specified amount of real time has elapsed, more or less.  If
-     * {@code timeout} is zero, however, then real time is not taken into
-     * consideration and the thread simply waits until notified.
-     * </ul>
-     * The thread <var>T</var> is then removed from the wait set for this
-     * object and re-enabled for thread scheduling. It then competes in the
-     * usual manner with other threads for the right to synchronize on the
-     * object; once it has gained control of the object, all its
-     * synchronization claims on the object are restored to the status quo
-     * ante - that is, to the situation as of the time that the {@code wait}
-     * method was invoked. Thread <var>T</var> then returns from the
-     * invocation of the {@code wait} method. Thus, on return from the
-     * {@code wait} method, the synchronization state of the object and of
-     * thread {@code T} is exactly as it was when the {@code wait} method
-     * was invoked.
-     * <p>
-     * A thread can also wake up without being notified, interrupted, or
-     * timing out, a so-called <i>spurious wakeup</i>.  While this will rarely
-     * occur in practice, applications must guard against it by testing for
-     * the condition that should have caused the thread to be awakened, and
-     * continuing to wait if the condition is not satisfied.  In other words,
-     * waits should always occur in loops, like this one:
-     * <pre>
-     *     synchronized (obj) {
-     *         while (&lt;condition does not hold&gt;)
-     *             obj.wait(timeout);
-     *         ... // Perform action appropriate to condition
-     *     }
-     * </pre>
-     * (For more information on this topic, see Section 3.2.3 in Doug Lea's
-     * "Concurrent Programming in Java (Second Edition)" (Addison-Wesley,
-     * 2000), or Item 50 in Joshua Bloch's "Effective Java Programming
-     * Language Guide" (Addison-Wesley, 2001).
-     *
-     * <p>If the current thread is {@linkplain java.lang.Thread#interrupt()
-     * interrupted} by any thread before or while it is waiting, then an
-     * {@code InterruptedException} is thrown.  This exception is not
-     * thrown until the lock status of this object has been restored as
-     * described above.
-     *
-     * <p>
-     * Note that the {@code wait} method, as it places the current thread
-     * into the wait set for this object, unlocks only this object; any
-     * other objects on which the current thread may be synchronized remain
-     * locked while the thread waits.
-     * <p>
-     * This method should only be called by a thread that is the owner
-     * of this object's monitor. See the {@code notify} method for a
-     * description of the ways in which a thread can become the owner of
-     * a monitor.
-     *
-     * @param      timeout   the maximum time to wait in milliseconds.
-     * @throws  IllegalArgumentException      if the value of timeout is
-     *               negative.
-     * @throws  IllegalMonitorStateException  if the current thread is not
-     *               the owner of the object's monitor.
-     * @throws  InterruptedException if any thread interrupted the
-     *             current thread before or while the current thread
-     *             was waiting for a notification.  The <i>interrupted
-     *             status</i> of the current thread is cleared when
-     *             this exception is thrown.
-     * @see        java.lang.Object#notify()
-     * @see        java.lang.Object#notifyAll()
-     */
-    public final native void wait(long timeout) throws InterruptedException;
-
-    /**
-     * Causes the current thread to wait until another thread invokes the
-     * {@link java.lang.Object#notify()} method or the
-     * {@link java.lang.Object#notifyAll()} method for this object, or
-     * some other thread interrupts the current thread, or a certain
-     * amount of real time has elapsed.
-     * <p>
-     * This method is similar to the {@code wait} method of one
-     * argument, but it allows finer control over the amount of time to
-     * wait for a notification before giving up. The amount of real time,
-     * measured in nanoseconds, is given by:
-     * <blockquote>
-     * <pre>
-     * 1000000*timeout+nanos</pre></blockquote>
-     * <p>
-     * In all other respects, this method does the same thing as the
-     * method {@link #wait(long)} of one argument. In particular,
-     * {@code wait(0, 0)} means the same thing as {@code wait(0)}.
-     * <p>
-     * The current thread must own this object's monitor. The thread
-     * releases ownership of this monitor and waits until either of the
-     * following two conditions has occurred:
-     * <ul>
-     * <li>Another thread notifies threads waiting on this object's monitor
-     *     to wake up either through a call to the {@code notify} method
-     *     or the {@code notifyAll} method.
-     * <li>The timeout period, specified by {@code timeout}
-     *     milliseconds plus {@code nanos} nanoseconds arguments, has
-     *     elapsed.
-     * </ul>
-     * <p>
-     * The thread then waits until it can re-obtain ownership of the
-     * monitor and resumes execution.
-     * <p>
-     * As in the one argument version, interrupts and spurious wakeups are
-     * possible, and this method should always be used in a loop:
-     * <pre>
-     *     synchronized (obj) {
-     *         while (&lt;condition does not hold&gt;)
-     *             obj.wait(timeout, nanos);
-     *         ... // Perform action appropriate to condition
-     *     }
-     * </pre>
-     * This method should only be called by a thread that is the owner
-     * of this object's monitor. See the {@code notify} method for a
-     * description of the ways in which a thread can become the owner of
-     * a monitor.
-     *
-     * @param      timeout   the maximum time to wait in milliseconds.
-     * @param      nanos      additional time, in nanoseconds range
-     *                       0-999999.
-     * @throws  IllegalArgumentException      if the value of timeout is
-     *                      negative or the value of nanos is
-     *                      not in the range 0-999999.
-     * @throws  IllegalMonitorStateException  if the current thread is not
-     *               the owner of this object's monitor.
-     * @throws  InterruptedException if any thread interrupted the
-     *             current thread before or while the current thread
-     *             was waiting for a notification.  The <i>interrupted
-     *             status</i> of the current thread is cleared when
-     *             this exception is thrown.
-     */
-    public final void wait(long timeout, int nanos) throws InterruptedException {
-        if (timeout < 0) {
-            throw new IllegalArgumentException("timeout value is negative");
-        }
-
-        if (nanos < 0 || nanos > 999999) {
-            throw new IllegalArgumentException(
-                                "nanosecond timeout value out of range");
-        }
-
-        if (nanos > 0) {
-            timeout++;
-        }
-
-        wait(timeout);
-    }
-
-    
-    public final void wait() throws InterruptedException {
-        wait(0);
-    }
-
-    /**
-     * 当垃圾收集确定不再引用对象时，由对象上的垃圾收集器调用。子类覆盖{@code finalize}方法来处理系统资源或执行其他清理。
-     * <p>
-     * The general contract of {@code finalize} is that it is invoked
-     * if and when the Java&trade; virtual
-     * machine has determined that there is no longer any
-     * means by which this object can be accessed by any thread that has
-     * not yet died, except as a result of an action taken by the
-     * finalization of some other object or class which is ready to be
-     * finalized. The {@code finalize} method may take any action, including
-     * making this object available again to other threads; the usual purpose
-     * of {@code finalize}, however, is to perform cleanup actions before
-     * the object is irrevocably discarded. For example, the finalize method
-     * for an object that represents an input/output connection might perform
-     * explicit I/O transactions to break the connection before the object is
-     * permanently discarded.
-     * <p>
-     * The {@code finalize} method of class {@code Object} performs no
-     * special action; it simply returns normally. Subclasses of
-     * {@code Object} may override this definition.
-     * <p>
-     * The Java programming language does not guarantee which thread will
-     * invoke the {@code finalize} method for any given object. It is
-     * guaranteed, however, that the thread that invokes finalize will not
-     * be holding any user-visible synchronization locks when finalize is
-     * invoked. If an uncaught exception is thrown by the finalize method,
-     * the exception is ignored and finalization of that object terminates.
-     * <p>
-     * After the {@code finalize} method has been invoked for an object, no
-     * further action is taken until the Java virtual machine has again
-     * determined that there is no longer any means by which this object can
-     * be accessed by any thread that has not yet died, including possible
-     * actions by other objects or classes which are ready to be finalized,
-     * at which point the object may be discarded.
-     * <p>
-     * The {@code finalize} method is never invoked more than once by a Java
-     * virtual machine for any given object.
-     * <p>
-     * Any exception thrown by the {@code finalize} method causes
-     * the finalization of this object to be halted, but is otherwise
-     * ignored.
-     *
-     * @throws Throwable the {@code Exception} raised by this method
-     * @see java.lang.ref.WeakReference
-     * @see java.lang.ref.PhantomReference
-     * @jls 12.6 Finalization of Class Instances
-     */
-    protected void finalize() throws Throwable { }
-}
-
+console.log(result);
 ```

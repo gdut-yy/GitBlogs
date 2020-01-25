@@ -5,7 +5,7 @@
 |  postman  |    [https://www.getpostman.com/](https://www.getpostman.com/)    |
 | mobaxterm | [https://mobaxterm.mobatek.net/](https://mobaxterm.mobatek.net/) |
 
-## java
+## linux 下寻找 java 路径
 
 ```sh
 which java
@@ -44,4 +44,54 @@ Share images, automate workflows, and more with a free Docker ID:
 
 For more examples and ideas, visit:
  https://docs.docker.com/get-started/
+```
+
+## git 分支命令
+
+```sh
+# 远端删除分支，本地同步
+git remote prune origin
+
+# 本地删除分支，远端同步删除
+git push origin --delete 远程分支名称
+
+# 本地新建分支，推送到远端
+git checkout -b develop
+git push origin develop
+
+# 本地拉取远端新分支
+git fetch origin branchname:branchname
+```
+
+## Windows 下鼠标右键打开 vscode
+
+```sh
+# 新建文件 vscode.reg
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\VSCode]
+@="Open with Code"
+"Icon"="C:\\Program Files\\Microsoft VS Code\\Code.exe"
+
+[HKEY_CLASSES_ROOT\*\shell\VSCode\command]
+@="\"C:\\Program Files\\Microsoft VS Code\\Code.exe\" \"%1\""
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\VSCode]
+@="Open with Code"
+"Icon"="C:\\Program Files\\Microsoft VS Code\\Code.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\VSCode\command]
+@="\"C:\\Program Files\\Microsoft VS Code\\Code.exe\" \"%V\""
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\VSCode]
+@="Open with Code"
+"Icon"="C:\\Program Files\\Microsoft VS Code\\Code.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\VSCode\command]
+@="\"C:\\Program Files\\Microsoft VS Code\\Code.exe\" \"%V\""
 ```
