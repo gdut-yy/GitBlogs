@@ -1,6 +1,7 @@
 // .vuepress/config.js
 module.exports = {
   title: "GitBlogs with Vue",
+  base: "/doc-gitblogs/",
   description: "成长没有偏旁，所以它才孤独。",
   head: [["link", { rel: "icon", href: "/favicon.png" }]],
   themeConfig: {
@@ -23,38 +24,65 @@ function getNav() {
       text: "学习",
       items: [
         {
-          text: "《你不知道的 JavaScript》",
-          link: "http://gdut_yy.gitee.io/doc-ydkjs/up&going/ch1.html"
+          text: "JS & CSS & HTML",
+          items: [
+            {
+              text: "《你不知道的 JavaScript》",
+              link: "http://gdut_yy.gitee.io/doc-ydkjs/up&going/ch1.html"
+            },
+            {
+              text: "《轻量函数式 JavaScript》",
+              link: "http://gdut_yy.gitee.io/doc-fljs/"
+            },
+            {
+              text: "《CSS 权威指南 4th》",
+              link: "http://gdut_yy.gitee.io/doc-csstdg4/"
+            }
+          ]
         },
         {
-          text: "《轻量函数式 JavaScript》",
-          link: "http://gdut_yy.gitee.io/doc-fljs/"
+          text: "Java",
+          items: [
+            {
+              text: "《OnJava8(Java编程思想5th)》",
+              link: "http://gdut_yy.gitee.io/doc-onjava8/"
+            },
+            {
+              text: "《Effective Java 3rd》",
+              link: "http://gdut_yy.gitee.io/doc-ej3/"
+            }
+          ]
         },
         {
-          text: "《CSS 权威指南 4th》",
-          link: "http://gdut_yy.gitee.io/doc-csstdg4/"
+          text: "Architecture",
+          items: [
+            {
+              text: "《代码整洁之道》",
+              link: "http://gdut_yy.gitee.io/doc-cleancode/"
+            },
+            {
+              text: "《架构整洁之道》",
+              link: "http://gdut_yy.gitee.io/doc-cleanarch/"
+            },
+            {
+              text: "《领域驱动设计》",
+              link: "http://gdut_yy.gitee.io/doc-ddd/"
+            },
+            {
+              text: "《A Philosophy of Software Design》",
+              link: "http://gdut_yy.gitee.io/doc-aposd/"
+            }
+          ]
         },
         {
-          text: "《OnJava8(Java编程思想5th)》",
-          link: "http://gdut_yy.gitee.io/doc-onjava8/"
-        },
-        {
-          text: "《Effective Java 3rd》",
-          link: "http://gdut_yy.gitee.io/doc-ej3/"
-        },
-        {
-          text: "《代码整洁之道》",
-          link: "http://gdut_yy.gitee.io/doc-cleancode/"
-        },
-        {
-          text: "《架构整洁之道》",
-          link: "http://gdut_yy.gitee.io/doc-cleanarch/"
-        },
-        { text: "《领域驱动设计》", link: "http://gdut_yy.gitee.io/doc-ddd/" },
-        {
-          text: "LeetCode 题集",
-          link: "http://gdut_yy.gitee.io/doc1-leetcode/"
-        },
+          text: "Other",
+          items: [
+            {
+              text: "LeetCode 题集",
+              link: "http://gdut_yy.gitee.io/doc1-leetcode/"
+            }
+          ]
+        }
       ]
     },
     {
@@ -99,7 +127,7 @@ function getNav() {
           text: "电影",
           link: "/module_movie/movie/"
         },
-        { text: '电视剧', link: '/module_movie/tv/' }
+        { text: "电视剧", link: "/module_movie/tv/" }
       ]
     },
     {
@@ -154,7 +182,7 @@ function getSideBar() {
       "WEILAISHIJIEDEXINGCUNZHE/"
     ],
     // 观影
-    "/module_movie/": ["movie/","tv/"],
+    "/module_movie/": ["movie/", "tv/"],
     // Wiki
     "/module_wiki/": ["frontend/", "backend/", "android/", "devops/"],
     // Blog
