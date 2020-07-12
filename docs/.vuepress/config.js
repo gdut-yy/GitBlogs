@@ -23,8 +23,8 @@ function getNav() {
     mod_oj(),
     mod_read(),
     mod_movie(),
-    mod_wiki(),
-    mod_blog(),
+    // mod_wiki(),
+    // mod_blog(),
     mod_learn(),
   ];
 }
@@ -161,7 +161,7 @@ function mod_read() {
         items: [
           { text: "技术书籍", link: "/module_book/tech/" },
           { text: "泛技术书籍", link: "/module_book/tech-extra/" },
-          { text: "文学 & 小说", link: "/module_book/literature/" },
+          // { text: "文学 & 小说", link: "/module_book/literature/" },
         ],
       },
     ],
@@ -176,7 +176,7 @@ function mod_movie() {
         text: "电影",
         link: "/module_movie/movie/",
       },
-      { text: "电视剧", link: "/module_movie/tv/" },
+      // { text: "电视剧", link: "/module_movie/tv/" },
     ],
   };
 }
@@ -185,9 +185,9 @@ function mod_wiki() {
   return {
     text: "Wiki",
     items: [
-      { text: "前端", link: "/module_wiki/frontend/" },
-      { text: "后端", link: "/module_wiki/backend/" },
-      { text: "Android", link: "/module_wiki/android/" },
+      // { text: "前端", link: "/module_wiki/frontend/" },
+      // { text: "后端", link: "/module_wiki/backend/" },
+      // { text: "Android", link: "/module_wiki/android/" },
       { text: "DevOps", link: "/module_wiki/devops/" },
     ],
   };
