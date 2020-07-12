@@ -6,7 +6,7 @@
 >
 > ——《杀鹌鹑的少女》
 
-### [豆瓣电影 2019 年度 2. 影单](https://movie.douban.com/annual/2019?source=movie_navigation#1)
+### [豆瓣电影 2019 年度影单](https://movie.douban.com/annual/2019?source=movie_navigation#1)
 
 ### [豆瓣电影 2018 年度影单](https://movie.douban.com/annual/2018?source=movie_navigation#1)
 
