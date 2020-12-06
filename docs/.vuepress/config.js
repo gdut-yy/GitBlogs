@@ -15,6 +15,7 @@ module.exports = {
     sidebarDepth: 4,
     nav: getNav(),
     sidebar: getSideBar(),
+    // sidebar: null,
   },
 };
 
@@ -23,7 +24,7 @@ function getNav() {
     mod_oj(),
     mod_read(),
     mod_movie(),
-    // mod_wiki(),
+    mod_wiki(),
     // mod_blog(),
     mod_learn(),
   ];
@@ -185,10 +186,11 @@ function mod_wiki() {
   return {
     text: "Wiki",
     items: [
-      // { text: "前端", link: "/module_wiki/frontend/" },
-      // { text: "后端", link: "/module_wiki/backend/" },
-      // { text: "Android", link: "/module_wiki/android/" },
-      { text: "DevOps", link: "/module_wiki/devops/" },
+      { text: "Flutter", link: "/module_wiki/flutter/" },
+      { text: "Git", link: "/module_wiki/git/" },
+      { text: "Maven", link: "/module_wiki/maven/" },
+      { text: "VSCode", link: "/module_wiki/vscode/" },
+      { text: "Roadmap", link: "/module_wiki/roadmap/" },
     ],
   };
 }
@@ -226,20 +228,18 @@ function getSideBar() {
       "BIRAN/",
       "CHIDIAONAZHIQINGWA/",
       "GUIGUZHIMI/",
-      "HEIKEYUHUAJIA/",
       "LANGCHAOZHIDIAN/",
       "MACTALK-KUAYUEBIANJIE/",
       "MACTALK-RENSHENGYUANBIANCHENG/",
       "QIANFANGDELU/",
-      "RENYUESHENHUA/",
       "SHIKONG/",
       "WEILAISHIJIEDEXINGCUNZHE/",
     ],
     // 观影
-    "/module_movie/": ["movie/", "tv/"],
+    "/module_movie/": null,
     // Wiki
-    "/module_wiki/": ["frontend/", "backend/", "android/", "devops/"],
+    "/module_wiki/": null,
     // Blog
-    "/module_blog/": ["year-end-summary/", /*'reptile/',*/ "learn-source/"],
+    "/module_blog/": null,
   };
 }

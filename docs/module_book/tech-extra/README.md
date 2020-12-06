@@ -4,8 +4,6 @@
 2. [《硅谷之谜》](GUIGUZHIMI) 吴军 著
 3. [《失控：全人类的最终命运和结局》](SHIKONG) 凯文·凯利 著
 4. [《必然》](BIRAN) 凯文·凯利 著
-5. [《人月神话》（_The Mythical Man-Month：Essays on Software Engineering Anniversary Edition_）](RENYUESHENHUA)
-6. [《黑客与画家》 Paul Graham 著](HEIKEYUHUAJIA)
 7. [《MacTalk 人生元编程》](MACTALK-RENSHENGYUANBIANCHENG) 迟建强 著
 8. [《MacTalk 跨越边界》](MACTALK-KUAYUEBIANJIE) 迟建强 著
 9. [《前方的路》](QIANFANGDELU) 阮一峰 著
