@@ -21,104 +21,34 @@ module.exports = {
 
 function getNav() {
   return [
+    // mod_guige(),
+    mod_config(),
+    mod_blog(),
     mod_oj(),
-    mod_read(),
-    mod_movie(),
-    mod_wiki(),
-    // mod_blog(),
-    mod_learn(),
+    // mod_read(),
+    // mod_movie(),
   ];
 }
 
-function mod_learn() {
+function mod_config() {
   return {
-    text: "学习",
+    text: "配置",
     items: [
       {
-        text: "JS & CSS & HTML",
-        items: [
-          {
-            text: "《你不知道的 JavaScript》",
-            link: "https://gdut_yy.gitee.io/doc-ydkjs/up&going/ch1.html",
-          },
-          {
-            text: "《轻量函数式 JavaScript》",
-            link: "https://gdut_yy.gitee.io/doc-fljs/",
-          },
-          {
-            text: "《CSS 权威指南 4th》",
-            link: "https://gdut_yy.gitee.io/doc-csstdg4/",
-          },
-        ],
+        text: "Git 配置",
+        link: "/module_config/config_git/",
       },
       {
-        text: "Java",
-        items: [
-          {
-            text: "《OnJava8》",
-            link: "https://gdut_yy.gitee.io/doc-onjava8/",
-          },
-          {
-            text: "《Effective Java 3rd》",
-            link: "https://gdut_yy.gitee.io/doc-ej3/",
-          },
-          {
-            text: "《Java 8 函数式编程》",
-            link: "https://gdut_yy.gitee.io/doc-java8/",
-          },
-          {
-            text: "《Java 9 模块化开发》",
-            link: "https://gdut_yy.gitee.io/doc-java9/",
-          },
-        ],
+        text: "VSCode 配置",
+        link: "/module_config/config_vscode/",
       },
       {
-        text: "Architecture",
-        items: [
-          {
-            text: "《代码整洁之道》",
-            link: "https://gdut_yy.gitee.io/doc-cleancode/",
-          },
-          {
-            text: "《架构整洁之道》",
-            link: "https://gdut_yy.gitee.io/doc-cleanarch/",
-          },
-          {
-            text: "《重构 改善既有代码的设计 2nd》",
-            link: "https://gdut_yy.gitee.io/doc-refact2/",
-          },
-          {
-            text: "《A Philosophy of Software Design》",
-            link: "https://gdut_yy.gitee.io/doc-aposd/",
-          },
-        ],
+        text: "JDK 配置",
+        link: "/module_config/config_jdk/",
       },
       {
-        text: "DDD",
-        items: [
-          {
-            text: "《领域驱动设计》",
-            link: "https://gdut_yy.gitee.io/doc-ddd/",
-          },
-          {
-            text: "《实现领域驱动设计》",
-            link: "https://gdut_yy.gitee.io/doc-iddd/",
-          },
-        ],
-      },
-      {
-        text: "Other",
-        items: [
-          {
-            text: "《人件 3rd》",
-            link: "https://gdut_yy.gitee.io/doc-pw/",
-          },
-
-          {
-            text: "《Security Patterns in Practice》",
-            link: "https://gdut_yy.gitee.io/doc-spip/",
-          },
-        ],
+        text: "Maven 配置",
+        link: "/module_config/config_maven/",
       },
     ],
   };
@@ -182,25 +112,28 @@ function mod_movie() {
   };
 }
 
-function mod_wiki() {
-  return {
-    text: "Wiki",
-    items: [
-      { text: "Flutter", link: "/module_wiki/flutter/" },
-      { text: "Git", link: "/module_wiki/git/" },
-      { text: "Maven", link: "/module_wiki/maven/" },
-      { text: "VSCode", link: "/module_wiki/vscode/" },
-      { text: "Roadmap", link: "/module_wiki/roadmap/" },
-    ],
-  };
-}
-
 function mod_blog() {
   return {
     text: "Blog",
     items: [
-      { text: "年终总结", link: "/module_blog/year-end-summary/" },
-      { text: "源码学习", link: "/module_blog/learn-source/" },
+      // { text: "年终总结", link: "/module_blog/year-end-summary/" },
+      { text: "minipack 源码学习", link: "/module_blog/blog-minpack/" },
+      {
+        text: "Twitter 雪花算法",
+        link: "/module_blog/blog-snowflakeid/",
+      },
+      {
+        text: "JMH 基准测试",
+        link: "/module_blog/blog-jmh/",
+      },
+      {
+        text: "领域驱动设计 DDD",
+        link: "/module_blog/blog-ddd/",
+      },
+      {
+        text: "低代码",
+        link: "/module_blog/blog-lowcode/",
+      },
     ],
   };
 }

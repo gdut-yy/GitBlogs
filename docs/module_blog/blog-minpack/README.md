@@ -1,8 +1,10 @@
-# 源码学习
+# minipack 源码学习
 
-## minipack 源码学习
+**原文链接: [https://gdut_yy.gitee.io/doc-gitblogs/module_blog/blog-minpack/](https://gdut_yy.gitee.io/doc-gitblogs/module_blog/blog-minpack/)**
 
-源码地址：[https://github.com/ronami/minipack](https://github.com/ronami/minipack)
+通过学习 minipack 源码，可以帮助理解 webpack 打包流程。
+
+- github 地址: [https://github.com/ronami/minipack](https://github.com/ronami/minipack)
 
 ```js
 /**
@@ -93,7 +95,7 @@ function createAsset(filename) {
   //
   // AST包含了很多关于我们代码的信息。我们可以查询它来理解我们的代码试图做什么。
   const ast = babylon.parse(content, {
-    sourceType: "module"
+    sourceType: "module",
   });
 
   // This array will hold the relative paths of modules this module depends on.
@@ -118,7 +120,7 @@ function createAsset(filename) {
       //
       // 我们将导入的值推入dependencies数组。
       dependencies.push(node.source.value);
-    }
+    },
   });
 
   // We also assign a unique identifier to this module by incrementing a simple
@@ -141,7 +143,7 @@ function createAsset(filename) {
   // “presets”选项是一组告诉Babel如何转换代码的规则。我们使用“babel-preset-env”
   // 将代码转换为大多数浏览器都能运行的代码。
   const { code } = transformFromAst(ast, null, {
-    presets: ["env"]
+    presets: ["env"],
   });
 
   // Return all information about this module.
@@ -151,7 +153,7 @@ function createAsset(filename) {
     id,
     filename,
     dependencies,
-    code
+    code,
   };
 }
 
@@ -203,7 +205,7 @@ function createGraph(entry) {
     // We iterate over the list of relative paths to its dependencies.
     //
     // 我们遍历其依赖项的相对路径列表。
-    asset.dependencies.forEach(relativePath => {
+    asset.dependencies.forEach((relativePath) => {
       // Our `createAsset()` function expects an absolute filename. The
       // dependencies array is an array of relative paths. These paths are
       // relative to the file that imported them. We can turn the relative path
@@ -267,7 +269,7 @@ function bundle(graph) {
   //
   // 在我们进入函数主体之前，我们先构造一个对象作为参数传递给它。请注意，我们正在构建的
   // 这个字符串被两个大括号({})包围，因此对于每个模块，我们添加一个这种格式的字符串:`key: value,`。
-  graph.forEach(mod => {
+  graph.forEach((mod) => {
     // Every module in the graph has an entry in this object. We use the
     // module's id as the key and an array for the value (we have 2 values for
     // every module).
@@ -378,3 +380,5 @@ const result = bundle(graph);
 
 console.log(result);
 ```
+
+（全文完）
