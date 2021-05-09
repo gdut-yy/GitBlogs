@@ -1,3 +1,7 @@
+---
+sidebar: false
+---
+
 # Git 配置
 
 **原文链接: [https://gdut_yy.gitee.io/doc-gitblogs/module_config/config_git/](https://gdut_yy.gitee.io/doc-gitblogs/module_config/config_git/)**
@@ -63,8 +67,9 @@ git config --global http.proxy http://username:password@proxy.huawei.com:8080
 git remote prune origin
 
 # git 仓迁移
-git clone --bare
-git push --mirror
+git clone --bare oldRepo.git
+cd oldRepo.git/
+git push --mirror newRepo.git
 ```
 
 （全文完）

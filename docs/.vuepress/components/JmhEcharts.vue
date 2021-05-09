@@ -69,7 +69,7 @@
 </template>
 
 <script>
-import echarts from "echarts";
+import * as echarts from "echarts";
 
 export default {
   name: "echarts",
@@ -303,8 +303,8 @@ export default {
 }
 
 #main {
-  width: 760px;
-  height: 480px;
+  width: 100%;
+  height: 720px;
   margin: 0 auto;
   padding-top: 24px;
 }

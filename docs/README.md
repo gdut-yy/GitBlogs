@@ -2,7 +2,7 @@
 home: true
 heroImage: /logo.png
 actionText: Start →
-actionLink: /module_book/tech/
+actionLink: /module_guide/guide_about/
 features:
   - title: OJ 杂烩
     details: 真正的大师，永远都怀着一颗学徒的心

@@ -1,4 +1,8 @@
-# JMH 基准测试
+---
+sidebar: false
+---
+
+# JMH 可视化（一张图片胜过千言万语）
 
 基准测试 https://github.com/openjdk/jmh
 

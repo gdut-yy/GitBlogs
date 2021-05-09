@@ -1,0 +1,127 @@
+{
+  "title": {
+    "text": "Deserialization of various payloads size - ops/s (higher is better)",
+    "left": "1%",
+    "top": "2%",
+    "textStyle": {
+      "fontSize": 24
+    }
+  },
+  "tooltip": {
+    "trigger": "axis",
+    "axisPointer": {
+      "type": "shadow"
+    }
+  },
+  "legend": {
+    "orient": "vertical",
+    "align": "left",
+    "top": "10%",
+    "x": "right",
+    "y": "top",
+    "data": ["1kb (x1)", "10kb (x10)", "100kb (x100)", "1000kb (x1000)"]
+  },
+  "grid": {
+    "top": "12%",
+    "right": "12%",
+    "bottom": "12%"
+  },
+  "yAxis": {
+    "type": "value"
+  },
+  "xAxis": {
+    "type": "category",
+    "axisLabel": {
+      "interval": 0,
+      "rotate": 40
+    },
+    "data": [
+      "flexjson",
+      "moshi",
+      "jodd",
+      "gson",
+      "fastjson",
+      "genson",
+      "jackson_afterburner",
+      "logansquare",
+      "jackson",
+      "jsoniter",
+      "dsljson_reflection",
+      "dsljson"
+    ]
+  },
+  "series": [
+    {
+      "name": "1kb (x1)",
+      "type": "bar",
+      "data": [
+        86702.093,
+        231788.431,
+        318503.19,
+        228967.894,
+        237919.773,
+        241196.046,
+        492083.114,
+        271568.712,
+        453967.483,
+        498613.387,
+        696910.597,
+        832395.216
+      ]
+    },
+    {
+      "name": "10kb (x10)",
+      "type": "bar",
+      "data": [
+        73860.88,
+        141577.17,
+        153737.78,
+        154053.75,
+        168663.16,
+        170804.85,
+        178258.72,
+        178554.64,
+        179475.56,
+        212269.62,
+        639373.31,
+        780253.11
+      ]
+    },
+    {
+      "name": "100kb (x100)",
+      "type": "bar",
+      "data": [
+        69967.9,
+        138953.5,
+        151565.5,
+        148053.1,
+        157633.7,
+        162320,
+        171038.7,
+        174726,
+        173087.5,
+        204328.6,
+        635295.7,
+        777484.7
+      ]
+    },
+    {
+      "name": "1000kb (x1000)",
+      "type": "bar",
+      "data": [
+        53249,
+        133960,
+        138819,
+        140236,
+        144953,
+        158958,
+        158282,
+        161285,
+        163552,
+        189729,
+        621868,
+        761387
+      ]
+    }
+  ]
+}

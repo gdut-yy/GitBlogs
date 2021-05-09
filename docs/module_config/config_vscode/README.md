@@ -1,3 +1,7 @@
+---
+sidebar: false
+---
+
 # VSCode 配置
 
 **原文链接: [https://gdut_yy.gitee.io/doc-gitblogs/module_config/config_vscode/](https://gdut_yy.gitee.io/doc-gitblogs/module_config/config_vscode/)**
@@ -6,36 +10,36 @@
 
 1. Windows 任意路径新建 `vscode.reg` 文件
 
-   ```sh
-   # 新建文件 vscode.reg
+```sh
+# 新建文件 vscode.reg
 
-   Windows Registry Editor Version 5.00
+Windows Registry Editor Version 5.00
 
-   [HKEY_CLASSES_ROOT\*\shell\VSCode]
-   @="Open with Code"
-   "Icon"="C:\\Program Files\\Microsoft VS Code\\Code.exe"
+[HKEY_CLASSES_ROOT\*\shell\VSCode]
+@="Open with Code"
+"Icon"="C:\\Program Files\\Microsoft VS Code\\Code.exe"
 
-   [HKEY_CLASSES_ROOT\*\shell\VSCode\command]
-   @="\"C:\\Program Files\\Microsoft VS Code\\Code.exe\" \"%1\""
+[HKEY_CLASSES_ROOT\*\shell\VSCode\command]
+@="\"C:\\Program Files\\Microsoft VS Code\\Code.exe\" \"%1\""
 
-   Windows Registry Editor Version 5.00
+Windows Registry Editor Version 5.00
 
-   [HKEY_CLASSES_ROOT\Directory\shell\VSCode]
-   @="Open with Code"
-   "Icon"="C:\\Program Files\\Microsoft VS Code\\Code.exe"
+[HKEY_CLASSES_ROOT\Directory\shell\VSCode]
+@="Open with Code"
+"Icon"="C:\\Program Files\\Microsoft VS Code\\Code.exe"
 
-   [HKEY_CLASSES_ROOT\Directory\shell\VSCode\command]
-   @="\"C:\\Program Files\\Microsoft VS Code\\Code.exe\" \"%V\""
+[HKEY_CLASSES_ROOT\Directory\shell\VSCode\command]
+@="\"C:\\Program Files\\Microsoft VS Code\\Code.exe\" \"%V\""
 
-   Windows Registry Editor Version 5.00
+Windows Registry Editor Version 5.00
 
-   [HKEY_CLASSES_ROOT\Directory\Background\shell\VSCode]
-   @="Open with Code"
-   "Icon"="C:\\Program Files\\Microsoft VS Code\\Code.exe"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\VSCode]
+@="Open with Code"
+"Icon"="C:\\Program Files\\Microsoft VS Code\\Code.exe"
 
-   [HKEY_CLASSES_ROOT\Directory\Background\shell\VSCode\command]
-   @="\"C:\\Program Files\\Microsoft VS Code\\Code.exe\" \"%V\""
-   ```
+[HKEY_CLASSES_ROOT\Directory\Background\shell\VSCode\command]
+@="\"C:\\Program Files\\Microsoft VS Code\\Code.exe\" \"%V\""
+```
 
 2. 双击运行 `vscode.reg`；
 

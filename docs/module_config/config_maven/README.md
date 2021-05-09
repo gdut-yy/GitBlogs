@@ -1,21 +1,25 @@
+---
+sidebar: false
+---
+
 # Maven 配置
 
 **原文链接: [https://gdut_yy.gitee.io/doc-gitblogs/module_config/config_maven/](https://gdut_yy.mavenee.io/doc-gitblogs/module_config/config_git/)**
 
-### Step1: 下载 maven（如 3.8.1）
+## 1 下载 maven（如 3.8.1）
 
 [https://maven.apache.org/download.cgi](https://maven.apache.org/download.cgi)
 
-### Step2: 配置系统变量 `MAVEN_HOME`、`PAHT`
+## 2 配置系统变量 `MAVEN_HOME`、`PAHT`
 
 ```sh
 export MAVEN_HOME=/uar/local/apache-maven-3.8.1
 export PATH=$PATH:$MAVEN_HOME/bin
 ```
 
-### Step3: 配置 `settings.xml` 国内源
+## 3 配置 `settings.xml` 国内源
 
-#### 阿里源
+### 3.1 阿里源
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -49,7 +53,7 @@ export PATH=$PATH:$MAVEN_HOME/bin
 </settings>
 ```
 
-#### 华为云源
+### 3.2 华为云源
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -83,7 +87,7 @@ export PATH=$PATH:$MAVEN_HOME/bin
 </settings>
 ```
 
-### Step4: Maven 本地打包命令
+## 4 Maven 本地打包命令
 
 ```sh
 # 跳过单元测试

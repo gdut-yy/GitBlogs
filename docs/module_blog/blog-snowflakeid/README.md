@@ -2,14 +2,14 @@
 
 **原文链接: [https://gdut_yy.gitee.io/doc-gitblogs/module_blog/blog-snowflakeid/](https://gdut_yy.gitee.io/doc-gitblogs/module_blog/blog-snowflakeid/)**
 
-## 背景
+## 1 前言
 
 2010 年 twitter 开源 snowflake 分布式 ID 算法，该算法使用 scala 编写，支持在不依赖第三方情况下生成分布式唯一 ID，并其长度比 UUID 更少而风靡一时。
 
 - github 地址: [https://github.com/twitter-archive/snowflake](https://github.com/twitter-archive/snowflake)
 - 源码: [https://github.com/twitter-archive/snowflake/releases/tag/snowflake-2010](https://github.com/twitter-archive/snowflake/releases/tag/snowflake-2010)
 
-## scala 版本
+## 2 Scala 版本
 
 ```scala
 /** Copyright 2010-2012 Twitter, Inc.*/
@@ -127,9 +127,9 @@ extends Snowflake.Iface {
 }
 ```
 
-## java 版本
+## 3 Java 版本
 
-我们很容易获取一个 java 实现：
+根据 Scala 版本代码，我们很容易写出一个 Java 版本：
 
 ```java
 package com.twitter.service.snowflake;
@@ -213,9 +213,9 @@ public class SnowflakeIdWorker {
 }
 ```
 
-## 基准测试
+## 4 基准测试
 
-与 32 bit UUID 对比
+### 4.1 32bit UUID
 
 ```java
 package com.twitter.service.snowflake;
@@ -231,7 +231,7 @@ public class UUIDIdWorker {
 }
 ```
 
-### JMH 代码
+### 4.2 JMH 代码
 
 ```java
 package com.twitter.service.snowflake;
@@ -271,7 +271,7 @@ public class IdWorkerJMHMain {
 }
 ```
 
-## 存在的问题
+## 5 存在的问题
 
 1. 时钟回拨: [https://gitee.com/yu120/sequence](https://gitee.com/yu120/sequence)
 2. `System.currentTimeMillis()` 缓慢问题: [http://pzemtsov.github.io/2017/07/23/the-slow-currenttimemillis.html](http://pzemtsov.github.io/2017/07/23/the-slow-currenttimemillis.html)

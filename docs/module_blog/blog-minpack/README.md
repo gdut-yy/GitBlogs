@@ -1,6 +1,12 @@
+---
+sidebar: false
+---
+
 # minipack 源码学习
 
 **原文链接: [https://gdut_yy.gitee.io/doc-gitblogs/module_blog/blog-minpack/](https://gdut_yy.gitee.io/doc-gitblogs/module_blog/blog-minpack/)**
+
+## 前言
 
 通过学习 minipack 源码，可以帮助理解 webpack 打包流程。
 

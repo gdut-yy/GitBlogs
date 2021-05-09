@@ -14,20 +14,27 @@ module.exports = {
     lastUpdated: "Last Updated",
     sidebarDepth: 4,
     nav: getNav(),
-    sidebar: getSideBar(),
+    sidebar: "auto",
     // sidebar: null,
   },
 };
 
 function getNav() {
   return [
-    // mod_guige(),
+    mod_guide(),
     mod_config(),
     mod_blog(),
     mod_oj(),
     // mod_read(),
     // mod_movie(),
   ];
+}
+
+function mod_guide() {
+  return {
+    text: "指南",
+    link: "/module_guide/guide_about/",
+  };
 }
 
 function mod_config() {
@@ -123,56 +130,60 @@ function mod_blog() {
         link: "/module_blog/blog-snowflakeid/",
       },
       {
-        text: "JMH 基准测试",
+        text: "JMH 可视化",
         link: "/module_blog/blog-jmh/",
       },
       {
-        text: "领域驱动设计 DDD",
-        link: "/module_blog/blog-ddd/",
+        text: "JSON 基准测试（Java）",
+        link: "/module_blog/blog-java-json-benchmark/",
       },
-      {
-        text: "低代码",
-        link: "/module_blog/blog-lowcode/",
-      },
+      // {
+      //   text: "领域驱动设计 DDD",
+      //   link: "/module_blog/blog-ddd/",
+      // },
+      // {
+      //   text: "低代码",
+      //   link: "/module_blog/blog-lowcode/",
+      // },
     ],
   };
 }
 
-function getSideBar() {
-  return {
-    // OJ 杂烩
-    "/module_oj/": ["JIANZHIOffer/", "BIANCHENGZHIMEI/", "GAOJISHUJUJIEGOU/"],
-    // 技术书籍
-    "/module_book/tech/": [
-      "",
-      "DAHUASHUJUJIEGOU/",
-      "Algorithms4/",
-      "DAHUASHEJIMOSHI/",
-      "Java8Lambdas/",
-      "FENBUSHIFUWUKUANGJIA/",
-      "PaxosTOZooKeeper/",
-      "PJWD3/",
-      "MACHUGAOXIAO/",
-      "NILIUERSHANG/",
-    ],
-    // 泛技术书籍
-    "/module_book/tech-extra/": [
-      "",
-      "BIRAN/",
-      "CHIDIAONAZHIQINGWA/",
-      "GUIGUZHIMI/",
-      "LANGCHAOZHIDIAN/",
-      "MACTALK-KUAYUEBIANJIE/",
-      "MACTALK-RENSHENGYUANBIANCHENG/",
-      "QIANFANGDELU/",
-      "SHIKONG/",
-      "WEILAISHIJIEDEXINGCUNZHE/",
-    ],
-    // 观影
-    "/module_movie/": null,
-    // Wiki
-    "/module_wiki/": null,
-    // Blog
-    "/module_blog/": null,
-  };
-}
+// function getSideBar() {
+//   return {
+//     // OJ 杂烩
+//     "/module_oj/": ["JIANZHIOffer/", "BIANCHENGZHIMEI/", "GAOJISHUJUJIEGOU/"],
+//     // 技术书籍
+//     "/module_book/tech/": [
+//       "",
+//       "DAHUASHUJUJIEGOU/",
+//       "Algorithms4/",
+//       "DAHUASHEJIMOSHI/",
+//       "Java8Lambdas/",
+//       "FENBUSHIFUWUKUANGJIA/",
+//       "PaxosTOZooKeeper/",
+//       "PJWD3/",
+//       "MACHUGAOXIAO/",
+//       "NILIUERSHANG/",
+//     ],
+//     // 泛技术书籍
+//     "/module_book/tech-extra/": [
+//       "",
+//       "BIRAN/",
+//       "CHIDIAONAZHIQINGWA/",
+//       "GUIGUZHIMI/",
+//       "LANGCHAOZHIDIAN/",
+//       "MACTALK-KUAYUEBIANJIE/",
+//       "MACTALK-RENSHENGYUANBIANCHENG/",
+//       "QIANFANGDELU/",
+//       "SHIKONG/",
+//       "WEILAISHIJIEDEXINGCUNZHE/",
+//     ],
+//     // 观影
+//     "/module_movie/": null,
+//     // Wiki
+//     "/module_wiki/": null,
+//     // Blog
+//     "/module_blog/": null,
+//   };
+// }

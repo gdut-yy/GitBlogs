@@ -4,6 +4,7 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
-    "echarts": "^4.8.0"
+    "axios": "^0.21.1",
+    "echarts": "^5.1.1"
   }
 }
