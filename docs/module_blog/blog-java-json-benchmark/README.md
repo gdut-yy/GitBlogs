@@ -40,6 +40,41 @@ fastjson 究竟有多快？json 开源组件如何选项？为什么 SpringBoot2
 
 // TODO
 
+### users
+
+#### users-deser-1
+
+<Echarts options="20210511/users-deser-1.json" />
+
+#### users-ser-1
+
+<Echarts options="20210511/users-ser-1.json" />
+
+### clients
+
+#### clients-deser-1
+
+<Echarts options="20210511/clients-deser-1.json" />
+
+#### clients-ser-1
+
+<Echarts options="20210511/clients-ser-1.json" />
+
+### Benchmark 配置
+
+```
+# JMH version: 1.29
+# VM version: JDK 1.8.0_202, Java HotSpot(TM) 64-Bit Server VM, 25.202-b08
+# VM invoker: C:\Program Files\Java\jre1.8.0_202\bin\java.exe
+# VM options: -XX:+AggressiveOpts -Xms2g -Xmx2g
+# Blackhole mode: full + dont-inline hint
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 3 s each
+# Timeout: 10 min per iteration
+# Threads: 16 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+```
+
 ## Benchmark 结果 (2020.03)
 
 以下结果是在 2020 年 3 月 1 日使用上述库和版本进行计算的：
@@ -50,11 +85,11 @@ fastjson 究竟有多快？json 开源组件如何选项？为什么 SpringBoot2
 
 #### 反序列化性能
 
-<Echarts options="users-deser-1" />
+<Echarts options="20200301/users-deser-1.json" />
 
 #### 序列化性能
 
-<Echarts options="users-ser-1" />
+<Echarts options="20200301/users-ser-1.json" />
 
 ### `Clients` 对象
 
@@ -64,11 +99,11 @@ fastjson 究竟有多快？json 开源组件如何选项？为什么 SpringBoot2
 
 #### 反序列化性能
 
-<Echarts options="clients-deser-1" />
+<Echarts options="20200301/clients-deser-1.json" />
 
 #### 序列化性能
 
-<Echarts options="clients-ser-1" />
+<Echarts options="20200301/clients-ser-1.json" />
 
 ### Benchmark 配置
 

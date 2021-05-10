@@ -7,7 +7,13 @@ set -e
 yarn docs:build
 
 # navigate into the build output directory
-cd docs/.vuepress/dist
+cd docs/.vuepress/
+rm -rf dist-github
+mkdir -p dist-github/doc-gitblogs
+cd dist/
+cp -r * ../dist-github/doc-gitblogs
+cd ../dist-github/
+
 
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME

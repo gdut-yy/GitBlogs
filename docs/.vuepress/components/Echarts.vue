@@ -3,7 +3,24 @@
 </template>
 
 <script>
-import * as echarts from "echarts";
+import * as echarts from "echarts/core";
+import {
+  DatasetComponent,
+  TooltipComponent,
+  GridComponent,
+  LegendComponent,
+} from "echarts/components";
+import { BarChart } from "echarts/charts";
+import { CanvasRenderer } from "echarts/renderers";
+
+echarts.use([
+  DatasetComponent,
+  TooltipComponent,
+  GridComponent,
+  LegendComponent,
+  BarChart,
+  CanvasRenderer,
+]);
 import axios from "axios";
 
 export default {
@@ -19,37 +36,35 @@ export default {
   },
   watch: {
     option: function () {
-      this.myCharts.setOption(this.option, true);
+      this.myCharts.setOption(this.option);
     },
   },
   mounted() {
     let that = this;
-    window.onresize = function () {
+    window.addEventListener("resize", function () {
       that.echartsResize();
-    };
+    });
   },
   created() {
-    this.getData("/options/" + this.options + ".json");
+    this.getData("../../options/" + this.options);
     this.$nextTick(() => {
       this.echartsInit();
     });
   },
   methods: {
     echartsInit() {
-      this.myCharts = echarts.init(this.$refs.dom, "dark");
+      if (this.$refs.dom) {
+        this.myCharts = echarts.init(this.$refs.dom, "dark");
+      }
     },
     echartsResize() {
-      console.log("resize");
-      this.myCharts.resize;
-      // this.myCharts = echarts.init(this.$refs.dom, "dark");
-      // this.myCharts.setOption({ ...this.option, ...this.defaultOption }, true);
+      this.myCharts.resize();
     },
     getData(url) {
       axios
         .get(url)
         .then((resp) => {
           if (resp) {
-            // console.log(JSON.stringify(resp.data));
             this.option = resp.data;
           }
         })
@@ -63,8 +78,6 @@ export default {
 
 <style scoped>
 .echarts {
-  /* width: 1125px; */
-  /* height: 750px; */
   width: 100%;
   height: 720px;
   margin: 0 auto;

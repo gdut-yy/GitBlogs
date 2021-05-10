@@ -1,0 +1,87 @@
+{
+  "title": {
+    "text": "Serialization of various payloads size - ops/s (higher is better)",
+    "left": "1%",
+    "top": "2%",
+    "textStyle": {
+      "fontSize": 24
+    }
+  },
+  "tooltip": {
+    "trigger": "axis",
+    "axisPointer": {
+      "type": "shadow"
+    }
+  },
+  "legend": {
+    "orient": "vertical",
+    "align": "left",
+    "top": "10%",
+    "x": "right",
+    "y": "top",
+    "data": ["1kb (x1)", "10kb (x10)", "100kb (x100)", "1000kb (x1000)"]
+  },
+  "grid": {
+    "top": "12%",
+    "right": "12%",
+    "bottom": "12%"
+  },
+  "yAxis": {
+    "type": "value"
+  },
+  "xAxis": {
+    "type": "category",
+    "axisLabel": {
+      "interval": 0,
+      "rotate": 40
+    },
+    "data": [
+      "flexjson",
+      "jodd",
+      "gson",
+      "fastjson",
+      "moshi",
+      "genson",
+      "jackson",
+      "jackson_afterburner",
+      "logansquare",
+      "jsoniter",
+      "dsljson_reflection",
+      "dsljson"
+    ]
+  },
+  "series": [
+    {
+      "name": "1kb (x1)",
+      "type": "bar",
+      "data": [
+        583.879, 216857.719, 303936.962, 465305.545, 332851.042, 315729.078,
+        726143.041, 768071.869, 657641.275, 889002.303, 955298.851, 1258964.047
+      ]
+    },
+    {
+      "name": "10kb (x10)",
+      "type": "bar",
+      "data": [
+        1491.1, 192091.35, 260627.82, 266887.01, 279329.62, 342563.16,
+        368314.64, 376554.09, 486624.25, 600523.89, 1047661.9, 1392696.59
+      ]
+    },
+    {
+      "name": "100kb (x100)",
+      "type": "bar",
+      "data": [
+        4508.9, 193717.2, 256326.5, 249891, 275762.2, 345894.3, 352165.6,
+        359637.6, 466337.8, 548313.7, 1047496.9, 1390727
+      ]
+    },
+    {
+      "name": "1000kb (x1000)",
+      "type": "bar",
+      "data": [
+        13263, 179434, 257562, 201915, 256698, 333670, 326324, 330839, 477539,
+        529286, 1033566, 1388259
+      ]
+    }
+  ]
+}
