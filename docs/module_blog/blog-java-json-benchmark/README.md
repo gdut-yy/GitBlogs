@@ -4,7 +4,9 @@
 
 ## 前言
 
-fastjson 究竟有多快？json 开源组件如何选项？为什么 SpringBoot2 json 组件选择了 jackson？如果你想知道各 json 开源组件性能的话，现在就带你研究。
+阅读本文大约需要 3 分钟。
+
+fastjson 究竟有多快？json 开源组件如何选项？为什么 SpringBoot2 json 组件选择了 jackson？
 
 [java-json-benchmark 项目](https://github.com/fabienrenaud/java-json-benchmark) 使用 [JMH](http://openjdk.java.net/projects/code-tools/jmh/) 对各种 Java Json 库的吞吐性能进行了基准测试。它涵盖了以下库：
 
@@ -32,35 +34,76 @@ fastjson 究竟有多快？json 开源组件如何选项？为什么 SpringBoot2
 |  20  | [minimal-json](https://mvnrepository.com/artifact/com.eclipsesource.minimal-json/minimal-json) |     0.9.5      |     0.9.5      |     =      |
 |  21  |                 [mjson](https://mvnrepository.com/artifact/org.sharegov/mjson)                 |     1.4.1      |     1.4.1      |     =      |
 |  22  |         [underscore](https://mvnrepository.com/artifact/com.github.javadev/underscore)         |      1.52      |      1.66      |     +      |
-|  23  |                [yasson](https://mvnrepository.com/artifact/org.eclipse/yasson)                 |     1.0.6      |     2.0.2      |     +      |
+|  23  |                [yasson](https://mvnrepository.com/artifact/org.eclipse/yasson)                 |     1.0.6      |     1.0.9      |     +      |
 |  24  |            [javassist](https://mvnrepository.com/artifact/org.javassist/javassist)             |   3.26.0-GA    |   3.28.0-GA    |     +      |
 |  25  |        [purejson](https://mvnrepository.com/artifact/io.github.senthilganeshs/purejson)        |     1.0.1      |     1.0.1      |     =      |
 
-## Benchmark 结果 (2021.05)
+### TODO
 
-// TODO
+**New Jakarta JSON Binding 2.0.0 API with new `jakarta.*` namespace:**
 
-### users
+```xml
+<!-- https://mvnrepository.com/artifact/org.glassfish/jakarta.json -->
+<dependency>
+    <groupId>org.glassfish</groupId>
+    <artifactId>jakarta.json</artifactId>
+    <version>2.0.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/jakarta.json/jakarta.json-api -->
+<dependency>
+    <groupId>jakarta.json</groupId>
+    <artifactId>jakarta.json-api</artifactId>
+    <version>2.0.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/jakarta.json.bind/jakarta.json.bind-api -->
+<dependency>
+    <groupId>jakarta.json.bind</groupId>
+    <artifactId>jakarta.json.bind-api</artifactId>
+    <version>2.0.0</version>
+</dependency>
 
-#### users-deser-1
+<!-- https://mvnrepository.com/artifact/org.eclipse/yasson -->
+<dependency>
+    <groupId>org.eclipse</groupId>
+    <artifactId>yasson</artifactId>
+    <version>2.0.2</version>
+    <scope>test</scope>
+</dependency>
+```
 
-<Echarts options="20210511/users-deser-1.json" />
+### `Users` 对象
 
-#### users-ser-1
+用例：基本类型，字符串，列表和简单 POJO。
 
-<Echarts options="20210511/users-ser-1.json" />
+### `Clients` 对象
 
-### clients
+用例: 基本类型，字符串，列表和简单 POJO，数组，枚举，UUID，LocalDate。
 
-#### clients-deser-1
+注意: 由于缺少对某些评估类型的支持，因此使用此模型测试的库较少。
 
-<Echarts options="20210511/clients-deser-1.json" />
+## Benchmark 结果 (2021.05.13)
 
-#### clients-ser-1
+### users-deser-1
 
-<Echarts options="20210511/clients-ser-1.json" />
+<Echarts options="20210513/users-deser-1.json" />
+
+### users-ser-1
+
+<Echarts options="20210513/users-ser-1.json" />
+
+### clients-deser-1
+
+<Echarts options="20210513/clients-deser-1.json" />
+
+### clients-ser-1
+
+<Echarts options="20210513/clients-ser-1.json" />
 
 ### Benchmark 配置
+
+- CPU: Inter(R) Core(TM) i5-8250U CPU @1.60GHz 1.80GHz
+- RAM: 8.00GB
+- OS: Windows 10 2004
 
 ```
 # JMH version: 1.29
@@ -75,33 +118,23 @@ fastjson 究竟有多快？json 开源组件如何选项？为什么 SpringBoot2
 # Benchmark mode: Throughput, ops/time
 ```
 
-## Benchmark 结果 (2020.03)
-
-以下结果是在 2020 年 3 月 1 日使用上述库和版本进行计算的：
-
-### `Users` 对象
+## Benchmark 结果 (2020.03.01)
 
 用例：基本类型，字符串，列表和简单 POJO。
 
-#### 反序列化性能
+### users-deser-1
 
 <Echarts options="20200301/users-deser-1.json" />
 
-#### 序列化性能
+### users-ser-1
 
 <Echarts options="20200301/users-ser-1.json" />
 
-### `Clients` 对象
-
-用例: 基本类型，字符串，列表和简单 POJO，数组，枚举，UUID，LocalDate。
-
-注意: 由于缺少对某些评估类型的支持，因此使用此模型测试的库较少。
-
-#### 反序列化性能
+### clients-deser-1
 
 <Echarts options="20200301/clients-deser-1.json" />
 
-#### 序列化性能
+### clients-ser-1
 
 <Echarts options="20200301/clients-ser-1.json" />
 
@@ -120,5 +153,16 @@ fastjson 究竟有多快？json 开源组件如何选项？为什么 SpringBoot2
 # Threads: 16 threads, will synchronize iterations
 # Benchmark mode: Throughput, ops/time
 ```
+
+## Links (技术栈)
+
+1. [JSON-B](https://javaee.github.io/jsonb-spec/): JSON-B is a standard binding layer for converting Java objects to/from JSON messages. It defines a default mapping algorithm for converting existing Java classes to JSON, while enabling developers to customize the mapping process through the use of Java annotations.
+2. [JSON-P](https://javaee.github.io/jsonp/): JSON Processing (JSON-P) is a Java API to process (for e.g. parse, generate, transform and query) JSON messages. It produces and consumes JSON text in a streaming fashion (similar to StAX API for XML) and allows to build a Java object model for JSON text using API classes (similar to DOM API for XML).
+3. [Gradle Plugin shadow](https://github.com/johnrengelman/shadow): Gradle plugin to create fat/uber JARs, apply file transforms, and relocate packages for applications and libraries. Gradle version of Maven's Shade.
+4. [Maven Plugin shade](https://github.com/apache/maven-shade-plugin): Apache Maven Shade Plugin.
+5. [LoganSquare](https://github.com/bluelinelabs/LoganSquare): Note that Gradle is the only supported build configuration for LoganSquare. To add the library to your app's build.gradle file.
+6. [Javapoet](https://github.com/square/javapoet): A Java API for generating `.java` source files.
+7. [Apache ECharts](https://echarts.apache.org/zh/index.html): An Open Source JavaScript Visualization Library.
+8. [JMH](http://openjdk.java.net/projects/code-tools/jmh/): JMH is a Java harness for building, running, and analysing nano/micro/milli/macro benchmarks written in Java and other languages targetting the JVM.
 
 （全文完）

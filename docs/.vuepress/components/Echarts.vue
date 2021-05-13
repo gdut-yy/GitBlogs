@@ -31,12 +31,54 @@ export default {
       dom: null,
       myCharts: null,
       option: {},
-      defaultOption: {},
+      defaultOption: {
+        title: {
+          text:
+            "Deserialization of various payloads size - ops/s (higher is better)",
+          left: "1%",
+          top: "2%",
+          textStyle: {
+            fontSize: 24,
+          },
+        },
+        tooltip: {
+          trigger: "axis",
+          axisPointer: {
+            type: "shadow",
+          },
+        },
+        legend: {
+          orient: "vertical",
+          align: "left",
+          top: "10%",
+          x: "right",
+          y: "top",
+        },
+        grid: {
+          top: "12%",
+          right: "12%",
+          bottom: "12%",
+        },
+        yAxis: {},
+        xAxis: {
+          type: "category",
+          axisLabel: {
+            interval: 0,
+            rotate: 40,
+          },
+        },
+        series: [
+          { type: "bar" },
+          { type: "bar" },
+          { type: "bar" },
+          { type: "bar" },
+        ],
+      },
     };
   },
   watch: {
     option: function () {
-      this.myCharts.setOption(this.option);
+      this.myCharts.setOption({ ...this.defaultOption, ...this.option });
     },
   },
   mounted() {
@@ -79,7 +121,7 @@ export default {
 <style scoped>
 .echarts {
   width: 100%;
-  height: 720px;
+  height: 72vh;
   margin: 0 auto;
   border: 2px solid;
   border-radius: 8px;

@@ -12,13 +12,19 @@ sidebar: false
 
 由于工作学习需要（譬如学习 jdk1.7/1.8 Hashmap 实现差异，工作环境多基于 jdk1.8，学习新特性 jdk11 等），一个协同可能会安装多个版本 JDK，推荐版本：
 
-| JDK | Link                                                                                       | 备注                                                   |
-| --- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------ |
-| 1.7 | [华为云镜像下载](https://mirrors.huaweicloud.com/java/jdk/7u80-b15/jdk-7u80-windows-x64.exe)   | 7u80                                                   |
-| 1.8 | [华为云镜像下载](https://mirrors.huaweicloud.com/java/jdk/8u202-b08/jdk-8u202-windows-x64.exe) | 8u202（最后一个商用免费版本，2019.04.16 修改 License） |
-| 11  | [华为云镜像下载](https://mirrors.huaweicloud.com/java/jdk/11+28/jdk-11_windows-x64_bin.zip)    | 11+28                                                  |
+https://adoptopenjdk.net/releases.html?variant=openjdk8&jvmVariant=hotspot
 
-华为云镜像站: [https://mirrors.huaweicloud.com/java/jdk/](https://mirrors.huaweicloud.com/java/jdk/)
+| JDK | Oracle JDK         | Adoptopenjdk           | 备注                                                                     |
+| --- | ------------------ | ---------------------- | ------------------------------------------------------------------------ |
+| 1.7 | [7u80][7u80]       |                        |                                                                          |
+| 1.8 | [8u202][8u202]     | [8u292-b10][8u292-b10] | The Oracle JDK License has changed for releases starting April 16, 2019. |
+| 11  | [11.0.11][11.0.11] | [11.0.11+9][11.0.11+9] |                                                                          |
+
+[7u80]: https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html
+[8u202]: https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html
+[11.0.11]: https://www.oracle.com/cn/java/technologies/javase-jdk11-downloads.html
+[8u292-b10]: https://adoptopenjdk.net/releases.html?variant=openjdk8&jvmVariant=hotspot
+[11.0.11+9]: https://adoptopenjdk.net/releases.html?variant=openjdk11&jvmVariant=hotspot
 
 ## 2 环境变量
 
