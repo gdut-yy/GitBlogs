@@ -4,7 +4,7 @@ sidebar: false
 
 # JDK 配置
 
-**原文链接: [https://gdut_yy.gitee.io/doc-gitblogs/module_config/config_jdk/](https://gdut_yy.gitee.io/doc-gitblogs/module_config/config_jdk/)**
+**原文链接: [https://gdut-yy.github.io/doc-gitblogs/module_config/config_jdk/](https://gdut-yy.github.io/doc-gitblogs/module_config/config_jdk/)**
 
 ## 1 版本选择
 

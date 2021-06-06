@@ -4,7 +4,7 @@ sidebar: false
 
 # VSCode 配置
 
-**原文链接: [https://gdut_yy.gitee.io/doc-gitblogs/module_config/config_vscode/](https://gdut_yy.gitee.io/doc-gitblogs/module_config/config_vscode/)**
+**原文链接: [https://gdut-yy.github.io/doc-gitblogs/module_config/config_vscode/](https://gdut-yy.github.io/doc-gitblogs/module_config/config_vscode/)**
 
 ## 1 VSCode 配置右键打开
 

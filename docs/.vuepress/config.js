@@ -137,6 +137,81 @@ function mod_blog() {
         text: "JSON 基准测试（Java）",
         link: "/module_blog/blog-java-json-benchmark/",
       },
+      {
+        text: "架构&方案",
+        items: [
+          {
+            text: "一张图片胜过千言万语",
+            link: "/module_blog/blog-arch/",
+          },
+        ],
+      },
+      {
+        text: "DXF-性能",
+        items: [
+          {
+            text: "性能概览",
+            link: "/module_blog/blog-performance/",
+          },
+          {
+            text: "基准测试（Benchmark）",
+            link: "/module_blog/blog-perf/",
+          },
+          {
+            text: "消息队列（MQ）",
+            link: "/module_blog/blog-perf/",
+          },
+          {
+            text: "缓存（Cache）",
+            link: "/module_blog/blog-perf/",
+          },
+        ],
+      },
+      {
+        text: "DFX-安全",
+        items: [
+          {
+            text: "安全概览",
+            link: "/module_blog/blog-security/",
+          },
+          {
+            text: "跨站脚本攻击（XSS）",
+            link: "/module_blog/blog-sec-xss/",
+          },
+          {
+            text: "跨站点请求伪造（CSRF）",
+            link: "/module_blog/blog-sec-csrf/",
+          },
+          {
+            text: "服务器端请求伪造（SSRF）",
+            link: "/module_blog/blog-sec-ssrf/",
+          },
+          {
+            text: "CRLF 注入攻击",
+            link: "/module_blog/blog-sec-inject-crlf/",
+          },
+          {
+            text: "XML 注入攻击",
+            link: "/module_blog/blog-sec-inject-xml/",
+          },
+          {
+            text: "SQL 注入攻击",
+            link: "/module_blog/blog-sec-inject-sql/",
+          },
+          {
+            text: "URL 不安全跳转",
+            link: "/module_blog/blog-sec-unsafe-url/",
+          },
+          {
+            text: "反序列化攻击",
+            link: "/module_blog/blog-sec-deserialization/",
+          },
+          {
+            text: "文件上传下载",
+            link: "/module_blog/blog-sec-file-upload/",
+          },
+        ],
+      },
       // {
       //   text: "领域驱动设计 DDD",
       //   link: "/module_blog/blog-ddd/",
@@ -148,42 +223,3 @@ function mod_blog() {
     ],
   };
 }
-
-// function getSideBar() {
-//   return {
-//     // OJ 杂烩
-//     "/module_oj/": ["JIANZHIOffer/", "BIANCHENGZHIMEI/", "GAOJISHUJUJIEGOU/"],
-//     // 技术书籍
-//     "/module_book/tech/": [
-//       "",
-//       "DAHUASHUJUJIEGOU/",
-//       "Algorithms4/",
-//       "DAHUASHEJIMOSHI/",
-//       "Java8Lambdas/",
-//       "FENBUSHIFUWUKUANGJIA/",
-//       "PaxosTOZooKeeper/",
-//       "PJWD3/",
-//       "MACHUGAOXIAO/",
-//       "NILIUERSHANG/",
-//     ],
-//     // 泛技术书籍
-//     "/module_book/tech-extra/": [
-//       "",
-//       "BIRAN/",
-//       "CHIDIAONAZHIQINGWA/",
-//       "GUIGUZHIMI/",
-//       "LANGCHAOZHIDIAN/",
-//       "MACTALK-KUAYUEBIANJIE/",
-//       "MACTALK-RENSHENGYUANBIANCHENG/",
-//       "QIANFANGDELU/",
-//       "SHIKONG/",
-//       "WEILAISHIJIEDEXINGCUNZHE/",
-//     ],
-//     // 观影
-//     "/module_movie/": null,
-//     // Wiki
-//     "/module_wiki/": null,
-//     // Blog
-//     "/module_blog/": null,
-//   };
-// }

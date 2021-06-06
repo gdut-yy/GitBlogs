@@ -4,7 +4,7 @@ sidebar: false
 
 # Maven 配置
 
-**原文链接: [https://gdut_yy.gitee.io/doc-gitblogs/module_config/config_maven/](https://gdut_yy.mavenee.io/doc-gitblogs/module_config/config_git/)**
+**原文链接: [https://gdut-yy.github.io/doc-gitblogs/module_config/config_maven/](https://gdut_yy.mavenee.io/doc-gitblogs/module_config/config_git/)**
 
 ## 1 下载 maven（如 3.8.1）
 

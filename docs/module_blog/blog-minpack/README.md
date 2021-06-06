@@ -4,7 +4,7 @@ sidebar: false
 
 # minipack 源码学习
 
-**原文链接: [https://gdut_yy.gitee.io/doc-gitblogs/module_blog/blog-minpack/](https://gdut_yy.gitee.io/doc-gitblogs/module_blog/blog-minpack/)**
+**原文链接: [https://gdut-yy.github.io/doc-gitblogs/module_blog/blog-minpack/](https://gdut-yy.github.io/doc-gitblogs/module_blog/blog-minpack/)**
 
 ## 前言
 

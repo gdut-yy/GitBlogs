@@ -1,6 +1,6 @@
 # JSON 组件基准测试（java-json-benchmark）
 
-**原文链接: [https://gdut_yy.gitee.io/doc-gitblogs/module_config/blog-java-json-benchmark/](https://gdut_yy.gitee.io/doc-gitblogs/module_config/blog-java-json-benchmark/)**
+**原文链接: [https://gdut-yy.github.io/doc-gitblogs/module_config/blog-java-json-benchmark/](https://gdut-yy.github.io/doc-gitblogs/module_config/blog-java-json-benchmark/)**
 
 ## 前言
 

@@ -1,6 +1,6 @@
 # 指南
 
-**原文链接: [https://gdut_yy.gitee.io/doc-gitblogs/module_guide/guide_about/](https://gdut_yy.gitee.io/doc-gitblogs/module_guide/guide_about/)**
+**原文链接: [https://gdut-yy.github.io/doc-gitblogs/module_guide/guide_about/](https://gdut-yy.github.io/doc-gitblogs/module_guide/guide_about/)**
 
 本项目前身只是 Github 仓库上的一个 [README.md](https://github.com/gdut-yy/GitBlogs)，始于 2018.07.26。
 

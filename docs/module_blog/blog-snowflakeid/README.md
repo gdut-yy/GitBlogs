@@ -1,6 +1,6 @@
 # Twitter 雪花算法
 
-**原文链接: [https://gdut_yy.gitee.io/doc-gitblogs/module_blog/blog-snowflakeid/](https://gdut_yy.gitee.io/doc-gitblogs/module_blog/blog-snowflakeid/)**
+**原文链接: [https://gdut-yy.github.io/doc-gitblogs/module_blog/blog-snowflakeid/](https://gdut-yy.github.io/doc-gitblogs/module_blog/blog-snowflakeid/)**
 
 ## 1 前言
 

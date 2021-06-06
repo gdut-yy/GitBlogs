@@ -4,7 +4,7 @@ sidebar: false
 
 # Git 配置
 
-**原文链接: [https://gdut_yy.gitee.io/doc-gitblogs/module_config/config_git/](https://gdut_yy.gitee.io/doc-gitblogs/module_config/config_git/)**
+**原文链接: [https://gdut-yy.github.io/doc-gitblogs/module_config/config_git/](https://gdut-yy.github.io/doc-gitblogs/module_config/config_git/)**
 
 ## 1 配置 SSH 公私钥
 
